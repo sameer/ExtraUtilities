@@ -1,0 +1,93 @@
+// 
+// Decompiled by Procyon v0.5.30
+// 
+
+package com.rwtema.extrautils.item;
+
+import net.minecraft.util.IIcon;
+import net.minecraft.client.renderer.ItemRenderer;
+import net.minecraft.client.renderer.OpenGlHelper;
+import net.minecraft.client.renderer.Tessellator;
+import org.lwjgl.opengl.GL11;
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.client.IItemRenderer;
+
+@SideOnly(Side.CLIENT)
+public class RenderItemMultiTransparency implements IItemRenderer
+{
+    public boolean handleRenderType(final ItemStack item, final IItemRenderer.ItemRenderType type) {
+        return true;
+    }
+    
+    public boolean shouldUseRenderHelper(final IItemRenderer.ItemRenderType type, final ItemStack item, final IItemRenderer.ItemRendererHelper helper) {
+        return helper == IItemRenderer.ItemRendererHelper.ENTITY_ROTATION || helper == IItemRenderer.ItemRendererHelper.ENTITY_BOBBING;
+    }
+    
+    public void renderItem(final IItemRenderer.ItemRenderType type, final ItemStack item, final Object... data) {
+        if (!(item.getItem() instanceof IItemMultiTransparency)) {
+            return;
+        }
+        GL11.glEnable(2896);
+        GL11.glEnable(2929);
+        final IItemMultiTransparency itemTrans = (IItemMultiTransparency)item.getItem();
+        if (type == IItemRenderer.ItemRenderType.INVENTORY) {
+            GL11.glScalef(16.0f, 16.0f, 1.0f);
+        }
+        else if (type == IItemRenderer.ItemRenderType.ENTITY) {
+            GL11.glTranslatef(-0.5f, -0.25f, 0.0f);
+            GL11.glDisable(2884);
+        }
+        final Tessellator tessellator = Tessellator.instance;
+        for (int i = 0; i < itemTrans.numIcons(item); ++i) {
+            final IIcon icon = itemTrans.getIconForTransparentRender(item, i);
+            final float trans = itemTrans.getIconTransparency(item, i);
+            OpenGlHelper.glBlendFunc(770, 771, 1, 0);
+            GL11.glEnable(3008);
+            if (trans < 1.0f) {
+                GL11.glBlendFunc(770, 771);
+                GL11.glEnable(3042);
+                GL11.glDisable(3008);
+                GL11.glShadeModel(7425);
+                GL11.glColor4f(1.0f, 1.0f, 1.0f, trans);
+                if (type != IItemRenderer.ItemRenderType.INVENTORY) {
+                    GL11.glEnable(32826);
+                    ItemRenderer.renderItemIn2D(tessellator, icon.getMaxU(), icon.getMinV(), icon.getMinU(), icon.getMaxV(), icon.getIconWidth(), icon.getIconHeight(), 0.0625f);
+                    GL11.glDisable(32826);
+                }
+                else {
+                    tessellator.startDrawingQuads();
+                    tessellator.addVertexWithUV(0.0, 0.0, 0.03125, (double)icon.getMinU(), (double)icon.getMinV());
+                    tessellator.addVertexWithUV(0.0, 1.0, 0.03125, (double)icon.getMinU(), (double)icon.getMaxV());
+                    tessellator.addVertexWithUV(1.0, 1.0, 0.03125, (double)icon.getMaxU(), (double)icon.getMaxV());
+                    tessellator.addVertexWithUV(1.0, 0.0, 0.03125, (double)icon.getMaxU(), (double)icon.getMinV());
+                    tessellator.draw();
+                }
+                GL11.glShadeModel(7424);
+                GL11.glEnable(3008);
+                GL11.glDisable(3042);
+            }
+            else if (type != IItemRenderer.ItemRenderType.INVENTORY) {
+                GL11.glEnable(32826);
+                ItemRenderer.renderItemIn2D(tessellator, icon.getMaxU(), icon.getMinV(), icon.getMinU(), icon.getMaxV(), icon.getIconWidth(), icon.getIconHeight(), 0.0625f);
+                GL11.glDisable(32826);
+            }
+            else {
+                tessellator.startDrawingQuads();
+                tessellator.addVertexWithUV(0.0, 0.0, 0.0, (double)icon.getMinU(), (double)icon.getMinV());
+                tessellator.addVertexWithUV(0.0, 1.0, 0.0, (double)icon.getMinU(), (double)icon.getMaxV());
+                tessellator.addVertexWithUV(1.0, 1.0, 0.0, (double)icon.getMaxU(), (double)icon.getMaxV());
+                tessellator.addVertexWithUV(1.0, 0.0, 0.0, (double)icon.getMaxU(), (double)icon.getMinV());
+                tessellator.draw();
+            }
+        }
+        if (type == IItemRenderer.ItemRenderType.INVENTORY) {
+            GL11.glScalef(0.0625f, 0.0625f, 1.0f);
+        }
+        else if (type == IItemRenderer.ItemRenderType.ENTITY) {
+            GL11.glTranslatef(0.5f, 0.25f, 0.0f);
+            GL11.glEnable(2884);
+        }
+    }
+}

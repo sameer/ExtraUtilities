@@ -1,0 +1,82 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+        maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+    // Spigot
+    maven
+    {
+        url "https://hub.spigotmc.org/nexus/content/groups/public/"
+    }
+    // ProtocolLib
+    maven
+    {
+        url "http://repo.dmulloy2.net/content/groups/public/"
+    }
+    maven
+    {
+        url "http://repo.comphenix.net/content/groups/public/"
+    }
+    maven
+    {
+        url "http://mvnrepository.com/artifact"
+    }
+    // Vault
+    maven
+    {
+        url "http://nexus.theyeticave.net/content/repositories/pub_releases/"
+    }
+
+    }
+    dependencies {
+        classpath files('FGS.jar') // Java 8 gradle
+        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+    }
+}
+
+apply plugin: 'forge'
+
+version = "1.22.13"
+group= "ExtraUtilities" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "ExtraUtilities"
+
+minecraft {
+    version = "1.7.10-10.13.4.1614-1.7.10"
+    runDir = "eclipse"
+}
+
+dependencies {
+    compile files("libs/THMCRFT.jar")
+    compile files("libs/TKR.jar")
+    compile files("libs/IC2.jar")
+    compile files("libs/CCL.jar")
+    compile files("libs/FML.jar")
+    compile files("libs/NEI.jar")
+    compile files("libs/MFR.jar")
+}
+
+processResources
+{
+    // this will ensure that this task is redone when the versions change.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        // replace version and mcversion
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
