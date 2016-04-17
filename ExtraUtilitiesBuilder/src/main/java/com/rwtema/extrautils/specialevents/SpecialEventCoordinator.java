@@ -30,14 +30,14 @@ public class SpecialEventCoordinator
     }
     
     public void init() {
-        FMLCommonHandler.instance().bus().register((Object)this);
-        MinecraftForge.EVENT_BUS.register((Object)this);
+        FMLCommonHandler.instance().bus().register(this);
+        MinecraftForge.EVENT_BUS.register(this);
     }
     
     @SubscribeEvent
     public void getChunkData(final ChunkDataEvent.Save event) {
         final Chunk chunk = event.getChunk();
-        final int i = this.chunkmap.get((Object)new ChunkLocation(chunk.worldObj.provider.dimensionId, chunk.xPosition, chunk.zPosition));
+        final int i = this.chunkmap.get(new ChunkLocation(chunk.worldObj.provider.dimensionId, chunk.xPosition, chunk.zPosition));
         if (i != 0) {
             event.getData().setInteger("XU_SoulDrain", i);
         }
@@ -50,7 +50,7 @@ public class SpecialEventCoordinator
             return;
         }
         final Chunk chunk = event.getChunk();
-        this.chunkmap.put((Object)new ChunkLocation(chunk.worldObj.provider.dimensionId, chunk.xPosition, chunk.zPosition), i);
+        this.chunkmap.put(new ChunkLocation(chunk.worldObj.provider.dimensionId, chunk.xPosition, chunk.zPosition), i);
     }
     
     @SubscribeEvent
@@ -66,7 +66,7 @@ public class SpecialEventCoordinator
         if ((player.worldObj.getTotalWorldTime() & 0x1FL) > 0L) {
             return;
         }
-        final int i = this.chunkmap.adjustOrPutValue((Object)new ChunkLocation(event.player), 1, 1);
+        final int i = this.chunkmap.adjustOrPutValue(new ChunkLocation(event.player), 1, 1);
         if (i > 2250) {}
     }
     
@@ -80,8 +80,8 @@ public class SpecialEventCoordinator
         final int x;
         final int z;
         
-        public ChunkLocation(final SpecialEventCoordinator specialEventCoordinator, final EntityPlayer player) {
-            this(specialEventCoordinator, player.worldObj.provider.dimensionId, (int)player.posX >> 4, (int)player.posZ >> 4);
+        public ChunkLocation(final EntityPlayer player) {
+            this(player.worldObj.provider.dimensionId, (int)player.posX >> 4, (int)player.posZ >> 4);
         }
         
         @Override
@@ -89,7 +89,7 @@ public class SpecialEventCoordinator
             return "ChunkLocation{x=" + this.x + ", z=" + this.z + '}';
         }
         
-        private ChunkLocation(final int dim, final int x, final int z) {
+        public ChunkLocation(final int dim, final int x, final int z) {
             this.dim = dim;
             this.x = x;
             this.z = z;

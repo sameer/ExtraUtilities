@@ -22,7 +22,7 @@ public class ChunkObjectMap<V>
     }
     
     public V putChunk(final int x, final int z, final V value) {
-        return (V)this.map.put(getKey(x, z), (Object)value);
+        return (V)this.map.put(getKey(x, z), value);
     }
     
     public V getChunk(final int x, final int z) {
@@ -32,8 +32,8 @@ public class ChunkObjectMap<V>
         final long key = getKey(x, z);
         V v = (V)this.map.get(key);
         if (v == null) {
-            v = (V)this.init.apply((Object)null);
-            this.map.put(key, (Object)v);
+            v = (V)this.init.apply(null);
+            this.map.put(key, v);
         }
         return v;
     }

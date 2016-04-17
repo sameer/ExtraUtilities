@@ -18,7 +18,7 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
+:sourceMainJava
 :compileJava/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/CreativeTabExtraUtils.java:47: error: incompatible types: Object cannot be converted to ItemStack
         for (final ItemStack item : (ArrayList)newList) {
                                     ^
@@ -393,45 +393,12 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/multipart/microblock/PartPipeJacket.java:322: error: incompatible types: List<Object> cannot be converted to Iterable<Cuboid6>
         return (Iterable<Cuboid6>)Arrays.asList(new Object[0]);
                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/ChunkObjectMap.java:25: error: incompatible types: Object cannot be converted to V
-        return (V)this.map.put(getKey(x, z), (Object)value);
-                                             ^
-  where V is a type-variable:
-    V extends Object declared in class ChunkObjectMap
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/ChunkObjectMap.java:35: error: incompatible types: Object cannot be converted to Void
-            v = (V)this.init.apply((Object)null);
-                                   ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/ChunkObjectMap.java:36: error: incompatible types: Object cannot be converted to V
-            this.map.put(key, (Object)v);
-                              ^
-  where V is a type-variable:
-    V extends Object declared in class ChunkObjectMap
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/SpecialEventCoordinator.java:53: error: incompatible types: Object cannot be converted to SpecialEventCoordinator.ChunkLocation
-        this.chunkmap.put((Object)new ChunkLocation(chunk.worldObj.provider.dimensionId, chunk.xPosition, chunk.zPosition), i);
-                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/SpecialEventCoordinator.java:69: error: no suitable constructor found for ChunkLocation(EntityPlayer)
-        final int i = this.chunkmap.adjustOrPutValue((Object)new ChunkLocation(event.player), 1, 1);
-                                                             ^
-    constructor SpecialEventCoordinator.ChunkLocation.SpecialEventCoordinator.ChunkLocation(SpecialEventCoordinator,EntityPlayer) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor SpecialEventCoordinator.ChunkLocation.SpecialEventCoordinator.ChunkLocation(int,int,int) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/SpecialEventCoordinator.java:69: error: incompatible types: Object cannot be converted to SpecialEventCoordinator.ChunkLocation
-        final int i = this.chunkmap.adjustOrPutValue((Object)new ChunkLocation(event.player), 1, 1);
-                                                     ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/specialevents/SpecialEventCoordinator.java:84: error: no suitable constructor found for ChunkLocation(SpecialEventCoordinator,int,int,int)
-            this(specialEventCoordinator, player.worldObj.provider.dimensionId, (int)player.posX >> 4, (int)player.posZ >> 4);
-            ^
-    constructor SpecialEventCoordinator.ChunkLocation.SpecialEventCoordinator.ChunkLocation(SpecialEventCoordinator,EntityPlayer) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor SpecialEventCoordinator.ChunkLocation.SpecialEventCoordinator.ChunkLocation(int,int,int) is not applicable
-      (actual and formal argument lists differ in length)
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-93 errors
+86 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -445,4 +412,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 11.328 secs
+Total time: 10.961 secs
