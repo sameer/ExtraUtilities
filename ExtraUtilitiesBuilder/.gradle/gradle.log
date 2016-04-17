@@ -382,15 +382,6 @@
                                                              ^
   symbol:   method isNoDespawnRequired()
   location: class Entity
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/TileEntityTradingPost.java:86: error: incompatible types: Object cannot be converted to double
-            return (int)Math.floor((double)x);
-                                           ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/TileEntityTradingPost.java:89: error: incompatible types: Object cannot be converted to float
-            return (int)Math.floor((float)x);
-                                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/TileEntityTradingPost.java:92: error: incompatible types: Object cannot be converted to int
-            return (int)x;
-                        ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/transfernodes/multiparts/TilePartMetaAccess.java:31: error: cannot find symbol
         return super.getTileEntity(i, j, k);
                     ^
@@ -403,7 +394,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-91 errors
+88 errors
 1 warning
  FAILED
 
@@ -418,4 +409,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 12.395 secs
+Total time: 12.516 secs
