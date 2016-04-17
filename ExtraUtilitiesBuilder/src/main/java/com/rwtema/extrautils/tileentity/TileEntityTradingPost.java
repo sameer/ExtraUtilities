@@ -83,13 +83,13 @@ public class TileEntityTradingPost extends TileEntity
     
     public int toInt(final Object x) {
         if (x instanceof Double) {
-            return (int)Math.floor((double)x);
+            return (int)Math.floor((Double)x);
         }
         if (x instanceof Float) {
-            return (int)Math.floor((float)x);
+            return (int)Math.floor((Float)x);
         }
         if (x instanceof Integer) {
-            return (int)x;
+            return (Integer)x;
         }
         if (x instanceof String) {
             return Integer.parseInt((String)x);

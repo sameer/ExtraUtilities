@@ -28,7 +28,7 @@ public class WidgetSlotDisablable extends WidgetSlot
     
     public boolean isEnabled() {
         try {
-            return (boolean)this.inventory.getClass().getMethod(this.methodName, (Class<?>[])new Class[0]).invoke(this.inventory, new Object[0]);
+            return (boolean)this.inventory.getClass().getMethod(this.methodName, (Class<?>[])new Class[0]).invoke(this.inventory);
         }
         catch (Exception e) {
             throw new RuntimeException(e);

@@ -90,8 +90,8 @@ public class DynamicContainerGenerator extends DynamicContainer
             double t;
             double t2;
             try {
-                t = (long)this.curData[0] / 200.0;
-                t2 = (long)this.curData[1] / 10.0;
+                t = (Long)this.curData[0] / 200.0;
+                t2 = (Long)this.curData[1] / 10.0;
             }
             catch (Exception e) {
                 return "";

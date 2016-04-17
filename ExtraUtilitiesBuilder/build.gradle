@@ -35,7 +35,7 @@ buildscript {
 
     }
     dependencies {
-        classpath files('FGS.jar') // Java 8 gradle
+//        classpath files('FGS.jar') // Java 8 gradle
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }

@@ -44,7 +44,7 @@ public class GuiFilter extends GuiContainer
     public List<String> getOveride(final ItemStack par1ItemStack, final int par2, final int par3) {
         int j1 = 0;
         while (j1 < this.inventorySlots.inventorySlots.size()) {
-            final Slot slot = this.inventorySlots.inventorySlots.get(j1);
+            final Slot slot = (Slot) this.inventorySlots.inventorySlots.get(j1);
             if (slot instanceof SlotGhostItemContainer && slot.getHasStack()) {
                 if (!this.func_146978_c(slot.xDisplayPosition, slot.yDisplayPosition, 16, 16, par2, par3) || !slot.func_111238_b()) {
                     return null;

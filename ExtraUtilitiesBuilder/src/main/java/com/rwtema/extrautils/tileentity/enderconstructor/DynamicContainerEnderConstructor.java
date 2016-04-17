@@ -86,8 +86,8 @@ public class DynamicContainerEnderConstructor extends DynamicContainer
             if (this.curData == null || this.curData.length != 2 || !(this.curData[0] instanceof Float) || !(this.curData[1] instanceof Boolean)) {
                 return "";
             }
-            if ((byte)this.curData[1] == 1) {
-                return "Ender-Flux: " + (float)this.curData[0] / 1000.0f + " EF";
+            if ((Byte)this.curData[1] == 1) {
+                return "Ender-Flux: " + (Float)this.curData[0] / 1000.0f + " EF";
             }
             return "";
         }

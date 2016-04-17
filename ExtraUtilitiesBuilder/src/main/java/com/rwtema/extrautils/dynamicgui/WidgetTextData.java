@@ -75,28 +75,28 @@ public abstract class WidgetTextData extends WidgetText implements IWidget
     
     public static NBTBase getNBTBase(final Object o) {
         if (o instanceof Integer) {
-            return (NBTBase)new NBTTagInt((int)o);
+            return (NBTBase)new NBTTagInt((Integer)o);
         }
         if (o instanceof Short) {
-            return (NBTBase)new NBTTagShort((short)o);
+            return (NBTBase)new NBTTagShort((Short)o);
         }
         if (o instanceof Long) {
-            return (NBTBase)new NBTTagLong((long)o);
+            return (NBTBase)new NBTTagLong((Long)o);
         }
         if (o instanceof String) {
             return (NBTBase)new NBTTagString((String)o);
         }
         if (o instanceof Double) {
-            return (NBTBase)new NBTTagDouble((double)o);
+            return (NBTBase)new NBTTagDouble((Double)o);
         }
         if (o instanceof Float) {
-            return (NBTBase)new NBTTagFloat((float)o);
+            return (NBTBase)new NBTTagFloat((Float)o);
         }
         if (o instanceof NBTTagCompound) {
             return (NBTBase)o;
         }
         if (o instanceof Byte) {
-            return (NBTBase)new NBTTagByte((byte)o);
+            return (NBTBase)new NBTTagByte((Byte)o);
         }
         LogHelper.debug("Can't find type for " + o, new Object[0]);
         throw null;

@@ -82,7 +82,7 @@ public class EnergyBuffer implements INodeBuffer
         if (!(a instanceof Integer)) {
             return a;
         }
-        final int c = (int)a;
+        final int c = (Integer)a;
         final int b = this.node.powerHandler.receiveEnergy(c, false);
         return c - b;
     }
