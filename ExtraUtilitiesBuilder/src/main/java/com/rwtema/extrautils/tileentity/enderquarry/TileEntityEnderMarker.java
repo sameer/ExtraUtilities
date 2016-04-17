@@ -58,7 +58,7 @@ public class TileEntityEnderMarker extends TileEntity implements IChunkLoad
                 }
             }
         }
-        final Iterator i$ = toUpdate.iterator();
+        final Iterator<int[]> i$ = toUpdate.iterator();
         while (i$.hasNext()) {
             final int[] coord = i$.next();
             final TileEntity tile = this.worldObj.getTileEntity(coord[1], coord[2], coord[3]);

@@ -563,7 +563,7 @@ public class XUHelper
         for (int cx = x - r >> 4; cx <= x + r >> 4; ++cx) {
             for (int cz = z - r >> 4; cz <= z + r >> 4; ++cz) {
                 final Chunk c = world.getChunkFromChunkCoords(cx, cz);
-                for (final TileEntity tile : new CastIterator(c.chunkTileEntityMap.values())) {
+                for (final TileEntity tile : new CastIterator<TileEntity>(c.chunkTileEntityMap.values())) {
                     if (!tile.isInvalid()) {
                         if (!tile.getClass().equals(clazz)) {
                             continue;

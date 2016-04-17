@@ -8,13 +8,13 @@ import java.util.Iterator;
 
 public class CastIterator<T> implements Iterable<T>, Iterator<T>
 {
-    Iterator iterator;
+    Iterator<T> iterator;
     
-    public CastIterator(final Iterable iterable) {
+    public CastIterator(final Iterable<T> iterable) {
         this(iterable.iterator());
     }
     
-    public CastIterator(final Iterator iterator) {
+    public CastIterator(final Iterator<T> iterator) {
         this.iterator = iterator;
     }
     

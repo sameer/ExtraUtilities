@@ -17,9 +17,9 @@ public class CommandKillNonPersistant extends CommandKillEntities
     @Override
     public void killEntities(final World world) {
         for (int i = 0; i < world.loadedEntityList.size(); ++i) {
-            if (!world.loadedEntityList.get(i).isNoDespawnRequired()) {
+            if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
                 ++this.numKills;
-                world.loadedEntityList.get(i).setDead();
+                ((Entity)world.loadedEntityList.get(i)).setDead();
             }
         }
     }

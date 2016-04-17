@@ -50,7 +50,7 @@ public class CommandKillEntities extends CommandBase
         for (int i = 0; i < world.loadedEntityList.size(); ++i) {
             if (this.entityclass.isInstance(world.loadedEntityList.get(i)) == this.except) {
                 ++this.numKills;
-                world.loadedEntityList.get(i).setDead();
+                ((Entity)world.loadedEntityList.get(i)).setDead();
             }
         }
     }

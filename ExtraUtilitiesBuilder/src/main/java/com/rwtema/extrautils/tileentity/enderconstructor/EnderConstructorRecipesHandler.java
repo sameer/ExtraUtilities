@@ -144,7 +144,7 @@ public class EnderConstructorRecipesHandler
                 s += s3;
             }
         }
-        final HashMap hashmap = new HashMap();
+        final HashMap<Character, ItemStack> hashmap = new HashMap<Character, ItemStack>();
         while (i < par2ArrayOfObj.length) {
             final Character character = (Character)par2ArrayOfObj[i];
             ItemStack itemstack1 = null;

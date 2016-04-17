@@ -78,7 +78,7 @@ public class TileEntityTransferNodeInventory extends TileEntityTransferNode impl
     
     public static IRecipe findMatchingRecipe(final InventoryCrafting inv, final World world) {
         for (int i = 0; i < CraftingManager.getInstance().getRecipeList().size(); ++i) {
-            final IRecipe recipe = CraftingManager.getInstance().getRecipeList().get(i);
+            final IRecipe recipe = (IRecipe)CraftingManager.getInstance().getRecipeList().get(i);
             if (recipe.matches(inv, world)) {
                 return recipe;
             }

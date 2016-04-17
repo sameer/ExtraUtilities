@@ -111,11 +111,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:114: error: incompatible types: Object cannot be converted to EntityPlayerMP
         for (final EntityPlayerMP player : FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().playerEntityList) {
                                                                                                                              ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/core/CastIterator.java:33: error: incompatible types: Object cannot be converted to T
-        return this.iterator.next();
-                                 ^
-  where T is a type-variable:
-    T extends Object declared in class CastIterator
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/core/HashMapCalc.java:20: error: incompatible types: Object cannot be converted to K
             final V calcEntry = (V)this.function.apply((Object)key);
                                                        ^
@@ -342,63 +337,21 @@
                            ^
   required: array or java.lang.Iterable
   found:    TIntLinkedList
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/helper/XUHelper.java:566: error: incompatible types: Object cannot be converted to TileEntity
-                for (final TileEntity tile : new CastIterator(c.chunkTileEntityMap.values())) {
-                                             ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillEntities.java:53: error: cannot find symbol
-                world.loadedEntityList.get(i).setDead();
-                                             ^
-  symbol:   method setDead()
-  location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillNonPersistant.java:20: error: cannot find symbol
-            if (!world.loadedEntityList.get(i).isNoDespawnRequired()) {
-                                              ^
+            if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
+                                                             ^
   symbol:   method isNoDespawnRequired()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillNonPersistant.java:22: error: cannot find symbol
-                world.loadedEntityList.get(i).setDead();
-                                             ^
-  symbol:   method setDead()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/enderquarry/TileEntityEnderMarker.java:63: error: incompatible types: Object cannot be converted to int[]
-            final int[] coord = i$.next();
-                                       ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/dynamicgui/DynamicContainer.java:169: error: incompatible types: Object cannot be converted to Slot
-        final Slot slot = this.inventorySlots.get(par2);
-                                                 ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/dynamicgui/DynamicContainer.java:199: error: incompatible types: Object cannot be converted to Slot
-                final Slot slot = this.inventorySlots.get(k);
-                                                         ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/dynamicgui/DynamicContainer.java:232: error: incompatible types: Object cannot be converted to Slot
-                final Slot slot = this.inventorySlots.get(k);
-                                                         ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/transfernodes/TileEntityTransferNodeInventory.java:81: error: incompatible types: Object cannot be converted to IRecipe
-            final IRecipe recipe = CraftingManager.getInstance().getRecipeList().get(i);
-                                                                                    ^
+  location: class Entity
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/transfernodes/multiparts/TilePartMetaAccess.java:31: error: cannot find symbol
         return super.getTileEntity(i, j, k);
                     ^
   symbol: method getTileEntity(int,int,int)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/tileentity/enderconstructor/EnderConstructorRecipesHandler.java:167: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/texture/TextureMultiIcon.java:63: error: incompatible types: Object cannot be converted to int[][]
-        return this.framesTextureData.get(par1);
-                                         ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/multipart/microblock/PartPipeJacket.java:318: error: incompatible types: List<Object> cannot be converted to Iterable<Cuboid6>
-        return (Iterable<Cuboid6>)Arrays.asList(new Object[0]);
-                                               ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/multipart/microblock/PartPipeJacket.java:322: error: incompatible types: List<Object> cannot be converted to Iterable<Cuboid6>
-        return (Iterable<Cuboid6>)Arrays.asList(new Object[0]);
-                                               ^
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-86 errors
+73 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -412,4 +365,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.961 secs
+Total time: 10.407 secs

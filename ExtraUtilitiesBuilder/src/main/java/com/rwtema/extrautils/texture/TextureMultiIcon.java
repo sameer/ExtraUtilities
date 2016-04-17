@@ -60,7 +60,7 @@ public class TextureMultiIcon extends TextureAtlasSprite
     }
     
     public int[][] getFrameTextureData(final int par1) {
-        return this.framesTextureData.get(par1);
+        return (int[][])this.framesTextureData.get(par1);
     }
     
     public void loadSprite(final BufferedImage[] p_147964_1_, final AnimationMetadataSection p_147964_2_, final boolean p_147964_3_) {

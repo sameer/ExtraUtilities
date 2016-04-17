@@ -315,11 +315,11 @@ public class PartPipeJacket extends PartMicroBlock implements JIconHitEffects, I
     
     @Override
     public Iterable<Cuboid6> getOcclusionBoxes() {
-        return (Iterable<Cuboid6>)Arrays.asList(new Object[0]);
+        return (Iterable<Cuboid6>)Arrays.asList(new Cuboid6[0]);
     }
     
     public Iterable<Cuboid6> getPartialOcclusionBoxes() {
-        return (Iterable<Cuboid6>)Arrays.asList(new Object[0]);
+        return (Iterable<Cuboid6>)Arrays.asList(new Cuboid6[0]);
     }
     
     public boolean allowCompleteOcclusion() {

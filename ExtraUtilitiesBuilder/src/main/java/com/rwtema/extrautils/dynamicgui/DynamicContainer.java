@@ -166,7 +166,7 @@ public abstract class DynamicContainer extends Container
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
         ItemStack itemstack = null;
-        final Slot slot = this.inventorySlots.get(par2);
+        final Slot slot = (Slot) this.inventorySlots.get(par2);
         if (this.playerSlotsStart > 0 && slot != null && slot.getHasStack()) {
             final ItemStack itemstack2 = slot.getStack();
             itemstack = itemstack2.copy();
@@ -196,7 +196,7 @@ public abstract class DynamicContainer extends Container
         }
         if (p_75135_1_.isStackable()) {
             while (p_75135_1_.stackSize > 0 && ((!p_75135_4_ && k < p_75135_3_) || (p_75135_4_ && k >= p_75135_2_))) {
-                final Slot slot = this.inventorySlots.get(k);
+                final Slot slot = (Slot) this.inventorySlots.get(k);
                 final ItemStack itemstack1 = slot.getStack();
                 if (slot.isItemValid(p_75135_1_) && itemstack1 != null && itemstack1.getItem() == p_75135_1_.getItem() && (!p_75135_1_.getHasSubtypes() || p_75135_1_.getItemDamage() == itemstack1.getItemDamage()) && ItemStack.areItemStackTagsEqual(p_75135_1_, itemstack1)) {
                     final int l = itemstack1.stackSize + p_75135_1_.stackSize;
@@ -229,7 +229,7 @@ public abstract class DynamicContainer extends Container
                 k = p_75135_2_;
             }
             while ((!p_75135_4_ && k < p_75135_3_) || (p_75135_4_ && k >= p_75135_2_)) {
-                final Slot slot = this.inventorySlots.get(k);
+                final Slot slot = (Slot) this.inventorySlots.get(k);
                 final ItemStack itemstack1 = slot.getStack();
                 if (itemstack1 == null && slot.isItemValid(p_75135_1_)) {
                     slot.putStack(p_75135_1_.copy());
