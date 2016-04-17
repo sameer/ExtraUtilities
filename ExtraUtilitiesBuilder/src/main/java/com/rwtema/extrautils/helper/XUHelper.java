@@ -258,7 +258,7 @@ public class XUHelper
             int filter = -1;
             final int maxStack = filter = Math.min(item.getMaxStackSize(), inv.getInventoryStackLimit());
             boolean flag = false;
-            for (final int i : InvHelper.getSlots(inv, side)) {
+            for (int i : InvHelper.getSlots(inv, side)) {
                 final ItemStack dest = inv.getStackInSlot(i);
                 if (dest == null) {
                     if (empty == -1 && inv.isItemValidForSlot(i, item) && (nonSided || ((ISidedInventory)inv).canInsertItem(i, item, side))) {
@@ -377,7 +377,8 @@ public class XUHelper
         if (emptySlots.isEmpty()) {
             return result;
         }
-        for (final int k : emptySlots) {
+        for (int i = 0; i < emptySlots.size(); i++) {
+	    final int k = emptySlots.get(i);
             final TIntIterator resultIterator2 = resultInd.iterator();
             while (resultIterator2.hasNext()) {
                 final int l = resultIterator2.next();

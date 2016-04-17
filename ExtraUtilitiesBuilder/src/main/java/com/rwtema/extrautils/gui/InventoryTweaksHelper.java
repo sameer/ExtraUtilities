@@ -22,7 +22,8 @@ public class InventoryTweaksHelper
     
     public static Map<ContainerSection, List<Slot>> getSlots(final Container inventory, final boolean playerInvOnly) {
         final Map<ContainerSection, List<Slot>> map = new HashMap<ContainerSection, List<Slot>>();
-        for (final Slot s : inventory.inventorySlots) {
+        for (final Object o : inventory.inventorySlots) {
+	    Slot s = (Slot) o;
             final ContainerSection c = null;
             if (s.inventory instanceof InventoryPlayer) {
                 putSlot(map, s, ContainerSection.INVENTORY);

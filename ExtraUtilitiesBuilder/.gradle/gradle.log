@@ -332,11 +332,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/InventoryTweaksHelper.java:25: error: incompatible types: Object cannot be converted to Slot
         for (final Slot s : inventory.inventorySlots) {
                                      ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/helper/XUHelper.java:380: error: for-each not applicable to expression type
-        for (final int k : emptySlots) {
-                           ^
-  required: array or java.lang.Iterable
-  found:    TIntLinkedList
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillNonPersistant.java:20: error: cannot find symbol
             if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
                                                              ^
@@ -351,7 +346,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-73 errors
+72 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -365,4 +360,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.407 secs
+Total time: 12.585 secs
