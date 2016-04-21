@@ -43,41 +43,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemPrecisionShears.java:173: error: incompatible types: Object cannot be converted to EntityItem
             final EntityItem j = iter.next();
                                           ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:59: error: cannot find symbol
-        final Box bounds = models.get(0).copy();
-                                        ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                ^
-  symbol:   variable minX
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                                                           ^
-  symbol:   variable minY
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                                                                                                      ^
-  symbol:   variable minZ
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                                                                                                                                                 ^
-  symbol:   variable maxX
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                                                                                                                                                                                            ^
-  symbol:   variable maxY
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BoxModel.java:61: error: cannot find symbol
-            bounds.setBounds(Math.min(bounds.minX, models.get(i).minX), Math.min(bounds.minY, models.get(i).minY), Math.min(bounds.minZ, models.get(i).minZ), Math.max(bounds.maxX, models.get(i).maxX), Math.max(bounds.maxY, models.get(i).maxY), Math.max(bounds.maxZ, models.get(i).maxZ));
-                                                                                                                                                                                                                                                                                       ^
-  symbol:   variable maxZ
-  location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/Box.java:112: error: incompatible types: Object cannot be converted to boolean
                 this.invisibleSide[s] = (boolean)aTex;
                                                  ^
@@ -118,24 +83,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:114: error: incompatible types: Object cannot be converted to EntityPlayerMP
         for (final EntityPlayerMP player : FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().playerEntityList) {
                                                                                                                              ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:30: error: incompatible types: Object cannot be converted to byte
-            data.writeByte((int)(byte)f.get(this));
-                                           ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:33: error: incompatible types: Object cannot be converted to short
-            data.writeShort((int)(short)f.get(this));
-                                             ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:36: error: incompatible types: Object cannot be converted to int
-            data.writeInt((int)f.get(this));
-                                    ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:39: error: incompatible types: Object cannot be converted to long
-            data.writeDouble((double)(long)f.get(this));
-                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:42: error: incompatible types: Object cannot be converted to float
-            data.writeFloat((float)f.get(this));
-                                        ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/XUAutoPacket.java:45: error: incompatible types: Object cannot be converted to double
-            data.writeDouble((double)f.get(this));
-                                          ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/core/HashMapCalc.java:20: error: incompatible types: Object cannot be converted to K
             final V calcEntry = (V)this.function.apply((Object)key);
                                                        ^
@@ -150,17 +97,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockCursedEarth.java:265: error: incompatible types: Object cannot be converted to EntityLiving
                             t = var13.entityClass.getConstructor(World.class).newInstance(world);
                                                                                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:70: error: incompatible types: Object cannot be converted to int
-                    final int level = ne.get(id);
-                                            ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:90: error: incompatible types: Object cannot be converted to int
-            int level2 = ne.get(id2);
-                               ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:93: error: bad operand types for binary operator '-'
-                level2 -= de.get(id2);
-                       ^
-  first type:  int
-  second type: Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeEnchantCrafting.java:52: error: incompatible types: Object cannot be converted to boolean
             this.mirrored = (boolean)recipe[idx];
                                            ^
@@ -201,7 +137,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-47 errors
+31 errors
 1 warning
  FAILED
 
@@ -216,4 +152,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.591 secs
+Total time: 11.881 secs

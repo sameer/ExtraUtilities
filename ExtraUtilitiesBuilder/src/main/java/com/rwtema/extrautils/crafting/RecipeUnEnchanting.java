@@ -60,8 +60,8 @@ public class RecipeUnEnchanting implements IRecipe
         if (n.getItem() == Items.iron_ingot && d.getItem() == Items.diamond) {
             return null;
         }
-        final Map ne = EnchantmentHelper.getEnchantments(n);
-        final Map de = EnchantmentHelper.getEnchantments(d);
+        final Map<Integer,Integer> ne = (Map<Integer,Integer>)EnchantmentHelper.getEnchantments(n);
+        final Map<Integer,Integer> de = (Map<Integer,Integer>)EnchantmentHelper.getEnchantments(d);
         if (de == null || de.isEmpty()) {
             if (d.getItem() == Items.book && n.getItem() != Items.book && ne != null && !ne.isEmpty()) {
                 final LinkedHashMap re = new LinkedHashMap();

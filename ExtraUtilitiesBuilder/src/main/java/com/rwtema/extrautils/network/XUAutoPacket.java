@@ -27,22 +27,22 @@ public abstract class XUAutoPacket extends XUPacketBase
             this.writeString(data, (String)f.get(this));
         }
         else if (Byte.TYPE.equals(type)) {
-            data.writeByte((int)(byte)f.get(this));
+            data.writeByte((Byte)f.get(this));
         }
         else if (Short.TYPE.equals(type)) {
-            data.writeShort((int)(short)f.get(this));
+            data.writeShort((Short)f.get(this));
         }
         else if (Integer.TYPE.equals(type)) {
-            data.writeInt((int)f.get(this));
+            data.writeInt((Integer)f.get(this));
         }
         else if (Long.TYPE.equals(type)) {
-            data.writeDouble((double)(long)f.get(this));
+            data.writeDouble((Long)f.get(this));
         }
         else if (Float.TYPE.equals(type)) {
-            data.writeFloat((float)f.get(this));
+            data.writeFloat((Float)f.get(this));
         }
         else if (Double.TYPE.equals(type)) {
-            data.writeDouble((double)f.get(this));
+            data.writeDouble((Double)f.get(this));
         }
         else if (NBTTagCompound.class.equals(type)) {
             this.writeNBT(data, (NBTTagCompound)f.get(this));

@@ -49,7 +49,7 @@ public class BoxModel extends ArrayList<Box>
         return t;
     }
     
-    public static Box boundingBox(final List models) {
+    public static Box boundingBox(final List<Box> models) {
         if (models == null) {
             return null;
         }
