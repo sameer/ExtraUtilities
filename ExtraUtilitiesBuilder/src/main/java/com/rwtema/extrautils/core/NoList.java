@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core;
@@ -57,4 +57,5 @@ public class NoList<E> extends AbstractList<E> implements List<E>
         return null;
     }
 }
+
 

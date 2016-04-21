@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.worldgen.Underdark;
@@ -154,4 +154,5 @@ public class ChunkProviderUnderdark extends ChunkProviderFlat implements IChunkP
         ChunkProviderUnderdark.denyDecor = false;
     }
 }
+
 

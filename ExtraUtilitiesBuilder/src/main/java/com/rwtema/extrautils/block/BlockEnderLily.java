@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -204,4 +204,5 @@ public class BlockEnderLily extends BlockCrops
         return this.isWater(world, x, y, z);
     }
 }
+
 

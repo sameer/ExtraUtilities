@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart;
@@ -67,4 +67,5 @@ public class MagnumTorchPart extends McMetaPart implements IRandomDisplayTick, I
         return 1024.0f;
     }
 }
+
 

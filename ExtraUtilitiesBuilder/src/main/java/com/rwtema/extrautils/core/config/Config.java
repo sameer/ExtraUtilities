@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core.config;
@@ -25,4 +25,5 @@ public class Config
         Config.configs = new HashSet<Config>();
     }
 }
+
 

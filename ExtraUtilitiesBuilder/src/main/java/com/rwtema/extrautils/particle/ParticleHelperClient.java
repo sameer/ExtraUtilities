@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.particle;
@@ -30,4 +30,5 @@ public class ParticleHelperClient implements IResourceManagerReloadListener
     private static void registerTextures(final IResourceManager manager) {
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.asm;
@@ -89,4 +89,5 @@ public class RemoteCallFactory
         boolean evaluate(final T p0);
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.network;
@@ -42,7 +42,7 @@ public class NetworkHandler
     
     public static void sendToAllPlayers(final XUPacketBase packet) {
         checkPacket(packet, Side.SERVER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALL);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.ALL);
         NetworkHandler.channels.get(Side.SERVER).writeOutbound(new Object[] { packet });
     }
     
@@ -51,8 +51,8 @@ public class NetworkHandler
         if (XUHelper.isPlayerFake(player)) {
             return;
         }
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.PLAYER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set((Object)player);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.PLAYER);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set(player);
         NetworkHandler.channels.get(Side.SERVER).writeOutbound(new Object[] { packet });
     }
     
@@ -62,14 +62,14 @@ public class NetworkHandler
     
     public static void sendToAllAround(final XUPacketBase packet, final NetworkRegistry.TargetPoint point) {
         checkPacket(packet, Side.SERVER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALLAROUNDPOINT);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set((Object)point);
-        NetworkHandler.channels.get(Side.SERVER).writeAndFlush((Object)packet).addListener((GenericFutureListener)ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.ALLAROUNDPOINT);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set(point);
+        NetworkHandler.channels.get(Side.SERVER).writeAndFlush(packet).addListener((GenericFutureListener)ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
     }
     
     public static void sendPacketToServer(final XUPacketBase packet) {
         checkPacket(packet, Side.CLIENT);
-        NetworkHandler.channels.get(Side.CLIENT).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.TOSERVER);
+        NetworkHandler.channels.get(Side.CLIENT).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.TOSERVER);
         NetworkHandler.channels.get(Side.CLIENT).writeOutbound(new Object[] { packet });
     }
     
@@ -118,4 +118,5 @@ public class NetworkHandler
         }
     }
 }
+
 

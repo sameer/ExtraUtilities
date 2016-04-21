@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package cofh.api.energy;
@@ -10,4 +10,5 @@ public interface IEnergyConnection
 {
     boolean canConnectEnergy(final ForgeDirection p0);
 }
+
 

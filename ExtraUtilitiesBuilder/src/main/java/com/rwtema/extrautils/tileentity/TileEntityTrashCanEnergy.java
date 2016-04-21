@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity;
@@ -26,4 +26,5 @@ public class TileEntityTrashCanEnergy extends TileEntity implements IEnergyRecei
         return true;
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.network.splitter;
@@ -43,4 +43,5 @@ public class PacketSplitter
         PacketSplitter.curSendingIndex = XUHelper.rand.nextInt();
     }
 }
+
 

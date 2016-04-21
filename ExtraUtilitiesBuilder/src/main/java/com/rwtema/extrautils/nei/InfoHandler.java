@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -243,4 +243,5 @@ public class InfoHandler implements IUsageHandler, ICraftingHandler
         InfoHandler.color = -12566464;
     }
 }
+
 

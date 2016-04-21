@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -69,4 +69,5 @@ public class ItemSonarGoggles extends ItemArmor
         texture = new ResourceLocation("extrautils", "textures/goggle_overlay.png");
     }
 }
+
 

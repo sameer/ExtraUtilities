@@ -1,10 +1,11 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils;
 
 import net.minecraft.client.audio.ISound;
+import java.util.Collection;
 import java.util.HashMap;
 import net.minecraft.util.AxisAlignedBB;
 import com.rwtema.extrautils.item.ItemBuildersWand;
@@ -17,7 +18,6 @@ import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.entity.boss.EntityWither;
 import net.minecraft.entity.Entity;
-import com.rwtema.extrautils.core.CastIterator;
 import net.minecraftforge.client.event.sound.PlaySoundEvent17;
 import java.util.Iterator;
 import net.minecraft.block.Block;
@@ -462,7 +462,7 @@ public class EventHandlerClient
         if (!"mob.wither.spawn".equals(event.name)) {
             return;
         }
-        for (final Entity e : new CastIterator(Minecraft.getMinecraft().theWorld.getLoadedEntityList())) {
+        for (final Entity e : (List<Entity>)(Minecraft.getMinecraft().theWorld.getLoadedEntityList())) {
             if (e.getClass() == EntityWither.class) {
                 return;
             }
@@ -524,7 +524,7 @@ public class EventHandlerClient
             final float z = event.result.getZPosF();
             for (int dx = (int)Math.floor(x - 8.0f) >> 4; dx <= (int)Math.floor(x + 8.0f) >> 4; ++dx) {
                 for (int dz = (int)Math.floor(z - 8.0f) >> 4; dz <= (int)Math.floor(z + 8.0f) >> 4; ++dz) {
-                    for (final TileEntity var19 : world.getChunkFromChunkCoords(dx, dz).chunkTileEntityMap.values()) {
+                    for (final TileEntity var19 : (Collection<TileEntity>) world.getChunkFromChunkCoords(dx, dz).chunkTileEntityMap.values()) {
                         if (var19 instanceof TileEntitySoundMuffler) {
                             if (var19.getBlockMetadata() == 1) {
                                 continue;
@@ -660,4 +660,5 @@ public class EventHandlerClient
         }
     }
 }
+
 

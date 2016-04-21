@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -78,4 +78,5 @@ public class ItemHeatingCoil extends ItemEnergyContainer implements IFuelHandler
         return this.extractEnergy(fuel, 15000, true) / 50;
     }
 }
+
 

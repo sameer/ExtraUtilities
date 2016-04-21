@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.particle;
@@ -47,4 +47,5 @@ public class ParticleEndSmoke extends EntityReddustFX
         return f1 * (1.0f - f2) + f2;
     }
 }
+
 

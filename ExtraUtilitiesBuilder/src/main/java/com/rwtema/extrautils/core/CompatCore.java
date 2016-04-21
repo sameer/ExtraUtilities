@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core;
@@ -13,4 +13,5 @@ public class CompatCore
     private static void init_do() {
     }
 }
+
 

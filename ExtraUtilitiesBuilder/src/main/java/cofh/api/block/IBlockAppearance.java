@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // Very Pretty Blocks m9
 // 
 
@@ -17,4 +17,5 @@ public interface IBlockAppearance
     
     boolean supportsVisualConnections();
 }
+
 

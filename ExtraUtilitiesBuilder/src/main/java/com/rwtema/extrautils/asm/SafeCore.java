@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.asm;
@@ -194,4 +194,5 @@ public class SafeCore implements IClassTransformer
         SafeCore.classSideHashMap.put(Void.TYPE.getName(), null);
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -128,4 +128,5 @@ public class BlockColorData extends Block implements ITileEntityProvider
         return new TileEntityBlockColorData();
     }
 }
+
 

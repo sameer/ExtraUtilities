@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.crafting;
@@ -49,7 +49,7 @@ public class RecipeEnchantCrafting extends ShapedOreRecipe implements IRecipe
         String shape = "";
         int idx = 0;
         if (recipe[idx] instanceof Boolean) {
-            this.mirrored = (boolean)recipe[idx];
+            this.mirrored = (Boolean)recipe[idx];
             if (recipe[idx + 1] instanceof Object[]) {
                 recipe = (Object[])recipe[idx + 1];
             }
@@ -209,4 +209,6 @@ public class RecipeEnchantCrafting extends ShapedOreRecipe implements IRecipe
         return this.input;
     }
 }
+
+
 

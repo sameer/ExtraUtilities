@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -51,4 +51,5 @@ public class ItemBlockMetadata extends ItemBlockTooltip
         return super.getUnlocalizedName() + "." + par1ItemStack.getItemDamage();
     }
 }
+
 

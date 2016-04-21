@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -181,5 +181,6 @@ public class RecipeMicroBlocks implements IRecipe
         RecipeMicroBlocks.microID = null;
     }
 }
+
 
 

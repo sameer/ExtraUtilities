@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity;
@@ -119,4 +119,5 @@ public class RenderTileEntitySpike extends TileEntitySpecialRenderer
         RenderTileEntitySpike.base4Coords = new double[][] { { 1.0, 0.0, 0.0 }, { 1.0, 1.0, 0.0 }, { 1.0, 0.0, 0.0 }, { 1.0, 0.0, 1.0 }, { 0.0, 1.0, 0.0 }, { 1.0, 1.0, 0.0 } };
     }
 }
+
 

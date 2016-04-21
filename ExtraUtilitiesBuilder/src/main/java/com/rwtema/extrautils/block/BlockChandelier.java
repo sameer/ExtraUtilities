@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -101,4 +101,5 @@ public class BlockChandelier extends Block
         BlockChandelier.dz = new int[] { 0, 0, -1, 1, 0, 0 };
     }
 }
+
 

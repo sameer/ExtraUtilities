@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.transfernodes;
@@ -548,4 +548,5 @@ public class TileEntityTransferNodeInventory extends TileEntityTransferNode impl
         TileEntityTransferNodeInventory.orthX = new ForgeDirection[] { ForgeDirection.WEST, ForgeDirection.WEST, ForgeDirection.WEST, ForgeDirection.EAST, ForgeDirection.NORTH, ForgeDirection.SOUTH, ForgeDirection.UNKNOWN };
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -126,4 +126,5 @@ public class EnderConstructorHandler extends ShapedRecipeHandler
         texWidgets = new ResourceLocation("extrautils", "textures/guiQED_NEI.png");
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block.render;
@@ -242,4 +242,5 @@ public class FakeRenderBlocks extends RenderBlocks
         v = new double[] { 1.0, 1.0, -1.0, -1.0 };
     }
 }
+
 

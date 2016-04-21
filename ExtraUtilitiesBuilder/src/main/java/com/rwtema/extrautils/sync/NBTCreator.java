@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.sync;
@@ -113,4 +113,5 @@ public class NBTCreator
         NBTCreator.handlers.put(Type.getType((Class)ItemStack.class), NBTHandlers.NBTHandlerItemStack.class);
     }
 }
+
 

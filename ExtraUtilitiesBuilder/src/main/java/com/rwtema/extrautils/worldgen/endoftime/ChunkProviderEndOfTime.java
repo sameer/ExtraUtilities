@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.worldgen.endoftime;
@@ -78,4 +78,5 @@ public class ChunkProviderEndOfTime implements IChunkProvider
     public void saveExtraData() {
     }
 }
+
 

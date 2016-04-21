@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -15,4 +15,5 @@ public class NEIHelper
         return gui.getClass() == GuiCrafting.class || (RecipeInfo.hasOverlayHandler(gui, "crafting") && RecipeInfo.getOverlayHandler(gui, "crafting").getClass() == DefaultOverlayHandler.class);
     }
 }
+
 

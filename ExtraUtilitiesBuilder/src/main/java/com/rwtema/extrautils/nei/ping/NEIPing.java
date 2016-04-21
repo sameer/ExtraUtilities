@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei.ping;
@@ -68,4 +68,5 @@ public class NEIPing implements IContainerInputHandler
     public void onMouseDragged(final GuiContainer guiContainer, final int i, final int i1, final int i2, final long l) {
     }
 }
+
 

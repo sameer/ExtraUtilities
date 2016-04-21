@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -25,4 +25,5 @@ public class WidgetSlotRespectsInsertExtract extends WidgetSlot
         return !this.getHasStack() && super.isItemValid(par1ItemStack) && ((ISidedInventory)this.inventory).canInsertItem(this.slotNumber, par1ItemStack, 0);
     }
 }
+
 

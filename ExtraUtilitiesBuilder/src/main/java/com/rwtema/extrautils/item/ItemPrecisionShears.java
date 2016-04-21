@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -304,4 +304,5 @@ public class ItemPrecisionShears extends ItemShears implements IItemMultiTranspa
         COOLDOWN = new int[] { 20, 16, 12, 8, 4, 0 };
     }
 }
+
 

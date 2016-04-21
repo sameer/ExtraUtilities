@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.generators;
@@ -412,4 +412,5 @@ public class TileEntityGenerator extends TileEntity implements IEnergyHandler, I
         TileEntityGenerator.hum = new ResourceLocation("extrautils", "ambient.hum");
     }
 }
+
 

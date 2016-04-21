@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core;
@@ -23,4 +23,5 @@ public abstract class HashMapCalc<K, V> extends HashMap<K, V>
         return this.get(key);
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.helper;
@@ -14,4 +14,5 @@ public class SplineHelper
         return ((p[0] * t + p[1]) * t + p[2]) * t + p[3];
     }
 }
+
 

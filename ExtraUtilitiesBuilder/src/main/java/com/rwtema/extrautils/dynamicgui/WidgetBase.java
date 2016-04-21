@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -53,4 +53,5 @@ public abstract class WidgetBase implements IWidget
     public void addToContainer(final DynamicContainer container) {
     }
 }
+
 

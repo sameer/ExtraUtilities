@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -210,4 +210,5 @@ public abstract class PartConnecting extends PartMicroBlock implements JIconHitE
         return this.getMaterial().getStrength(player);
     }
 }
+
 

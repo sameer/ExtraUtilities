@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -102,4 +102,5 @@ public class ContainerHoldingBag extends Container
         return filter != null && filter.getItem() == ExtraUtils.goldenBag;
     }
 }
+
 

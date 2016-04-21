@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.modintegration;
@@ -325,4 +325,5 @@ public class TConEvents
         uuid = UUID.fromString("52ca0342-0a6b-11e5-a6c0-1697f925ec7b");
     }
 }
+
 

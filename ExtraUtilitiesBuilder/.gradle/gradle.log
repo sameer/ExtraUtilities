@@ -20,12 +20,6 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/EventHandlerClient.java:465: error: incompatible types: Object cannot be converted to Entity
-        for (final Entity e : new CastIterator(Minecraft.getMinecraft().theWorld.getLoadedEntityList())) {
-                              ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/EventHandlerClient.java:527: error: incompatible types: Object cannot be converted to TileEntity
-                    for (final TileEntity var19 : world.getChunkFromChunkCoords(dx, dz).chunkTileEntityMap.values()) {
-                                                                                                                 ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/ExtraUtils.java:1826: error: incompatible types: ArrayList<Object> cannot be converted to List<Ticket>
             final List<ForgeChunkManager.Ticket> validTickets = (List<ForgeChunkManager.Ticket>)Lists.newArrayList();
                                                                                                                   ^
@@ -65,18 +59,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemLawSword.java:63: error: incompatible types: Object cannot be converted to String
             gsd = (Collection<AttributeModifier>)multimap.get((Object)ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName());
                                                               ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:45: error: incompatible types: Object cannot be converted to OutboundTarget
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALL);
-                                                                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:54: error: incompatible types: Object cannot be converted to OutboundTarget
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.PLAYER);
-                                                                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:65: error: incompatible types: Object cannot be converted to OutboundTarget
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALLAROUNDPOINT);
-                                                                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:72: error: incompatible types: Object cannot be converted to OutboundTarget
-        NetworkHandler.channels.get(Side.CLIENT).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.TOSERVER);
-                                                                                                ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:87: error: incompatible types: Object cannot be converted to EntityPlayerMP
             final EntityPlayerMP player = world.playerEntities.get(j);
                                                                   ^
@@ -97,9 +79,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockCursedEarth.java:265: error: incompatible types: Object cannot be converted to EntityLiving
                             t = var13.entityClass.getConstructor(World.class).newInstance(world);
                                                                                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeEnchantCrafting.java:52: error: incompatible types: Object cannot be converted to boolean
-            this.mirrored = (boolean)recipe[idx];
-                                           ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/SoulHandler.java:67: error: constructor CachedRecipe in class TemplateRecipeHandler.CachedRecipe cannot be applied to given types;
             super((TemplateRecipeHandler)SoulHandler.this);
             ^
@@ -137,7 +116,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-31 errors
+24 errors
 1 warning
  FAILED
 
@@ -152,4 +131,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 11.881 secs
+Total time: 10.684 secs

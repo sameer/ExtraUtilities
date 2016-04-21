@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils;
@@ -37,4 +37,5 @@ public class ChunkPos
         return this.x * 8976890 + this.y * 981131 + this.z;
     }
 }
+
 

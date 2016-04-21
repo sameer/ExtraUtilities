@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -181,4 +181,5 @@ public class ItemSoul extends Item
         uuid = UUID.fromString("12345678-9182-3532-aaaa-aaabacadabaa");
     }
 }
+
 

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -142,4 +142,5 @@ public class ItemSwordSpike extends ItemSword
         mat = ReflectionHelper.findField((Class)ItemSword.class, new String[] { "field_150933_b" });
     }
 }
+
 

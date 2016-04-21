@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core;
@@ -38,4 +38,5 @@ public class CastIterator<T> implements Iterable<T>, Iterator<T>
         this.iterator.remove();
     }
 }
+
 

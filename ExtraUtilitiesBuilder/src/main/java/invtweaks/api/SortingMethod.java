@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package invtweaks.api;
@@ -12,4 +12,5 @@ public enum SortingMethod
     INVENTORY, 
     EVEN_STACKS;
 }
+
 
