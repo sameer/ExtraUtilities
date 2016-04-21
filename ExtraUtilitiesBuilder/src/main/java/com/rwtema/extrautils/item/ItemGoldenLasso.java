@@ -142,7 +142,7 @@ public class ItemGoldenLasso extends Item
     @SideOnly(Side.CLIENT)
     public void addInformation(final ItemStack par1ItemStack, final EntityPlayer par2EntityPlayer, final List par3List, final boolean par4) {
         if (par1ItemStack.hasTagCompound() && par1ItemStack.getTagCompound().hasKey("id")) {
-            par3List.set(0, par3List.get(0).replaceFirst(EnumChatFormatting.ITALIC + par1ItemStack.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(par1ItemStack)));
+            par3List.set(0, ((String)par3List.get(0)).replaceFirst(EnumChatFormatting.ITALIC + par1ItemStack.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(par1ItemStack)));
             final String animal_name = StatCollector.translateToLocal("entity." + par1ItemStack.getTagCompound().getString("id") + ".name");
             par3List.add(animal_name);
             if (par1ItemStack.hasDisplayName()) {

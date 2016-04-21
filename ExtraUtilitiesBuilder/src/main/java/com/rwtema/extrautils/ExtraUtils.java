@@ -1823,7 +1823,7 @@ public class ExtraUtils
         }
         
         public List<ForgeChunkManager.Ticket> ticketsLoaded(final List<ForgeChunkManager.Ticket> tickets, final World world, final int maxTicketCount) {
-            final List<ForgeChunkManager.Ticket> validTickets = (List<ForgeChunkManager.Ticket>)Lists.newArrayList();
+            final List<ForgeChunkManager.Ticket> validTickets = new ArrayList<ForgeChunkManager.Ticket>();
             for (final ForgeChunkManager.Ticket ticket : tickets) {
                 final String ticket_id = ticket.getModData().getString("id");
                 if (ticket_id.equals("pump") && ExtraUtils.enderThermicPump != null) {

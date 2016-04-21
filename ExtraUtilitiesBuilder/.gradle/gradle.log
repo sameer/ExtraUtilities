@@ -20,56 +20,9 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/ExtraUtils.java:1826: error: incompatible types: ArrayList<Object> cannot be converted to List<Ticket>
-            final List<ForgeChunkManager.Ticket> validTickets = (List<ForgeChunkManager.Ticket>)Lists.newArrayList();
-                                                                                                                  ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockColor.java:61: error: incompatible types: Object cannot be converted to float
-        this.setHardness((float)ReflectionHelper.getPrivateValue((Class)Block.class, (Object)b, new String[] { "blockHardness", "field_149782_v" }));
-                                                                ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockColor.java:62: error: incompatible types: Object cannot be converted to float
-        this.setResistance((float)ReflectionHelper.getPrivateValue((Class)Block.class, (Object)b, new String[] { "blockResistance", "field_149781_w" }));
-                                                                  ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemNodeUpgrade.java:242: error: cannot find symbol
-            par3List.set(0, par3List.get(0).replaceFirst(EnumChatFormatting.ITALIC + item.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(item)));
-                                           ^
-  symbol:   method replaceFirst(String,String)
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemPrecisionShears.java:173: error: incompatible types: Object cannot be converted to EntityItem
-            final EntityItem j = iter.next();
-                                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/Box.java:112: error: incompatible types: Object cannot be converted to boolean
-                this.invisibleSide[s] = (boolean)aTex;
-                                                 ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/EventHandlerSiege.java:75: error: cannot find symbol
-            if (world.loadedEntityList.get(i) instanceof EntityMob && world.loadedEntityList.get(i).getEntityData().hasKey("Siege")) {
-                                                                                                   ^
-  symbol:   method getEntityData()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/EventHandlerSiege.java:107: error: incompatible types: Object cannot be converted to EntityPlayer
-                final EntityPlayer player = world.loadedEntityList.get(i);
-                                                                      ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemGoldenLasso.java:145: error: cannot find symbol
-            par3List.set(0, par3List.get(0).replaceFirst(EnumChatFormatting.ITALIC + par1ItemStack.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(par1ItemStack)));
-                                           ^
-  symbol:   method replaceFirst(String,String)
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemLawSword.java:57: error: incompatible types: Object cannot be converted to String
-            Collection<AttributeModifier> gsd = (Collection<AttributeModifier>)multimap.get((Object)ItemLawSword.godSlayingDamage.getAttributeUnlocalizedName());
-                                                                                            ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/item/ItemLawSword.java:63: error: incompatible types: Object cannot be converted to String
-            gsd = (Collection<AttributeModifier>)multimap.get((Object)ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName());
-                                                              ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:87: error: incompatible types: Object cannot be converted to EntityPlayerMP
-            final EntityPlayerMP player = world.playerEntities.get(j);
-                                                                  ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/network/NetworkHandler.java:114: error: incompatible types: Object cannot be converted to EntityPlayerMP
-        for (final EntityPlayerMP player : FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().playerEntityList) {
-                                                                                                                             ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/core/HashMapCalc.java:20: error: incompatible types: Object cannot be converted to K
-            final V calcEntry = (V)this.function.apply((Object)key);
-                                                       ^
-  where K is a type-variable:
-    K extends Object declared in class HashMapCalc
+/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/core/MiscHelper.java:73: error: unreachable statement
+            break;
+            ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockPeacefulTable.java:99: error: incompatible types: Object cannot be converted to EntityLiving
                     t = var7.entityClass.getConstructor(World.class).newInstance(world);
                                                                                 ^
@@ -115,8 +68,7 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-24 errors
+11 errors
 1 warning
  FAILED
 
@@ -131,4 +83,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.684 secs
+Total time: 11.015 secs

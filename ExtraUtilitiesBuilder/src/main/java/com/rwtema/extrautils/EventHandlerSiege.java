@@ -72,7 +72,7 @@ public class EventHandlerSiege
             return;
         }
         for (int i = 0; i < world.loadedEntityList.size(); ++i) {
-            if (world.loadedEntityList.get(i) instanceof EntityMob && world.loadedEntityList.get(i).getEntityData().hasKey("Siege")) {
+            if (world.loadedEntityList.get(i) instanceof EntityMob && ((Entity)world.loadedEntityList.get(i)).getEntityData().hasKey("Siege")) {
                 world.removeEntity((Entity)world.loadedEntityList.get(i));
             }
         }
@@ -104,7 +104,7 @@ public class EventHandlerSiege
                 world.removeEntity((Entity)world.loadedEntityList.get(i));
             }
             else if (world.loadedEntityList.get(i) instanceof EntityPlayer) {
-                final EntityPlayer player = world.loadedEntityList.get(i);
+                final EntityPlayer player = (EntityPlayer)world.loadedEntityList.get(i);
                 EventHandlerSiege.SiegeParticipants.add(player.getGameProfile().getName());
                 player.getEntityData().setInteger("SiegeKills", 0);
             }

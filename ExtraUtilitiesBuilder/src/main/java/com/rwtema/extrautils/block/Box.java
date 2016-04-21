@@ -109,7 +109,7 @@ public class Box
                 this.invisibleSide[s] = true;
             }
             else if (aTex instanceof Boolean) {
-                this.invisibleSide[s] = (boolean)aTex;
+                this.invisibleSide[s] = (Boolean)aTex;
                 ++s;
             }
         }

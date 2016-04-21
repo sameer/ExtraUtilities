@@ -45,7 +45,7 @@ public class BlockColor extends Block
     public int customRecipeNo;
     
     public BlockColor(final Block b, final String orename) {
-        this(b, orename, (String)ReflectionHelper.getPrivateValue((Class)Block.class, (Object)b, new String[] { "textureName", "field_149768_d" }));
+        this(b, orename, (String)ReflectionHelper.getPrivateValue(Block.class, b, new String[] { "textureName", "field_149768_d" }));
     }
     
     @SideOnly(Side.CLIENT)
@@ -58,8 +58,8 @@ public class BlockColor extends Block
         this.curMetadata = 0;
         this.customRecipe = null;
         this.customRecipeNo = 0;
-        this.setHardness((float)ReflectionHelper.getPrivateValue((Class)Block.class, (Object)b, new String[] { "blockHardness", "field_149782_v" }));
-        this.setResistance((float)ReflectionHelper.getPrivateValue((Class)Block.class, (Object)b, new String[] { "blockResistance", "field_149781_w" }));
+        this.setHardness((Float)ReflectionHelper.getPrivateValue(Block.class, b, new String[] { "blockHardness", "field_149782_v" }));
+        this.setResistance((Float)ReflectionHelper.getPrivateValue(Block.class, b, new String[] { "blockResistance", "field_149781_w" }));
         this.setStepSound(b.stepSound);
         this.setBlockTextureName(texture);
         this.setBlockName("extrautils:color_" + b.getUnlocalizedName().substring(5));

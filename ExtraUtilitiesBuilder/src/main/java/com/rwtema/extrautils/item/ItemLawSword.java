@@ -54,13 +54,13 @@ public class ItemLawSword extends ItemSword
     public boolean onLeftClickEntity(final ItemStack stack, final EntityPlayer player, final Entity entity) {
         if (entity.canAttackWithItem()) {
             final Multimap<String, AttributeModifier> multimap = (Multimap<String, AttributeModifier>)stack.getAttributeModifiers();
-            Collection<AttributeModifier> gsd = (Collection<AttributeModifier>)multimap.get((Object)ItemLawSword.godSlayingDamage.getAttributeUnlocalizedName());
+            Collection<AttributeModifier> gsd = (Collection<AttributeModifier>)multimap.get(ItemLawSword.godSlayingDamage.getAttributeUnlocalizedName());
             if (gsd != null) {
                 for (final AttributeModifier t : gsd) {
                     this.attackEntity(player, entity, t.getAmount(), (DamageSource)new DamageSourceEvil(player, true));
                 }
             }
-            gsd = (Collection<AttributeModifier>)multimap.get((Object)ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName());
+            gsd = (Collection<AttributeModifier>)multimap.get(ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName());
             if (gsd != null) {
                 for (final AttributeModifier gs : gsd) {
                     this.attackEntity(player, entity, gs.getAmount(), (DamageSource)new DamageSourceEvil(player, false));
@@ -100,9 +100,9 @@ public class ItemLawSword extends ItemSword
     
     public Multimap getAttributeModifiers(final ItemStack stack) {
         final Multimap multimap = super.getItemAttributeModifiers();
-        multimap.put((Object)SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(), (Object)new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 4.0, 0));
-        multimap.put((Object)ItemLawSword.godSlayingDamage.getAttributeUnlocalizedName(), (Object)new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 2.0, 0));
-        multimap.put((Object)ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName(), (Object)new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 4.0, 0));
+        multimap.put(SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(), new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 4.0, 0));
+        multimap.put(ItemLawSword.godSlayingDamage.getAttributeUnlocalizedName(), new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 2.0, 0));
+        multimap.put(ItemLawSword.armorPiercingDamage.getAttributeUnlocalizedName(), new AttributeModifier(ItemLawSword.field_111210_e, "Weapon modifier", 4.0, 0));
         return multimap;
     }
     

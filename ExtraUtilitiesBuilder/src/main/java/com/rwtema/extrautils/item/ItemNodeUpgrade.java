@@ -183,14 +183,12 @@ public class ItemNodeUpgrade extends Item implements ICreativeTabSorting, ISpeci
     public IIcon getIconFromDamage(final int par1) {
         return this.icons[par1 % 11];
     }
-    
     @SideOnly(Side.CLIENT)
     public void getSubItems(final Item par1, final CreativeTabs par2CreativeTabs, final List par3List) {
         for (int i = 0; i < 11; ++i) {
             par3List.add(new ItemStack(par1, 1, i));
         }
     }
-    
     @SideOnly(Side.CLIENT)
     public void addInformation(final ItemStack item, final EntityPlayer par2EntityPlayer, final List par3List, final boolean par4) {
         if (item.getItemDamage() == 1) {
@@ -239,7 +237,7 @@ public class ItemNodeUpgrade extends Item implements ICreativeTabSorting, ISpeci
             }
         }
         if (item.getItemDamage() == 5 || item.getItemDamage() == 6) {
-            par3List.set(0, par3List.get(0).replaceFirst(EnumChatFormatting.ITALIC + item.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(item)));
+            par3List.set(0, ((String)par3List.get(0)).replaceFirst(EnumChatFormatting.ITALIC + item.getDisplayName() + EnumChatFormatting.RESET, this.getItemStackDisplayName(item)));
             if (!item.hasDisplayName()) {
                 par3List.add("Unspecified Frequency: You must name this upgrade in an anvil to choose a frequency");
                 par3List.add("You cannot use this upgrade until it has a frequency");

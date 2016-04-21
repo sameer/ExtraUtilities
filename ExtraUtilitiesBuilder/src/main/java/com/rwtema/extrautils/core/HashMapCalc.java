@@ -17,7 +17,7 @@ public abstract class HashMapCalc<K, V> extends HashMap<K, V>
     
     public V getCalc(final K key) {
         if (!this.containsKey(key)) {
-            final V calcEntry = (V)this.function.apply((Object)key);
+            final V calcEntry = (V)this.function.apply(key);
             this.put(key, calcEntry);
         }
         return this.get(key);
