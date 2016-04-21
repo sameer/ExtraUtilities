@@ -59,7 +59,7 @@ public class FMPMicroBlocksOverlayHandler implements IOverlayHandler
     
     private boolean clearIngredients(final GuiContainer gui, final List<PositionedStack> ingreds) {
         for (final PositionedStack pstack : ingreds) {
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
+            for (final Slot slot : (Collection<Slot>) gui.inventorySlots.inventorySlots) {
                 if (slot.xDisplayPosition == pstack.relx + this.offsetx && slot.yDisplayPosition == pstack.rely + this.offsety) {
                     if (!slot.getHasStack()) {
                         continue;
@@ -87,7 +87,7 @@ public class FMPMicroBlocksOverlayHandler implements IOverlayHandler
             Slot dest = distrib.slots[0];
             int slotTransferred = 0;
             final int slotTransferCap = pstack.getMaxStackSize();
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
+            for (final Slot slot : (Collection<Slot>) gui.inventorySlots.inventorySlots) {
                 if (slot.getHasStack()) {
                     if (!(slot.inventory instanceof InventoryPlayer)) {
                         continue;
@@ -250,7 +250,7 @@ public class FMPMicroBlocksOverlayHandler implements IOverlayHandler
     }
     
     private void findInventoryQuantities(final GuiContainer gui, final List<DistributedIngred> ingredStacks) {
-        for (final Slot slot : gui.inventorySlots.inventorySlots) {
+        for (final Slot slot : (Collection<Slot>) gui.inventorySlots.inventorySlots) {
             if (slot.getHasStack() && slot.inventory instanceof InventoryPlayer) {
                 final ItemStack pstack = slot.getStack();
                 final DistributedIngred istack = this.findIngred(ingredStacks, pstack);
@@ -283,7 +283,7 @@ public class FMPMicroBlocksOverlayHandler implements IOverlayHandler
         for (int i = 0; i < ingredients.size(); ++i) {
             final LinkedList<Slot> recipeSlots = new LinkedList<Slot>();
             final PositionedStack pstack = ingredients.get(i);
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
+            for (final Slot slot : (Collection<Slot>) gui.inventorySlots.inventorySlots) {
                 if (slot.xDisplayPosition == pstack.relx + this.offsetx && slot.yDisplayPosition == pstack.rely + this.offsety) {
                     recipeSlots.add(slot);
                     break;
@@ -339,4 +339,5 @@ public class FMPMicroBlocksOverlayHandler implements IOverlayHandler
         }
     }
 }
+
 

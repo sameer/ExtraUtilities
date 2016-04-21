@@ -271,18 +271,6 @@
   required: no arguments
   found: TemplateRecipeHandler
   reason: actual and formal argument lists differ in length
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksOverlayHandler.java:62: error: incompatible types: Object cannot be converted to Slot
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
-                                                     ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksOverlayHandler.java:90: error: incompatible types: Object cannot be converted to Slot
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
-                                                     ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksOverlayHandler.java:253: error: incompatible types: Object cannot be converted to Slot
-        for (final Slot slot : gui.inventorySlots.inventorySlots) {
-                                                 ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksOverlayHandler.java:286: error: incompatible types: Object cannot be converted to Slot
-            for (final Slot slot : gui.inventorySlots.inventorySlots) {
-                                                     ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/InfoHandler.java:165: error: incompatible types: Object cannot be converted to String
             final String t = text.get(i);
                                      ^
@@ -334,12 +322,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/modintegration/TConIntegration.java:257: error: incomparable types: Item and DualMaterialToolPart
                 if (castingRecipe.output.getItem() != TinkerWeaponry.partBolt) {
                                                    ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerTransferNode.java:94: error: incompatible types: Object cannot be converted to Slot
-        final Slot slot = this.inventorySlots.get(par2);
-                                                 ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilter.java:114: error: incompatible types: Object cannot be converted to Slot
-        final Slot slot = this.inventorySlots.get(par2);
-                                                 ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilter.java:121: error: cannot find symbol
                     if (!this.inventorySlots.get(i).getHasStack()) {
                                                    ^
@@ -353,9 +335,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/GuiTradingPost.java:305: error: incompatible types: Object cannot be converted to String
                 String s = list.get(j2);
                                    ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilingCabinet.java:80: error: incompatible types: Object cannot be converted to Slot
-        final Slot slot = this.inventorySlots.get(par2);
-                                                 ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillNonPersistant.java:20: error: cannot find symbol
             if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
                                                              ^
@@ -373,7 +352,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-83 errors
+76 errors
 1 warning
  FAILED
 
@@ -388,4 +367,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.943 secs
+Total time: 10.039 secs
