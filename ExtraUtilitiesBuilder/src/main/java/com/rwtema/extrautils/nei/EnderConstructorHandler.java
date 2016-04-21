@@ -62,7 +62,7 @@ public class EnderConstructorHandler extends ShapedRecipeHandler
         for (final IRecipe irecipe : EnderConstructorRecipesHandler.recipes) {
             ShapedRecipeHandler.CachedShapedRecipe recipe = null;
             if (irecipe instanceof ShapedRecipes) {
-                recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
+                recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipes)irecipe);
             }
             else if (irecipe instanceof ShapedOreRecipe) {
                 recipe = this.forgeShapedRecipe((ShapedOreRecipe)irecipe);
@@ -86,7 +86,7 @@ public class EnderConstructorHandler extends ShapedRecipeHandler
             for (final IRecipe irecipe : EnderConstructorRecipesHandler.recipes) {
                 ShapedRecipeHandler.CachedShapedRecipe recipe = null;
                 if (irecipe instanceof ShapedRecipes) {
-                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
+                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipes)irecipe);
                 }
                 else if (irecipe instanceof ShapedOreRecipe) {
                     recipe = this.forgeShapedRecipe((ShapedOreRecipe)irecipe);
@@ -108,7 +108,7 @@ public class EnderConstructorHandler extends ShapedRecipeHandler
             if (NEIServerUtils.areStacksSameTypeCrafting(irecipe.getRecipeOutput(), result)) {
                 ShapedRecipeHandler.CachedShapedRecipe recipe = null;
                 if (irecipe instanceof ShapedRecipes) {
-                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
+                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipes)irecipe);
                 }
                 else if (irecipe instanceof ShapedOreRecipe) {
                     recipe = this.forgeShapedRecipe((ShapedOreRecipe)irecipe);

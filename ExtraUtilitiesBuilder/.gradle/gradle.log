@@ -150,31 +150,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/BlockCursedEarth.java:265: error: incompatible types: Object cannot be converted to EntityLiving
                             t = var13.entityClass.getConstructor(World.class).newInstance(world);
                                                                                          ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeEnchantedItems.java:74: error: cannot find symbol
-                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
-                                                           ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeDifficultySpecific.java:74: error: cannot find symbol
-                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
-                                                           ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeGBEnchanting.java:65: error: cannot find symbol
-                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
-                                                           ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnstableIngotCrafting.java:67: error: cannot find symbol
-                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
-                                                           ^
-  symbol:   method copy()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnstableNuggetCrafting.java:64: error: cannot find symbol
-                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
-                                                           ^
-  symbol:   method copy()
-  location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:70: error: incompatible types: Object cannot be converted to int
                     final int level = ne.get(id);
                                             ^
@@ -189,33 +164,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeEnchantCrafting.java:52: error: incompatible types: Object cannot be converted to boolean
             this.mirrored = (boolean)recipe[idx];
                                            ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/EnderConstructorHandler.java:65: error: no suitable constructor found for CachedShapedRecipe(ShapedRecipeHandler,ShapedRecipes)
-                recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
-                         ^
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/EnderConstructorHandler.java:89: error: no suitable constructor found for CachedShapedRecipe(ShapedRecipeHandler,ShapedRecipes)
-                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
-                             ^
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/EnderConstructorHandler.java:111: error: no suitable constructor found for CachedShapedRecipe(ShapedRecipeHandler,ShapedRecipes)
-                    recipe = new ShapedRecipeHandler.CachedShapedRecipe((ShapedRecipeHandler)this, (ShapedRecipes)irecipe);
-                             ^
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor ShapedRecipeHandler.CachedShapedRecipe.ShapedRecipeHandler.CachedShapedRecipe(ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/MicroBlocksHandler.java:135: error: constructor CachedRecipe in class TemplateRecipeHandler.CachedRecipe cannot be applied to given types;
-            super((TemplateRecipeHandler)MicroBlocksHandler.this);
-            ^
-  required: no arguments
-  found: TemplateRecipeHandler
-  reason: actual and formal argument lists differ in length
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/SoulHandler.java:67: error: constructor CachedRecipe in class TemplateRecipeHandler.CachedRecipe cannot be applied to given types;
             super((TemplateRecipeHandler)SoulHandler.this);
             ^
@@ -253,7 +201,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-56 errors
+47 errors
 1 warning
  FAILED
 
@@ -268,4 +216,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.587 secs
+Total time: 10.591 secs
