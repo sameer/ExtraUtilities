@@ -71,7 +71,7 @@ public class RecipeEnchantedItems extends ShapedRecipes
         for (int i2 = 0; i2 < j * k; ++i2) {
             final char c0 = s.charAt(i2);
             if (hashmap.containsKey(c0)) {
-                aitemstack[i2] = hashmap.get(c0).copy();
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
             }
             else {
                 aitemstack[i2] = null;
@@ -90,4 +90,5 @@ public class RecipeEnchantedItems extends ShapedRecipes
         return super.matches(inv, par2World);
     }
 }
+
 
