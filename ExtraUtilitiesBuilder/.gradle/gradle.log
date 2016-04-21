@@ -356,27 +356,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilingCabinet.java:80: error: incompatible types: Object cannot be converted to Slot
         final Slot slot = this.inventorySlots.get(par2);
                                                  ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/GuiFilingCabinet.java:52: error: cannot find symbol
-            if (this.inventorySlots.inventorySlots.get(i).getHasStack()) {
-                                                         ^
-  symbol:   method getHasStack()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/GuiFilingCabinet.java:58: error: no suitable method found for add(Object)
-            items.add(this.inventorySlots.inventorySlots.get(i));
-                 ^
-    method Collection.add(Slot) is not applicable
-      (argument mismatch; Object cannot be converted to Slot)
-    method List.add(Slot) is not applicable
-      (argument mismatch; Object cannot be converted to Slot)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerHoldingBag.java:79: error: incompatible types: Object cannot be converted to Slot
-        final Slot slot = this.inventorySlots.get(par2);
-                                                 ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/helper/ThaumcraftHelper.java:151: error: incompatible types: Object cannot be converted to int
-                int newmeta = (int)o;
-                                   ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/helper/ThaumcraftHelper.java:167: error: incompatible types: Object cannot be converted to int
-                    a_num = (int)ingredients[i + 1];
-                                            ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/command/CommandKillNonPersistant.java:20: error: cannot find symbol
             if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
                                                              ^
@@ -394,7 +373,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-88 errors
+83 errors
 1 warning
  FAILED
 
@@ -409,4 +388,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 12.516 secs
+Total time: 10.943 secs

@@ -148,7 +148,7 @@ public class ThaumcraftHelper
                 al.add(new AspectList(result));
             }
             else if (i == 0 && o instanceof Integer) {
-                int newmeta = (int)o;
+                int newmeta = (Integer)o;
                 if (newmeta == -1) {
                     newmeta = 32767;
                 }
@@ -164,7 +164,7 @@ public class ThaumcraftHelper
                 final Aspect a = (Aspect)o;
                 int a_num = 1;
                 if (i + 1 < ingredients.length && ingredients[i + 1] instanceof Integer) {
-                    a_num = (int)ingredients[i + 1];
+                    a_num = (Integer)ingredients[i + 1];
                     ++i;
                 }
                 al.add(a, a_num);
