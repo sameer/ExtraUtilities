@@ -20,9 +20,6 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/CreativeTabExtraUtils.java:47: error: incompatible types: Object cannot be converted to ItemStack
-        for (final ItemStack item : (ArrayList)newList) {
-                                    ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/EventHandlerClient.java:465: error: incompatible types: Object cannot be converted to Entity
         for (final Entity e : new CastIterator(Minecraft.getMinecraft().theWorld.getLoadedEntityList())) {
                               ^
@@ -81,12 +78,6 @@
                                                                                                                                                                                                                                                                                        ^
   symbol:   variable maxZ
   location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/Box.java:82: error: incompatible types: Object cannot be converted to int
-                s = (int)aTex;
-                         ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/Box.java:108: error: incompatible types: Object cannot be converted to int
-                s = (int)aTex;
-                         ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/block/Box.java:112: error: incompatible types: Object cannot be converted to boolean
                 this.invisibleSide[s] = (boolean)aTex;
                                                  ^
@@ -160,28 +151,28 @@
                             t = var13.entityClass.getConstructor(World.class).newInstance(world);
                                                                                          ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeEnchantedItems.java:74: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
+                                                           ^
   symbol:   method copy()
   location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeDifficultySpecific.java:74: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
+                                                           ^
   symbol:   method copy()
   location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeGBEnchanting.java:65: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
+                                                           ^
   symbol:   method copy()
   location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnstableIngotCrafting.java:67: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
+                                                           ^
   symbol:   method copy()
   location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnstableNuggetCrafting.java:64: error: cannot find symbol
-                aitemstack[i2] = hashmap.get(c0).copy();
-                                                ^
+                aitemstack[i2] = (ItemStack)hashmap.get(c0).copy();
+                                                           ^
   symbol:   method copy()
   location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:70: error: incompatible types: Object cannot be converted to int
@@ -253,12 +244,6 @@
       (actual and formal argument lists differ in length)
     constructor MicroBlocksHandler.MicroblockCachedRecipe.MicroBlocksHandler.MicroblockCachedRecipe(MicroBlocksHandler,RecipeMicroBlocks) is not applicable
       (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/multipart/microblock/RecipeMicroBlocks.java:58: error: incompatible types: Object cannot be converted to int
-            final int damage = (int)this.recipeItems[a];
-                                                    ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/multipart/microblock/RecipeMicroBlocks.java:101: error: incompatible types: Object cannot be converted to int
-                    final int damage = (int)this.recipeItems[m];
-                                                            ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/SoulHandler.java:67: error: constructor CachedRecipe in class TemplateRecipeHandler.CachedRecipe cannot be applied to given types;
             super((TemplateRecipeHandler)SoulHandler.this);
             ^
@@ -288,16 +273,6 @@
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/modintegration/TConIntegration.java:257: error: incomparable types: Item and DualMaterialToolPart
                 if (castingRecipe.output.getItem() != TinkerWeaponry.partBolt) {
                                                    ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilter.java:121: error: cannot find symbol
-                    if (!this.inventorySlots.get(i).getHasStack()) {
-                                                   ^
-  symbol:   method getHasStack()
-  location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/ContainerFilter.java:125: error: cannot find symbol
-                    if (XUHelper.canItemsStack(slot.getStack(), this.inventorySlots.get(i).getStack())) {
-                                                                                          ^
-  symbol:   method getStack()
-  location: class Object
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/gui/GuiTradingPost.java:305: error: incompatible types: Object cannot be converted to String
                 String s = list.get(j2);
                                    ^
@@ -318,7 +293,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-70 errors
+63 errors
 1 warning
  FAILED
 
@@ -333,4 +308,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 11.501 secs
+Total time: 10.939 secs
