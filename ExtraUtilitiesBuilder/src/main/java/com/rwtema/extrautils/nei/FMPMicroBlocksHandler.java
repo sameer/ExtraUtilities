@@ -203,7 +203,8 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
         public MicroblockPositionedStack result;
         
         public MicroblockCachedRecipe(final int width, final int height, final Object[] items, final ItemStack out) {
-            super((TemplateRecipeHandler)FMPMicroBlocksHandler.this);
+//            super((TemplateRecipeHandler)FMPMicroBlocksHandler.this);
+	    super();
             this.result = new MicroblockPositionedStack(out, 119, 24);
             this.ingredients = new ArrayList<PositionedStack>();
             this.setIngredients(width, height, items);

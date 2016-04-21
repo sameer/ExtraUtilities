@@ -272,7 +272,7 @@ public class GuiTradingPost extends GuiScreen
         RenderHelper.disableStandardItemLighting();
         GL11.glDisable(2896);
         GL11.glDisable(2929);
-        final List list = par1ItemStack.getTooltip((EntityPlayer)this.mc.thePlayer, this.mc.gameSettings.advancedItemTooltips);
+        final List<String> list = par1ItemStack.getTooltip((EntityPlayer)this.mc.thePlayer, this.mc.gameSettings.advancedItemTooltips);
         if (!list.isEmpty()) {
             int k = 0;
             for (int l = 0; l < list.size(); ++l) {

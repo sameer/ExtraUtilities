@@ -160,7 +160,7 @@ public class InfoHandler implements IUsageHandler, ICraftingHandler
     }
     
     public void drawForeground(final int recipe) {
-        final List text = InfoHandler.fontRenderer.listFormattedStringToWidth(this.info[recipe], this.getWidth() - 8);
+        final List<String> text = InfoHandler.fontRenderer.listFormattedStringToWidth(this.info[recipe], this.getWidth() - 8);
         for (int i = 0; i < text.size(); ++i) {
             final String t = text.get(i);
             GuiDraw.drawString(t, this.getWidth() / 2 - GuiDraw.getStringWidth(t) / 2, 18 + i * 8, InfoHandler.color, false);

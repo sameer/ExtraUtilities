@@ -138,8 +138,8 @@ public class MicroBlocksHandler extends ShapedRecipeHandler
             this.setIngredients(width, height, items);
         }
         
-        public MicroblockCachedRecipe(final MicroBlocksHandler microBlocksHandler, final RecipeMicroBlocks irecipe) {
-            this(microBlocksHandler, irecipe.recipeWidth, irecipe.recipeHeight, irecipe.getRecipeItems(), irecipe.getRecipeOutput());
+        public MicroblockCachedRecipe(final RecipeMicroBlocks irecipe) {
+            this(irecipe.recipeWidth, irecipe.recipeHeight, irecipe.getRecipeItems(), irecipe.getRecipeOutput());
         }
         
         public void setIngredients(final int width, final int height, final Object[] items) {
