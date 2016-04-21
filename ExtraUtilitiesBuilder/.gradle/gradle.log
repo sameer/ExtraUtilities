@@ -184,15 +184,9 @@
                                                 ^
   symbol:   method copy()
   location: class Object
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:69: error: incompatible types: Object cannot be converted to int
-                    final int id = (int)o;
-                                        ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:70: error: incompatible types: Object cannot be converted to int
                     final int level = ne.get(id);
                                             ^
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:89: error: incompatible types: Object cannot be converted to int
-            final int id2 = (int)o2;
-                                 ^
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/crafting/RecipeUnEnchanting.java:90: error: incompatible types: Object cannot be converted to int
             int level2 = ne.get(id2);
                                ^
@@ -281,40 +275,12 @@
       (argument mismatch; Object cannot be converted to Item)
     method ListMultimap.get(Item) is not applicable
       (argument mismatch; Object cannot be converted to Item)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksHandler.java:114: error: no suitable constructor found for MicroblockCachedRecipe(ShapedRecipes)
-                final MicroblockCachedRecipe recipe = new MicroblockCachedRecipe(irecipe);
-                                                      ^
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(FMPMicroBlocksHandler,ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksHandler.java:140: error: no suitable constructor found for MicroblockCachedRecipe(ShapedRecipes)
-                final MicroblockCachedRecipe recipe = new MicroblockCachedRecipe(irecipe);
-                                                      ^
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(FMPMicroBlocksHandler,ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksHandler.java:176: error: no suitable constructor found for MicroblockCachedRecipe(ShapedRecipes)
-            final MicroblockCachedRecipe recipe = new MicroblockCachedRecipe(irecipe);
-                                                  ^
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(FMPMicroBlocksHandler,ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksHandler.java:206: error: constructor CachedRecipe in class TemplateRecipeHandler.CachedRecipe cannot be applied to given types;
             super((TemplateRecipeHandler)FMPMicroBlocksHandler.this);
             ^
   required: no arguments
   found: TemplateRecipeHandler
   reason: actual and formal argument lists differ in length
-/home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/nei/FMPMicroBlocksHandler.java:213: error: no suitable constructor found for MicroblockCachedRecipe(FMPMicroBlocksHandler,int,int,ItemStack[],ItemStack)
-            this(fmpMicroBlocksHandler, irecipe.recipeWidth, irecipe.recipeHeight, irecipe.recipeItems, irecipe.getRecipeOutput());
-            ^
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(int,int,Object[],ItemStack) is not applicable
-      (actual and formal argument lists differ in length)
-    constructor FMPMicroBlocksHandler.MicroblockCachedRecipe.FMPMicroBlocksHandler.MicroblockCachedRecipe(FMPMicroBlocksHandler,ShapedRecipes) is not applicable
-      (actual and formal argument lists differ in length)
 /home/fracica/ksrc/ExtraUtilities/ExtraUtilitiesBuilder/build/sources/java/com/rwtema/extrautils/modintegration/TConIntegration.java:192: error: cannot access CraftingItem
                 if (!(recipe.getResult().getItem() instanceof DynamicToolPart)) {
                                                    ^
@@ -352,7 +318,7 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-76 errors
+70 errors
 1 warning
  FAILED
 
@@ -367,4 +333,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.039 secs
+Total time: 11.501 secs

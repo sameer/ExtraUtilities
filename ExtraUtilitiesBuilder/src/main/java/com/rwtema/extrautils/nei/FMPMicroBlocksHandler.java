@@ -209,8 +209,8 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
             this.setIngredients(width, height, items);
         }
         
-        public MicroblockCachedRecipe(final FMPMicroBlocksHandler fmpMicroBlocksHandler, final ShapedRecipes irecipe) {
-            this(fmpMicroBlocksHandler, irecipe.recipeWidth, irecipe.recipeHeight, irecipe.recipeItems, irecipe.getRecipeOutput());
+        public MicroblockCachedRecipe(final ShapedRecipes irecipe) {
+            this(irecipe.recipeWidth, irecipe.recipeHeight, irecipe.recipeItems, irecipe.getRecipeOutput());
         }
         
         public void setIngredients(final int width, final int height, final Object[] items) {
