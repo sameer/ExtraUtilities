@@ -15,3 +15,4 @@ public interface IDismantleable
     
     boolean canDismantle(final EntityPlayer p0, final World p1, final int p2, final int p3, final int p4);
 }
+

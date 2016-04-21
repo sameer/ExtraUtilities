@@ -250,3 +250,4 @@ public class MicroBlocksHandler extends ShapedRecipeHandler
         }
     }
 }
+

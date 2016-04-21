@@ -86,3 +86,4 @@ public class TransferNodePartEnergy extends TransferNodePart implements INodeEne
         return this.getNode().getMaxEnergyStored(from);
     }
 }
+

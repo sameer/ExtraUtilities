@@ -69,3 +69,4 @@ public class TileEntityGeneratorSolar extends TileEntityGeneratorSimpleSolar
         return this.coolDown == 0.0;
     }
 }
+

@@ -29,3 +29,4 @@ public class RecipeCustomOres extends ShapedOreRecipe
         return (RecipeCustomOres)replace(this, toReplace, customOres);
     }
 }
+

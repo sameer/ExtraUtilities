@@ -10,3 +10,4 @@ public interface IInventoryContainerItem
 {
     int getSizeInventory(final ItemStack p0);
 }
+

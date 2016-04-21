@@ -309,3 +309,4 @@ public class ItemGlove extends ItemSword
         ItemGlove.woolProtection = (BaseAttribute)new RangedAttribute("extrautils.freezeProtection", 0.0, -1.7976931348623157E308, Double.MAX_VALUE);
     }
 }
+

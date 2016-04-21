@@ -256,3 +256,4 @@ public class ItemDivisionSigil extends Item
         ItemDivisionSigil.maxdamage = 256;
     }
 }
+

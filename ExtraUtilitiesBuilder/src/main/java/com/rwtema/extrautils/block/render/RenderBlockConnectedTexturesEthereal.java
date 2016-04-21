@@ -45,3 +45,4 @@ public class RenderBlockConnectedTexturesEthereal extends RenderBlockConnectedTe
         RenderBlockConnectedTexturesEthereal.fakeRenderEtherealBlocks = new FakeRenderEtherealBlocks();
     }
 }
+

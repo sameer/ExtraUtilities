@@ -25,3 +25,4 @@ public class TileEntityGeneratorFurnaceOverClocked extends TileEntityGeneratorFu
         return super.getFuelBurn(item) / 10.0 * 0.25;
     }
 }
+

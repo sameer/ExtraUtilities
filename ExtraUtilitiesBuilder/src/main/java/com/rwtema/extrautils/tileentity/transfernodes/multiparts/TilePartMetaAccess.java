@@ -31,3 +31,4 @@ public class TilePartMetaAccess extends PartMetaAccess
         return super.getTileEntity(i, j, k);
     }
 }
+

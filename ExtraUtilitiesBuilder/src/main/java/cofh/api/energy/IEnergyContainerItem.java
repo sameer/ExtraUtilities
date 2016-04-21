@@ -16,3 +16,4 @@ public interface IEnergyContainerItem
     
     int getMaxEnergyStored(final ItemStack p0);
 }
+

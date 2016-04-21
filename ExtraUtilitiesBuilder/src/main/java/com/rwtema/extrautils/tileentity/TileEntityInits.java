@@ -14,3 +14,4 @@ public abstract class TileEntityInits extends TileEntity
         super.validate();
     }
 }
+

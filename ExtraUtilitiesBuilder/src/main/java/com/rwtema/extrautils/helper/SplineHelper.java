@@ -14,3 +14,4 @@ public class SplineHelper
         return ((p[0] * t + p[1]) * t + p[2]) * t + p[3];
     }
 }
+

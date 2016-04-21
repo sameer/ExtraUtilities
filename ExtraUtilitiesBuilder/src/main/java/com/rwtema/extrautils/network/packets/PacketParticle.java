@@ -114,3 +114,4 @@ public class PacketParticle extends XUPacketBase
         PacketParticle.particleNames.add("happyVillager");
     }
 }
+

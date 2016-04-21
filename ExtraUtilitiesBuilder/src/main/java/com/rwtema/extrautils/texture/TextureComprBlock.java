@@ -97,3 +97,4 @@ public class TextureComprBlock extends TextureAtlasSprite
         return true;
     }
 }
+

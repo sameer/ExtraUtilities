@@ -12,3 +12,4 @@ public interface IEnderFluxHandler
     
     float getAmountRequested();
 }
+

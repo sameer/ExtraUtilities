@@ -391,3 +391,4 @@ public class BlockCursedEarth extends Block implements IBlockLocalization
         BlockCursedEarth.powered = 0;
     }
 }
+

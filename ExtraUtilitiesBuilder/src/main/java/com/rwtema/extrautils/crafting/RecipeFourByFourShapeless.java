@@ -21,3 +21,4 @@ public class RecipeFourByFourShapeless extends ShapelessRecipes implements IReci
         return par1InventoryCrafting.getSizeInventory() == 4 && super.matches(par1InventoryCrafting, par2World);
     }
 }
+

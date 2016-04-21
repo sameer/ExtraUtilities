@@ -44,3 +44,4 @@ public class ItemBlockColor extends ItemBlockMetadata
         return StatCollector.translateToLocal("tile.extrautils:colorBlock." + p_77653_1_.getItemDamage() + ".name").replaceAll("BLOCKNAME", name);
     }
 }
+

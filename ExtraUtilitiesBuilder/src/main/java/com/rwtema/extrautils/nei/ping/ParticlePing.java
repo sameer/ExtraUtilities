@@ -53,3 +53,4 @@ public class ParticlePing extends EntityReddustFX
         RANDOM = XURandom.getInstance();
     }
 }
+

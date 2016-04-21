@@ -60,3 +60,4 @@ public class TileEntityAntiMobTorch extends TileEntity implements IAntiMobTorch
         EventHandlerServer.magnumTorchRegistry.add(myCoord);
     }
 }
+

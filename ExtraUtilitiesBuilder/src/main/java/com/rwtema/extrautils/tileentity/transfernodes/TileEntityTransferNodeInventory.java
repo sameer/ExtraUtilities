@@ -548,3 +548,4 @@ public class TileEntityTransferNodeInventory extends TileEntityTransferNode impl
         TileEntityTransferNodeInventory.orthX = new ForgeDirection[] { ForgeDirection.WEST, ForgeDirection.WEST, ForgeDirection.WEST, ForgeDirection.EAST, ForgeDirection.NORTH, ForgeDirection.SOUTH, ForgeDirection.UNKNOWN };
     }
 }
+

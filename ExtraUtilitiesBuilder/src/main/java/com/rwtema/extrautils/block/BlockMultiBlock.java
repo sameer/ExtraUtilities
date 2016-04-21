@@ -53,3 +53,4 @@ public abstract class BlockMultiBlock extends Block implements IMultiBoxBlock
         }
     }
 }
+

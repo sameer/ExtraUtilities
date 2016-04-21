@@ -10,3 +10,4 @@ public interface IDynamicContainerProvider
 {
     DynamicContainer getContainer(final EntityPlayer p0);
 }
+

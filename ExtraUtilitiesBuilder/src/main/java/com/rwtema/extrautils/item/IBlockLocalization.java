@@ -10,3 +10,4 @@ public interface IBlockLocalization
 {
     String getUnlocalizedName(final ItemStack p0);
 }
+

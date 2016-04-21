@@ -15,3 +15,4 @@ public interface IItemMultiTransparency
     
     float getIconTransparency(final ItemStack p0, final int p1);
 }
+

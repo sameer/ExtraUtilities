@@ -18,3 +18,4 @@ public class SlotNoInsert extends Slot
         return false;
     }
 }
+

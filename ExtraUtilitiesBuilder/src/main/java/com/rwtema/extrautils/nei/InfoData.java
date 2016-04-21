@@ -65,3 +65,4 @@ public class InfoData
         InfoData.data = new ArrayList<InfoData>();
     }
 }
+

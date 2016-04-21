@@ -88,3 +88,4 @@ public class ItemBlockDrum extends ItemBlockMetadata implements IFluidContainerI
         return super.getItemStackDisplayName(item) + ":" + this.getItemStackDisplayName(item);
     }
 }
+

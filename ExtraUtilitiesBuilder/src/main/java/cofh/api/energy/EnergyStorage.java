@@ -119,3 +119,4 @@ public class EnergyStorage implements IEnergyStorage
         return this.capacity;
     }
 }
+

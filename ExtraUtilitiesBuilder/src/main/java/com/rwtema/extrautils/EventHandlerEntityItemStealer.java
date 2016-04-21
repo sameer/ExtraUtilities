@@ -108,3 +108,4 @@ public class EventHandlerEntityItemStealer
         clazztypes = new HashMap<Class, Boolean>();
     }
 }
+

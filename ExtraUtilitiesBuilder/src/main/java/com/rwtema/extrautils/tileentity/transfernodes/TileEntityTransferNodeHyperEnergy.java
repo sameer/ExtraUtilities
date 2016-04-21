@@ -13,3 +13,4 @@ public class TileEntityTransferNodeHyperEnergy extends TileEntityTransferNodeEne
         this.powerHandler.setMaxReceive(1000000);
     }
 }
+

@@ -68,3 +68,4 @@ public class FluidIDGetter
         int getID(final FluidStack p0);
     }
 }
+

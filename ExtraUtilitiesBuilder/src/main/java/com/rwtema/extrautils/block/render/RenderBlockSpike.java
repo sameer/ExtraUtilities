@@ -333,3 +333,4 @@ public class RenderBlockSpike implements ISimpleBlockRenderingHandler
         return ExtraUtilsProxy.spikeBlockID;
     }
 }
+

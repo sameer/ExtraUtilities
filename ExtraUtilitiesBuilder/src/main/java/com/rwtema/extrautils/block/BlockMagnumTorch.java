@@ -92,3 +92,4 @@ public class BlockMagnumTorch extends Block
         }
     }
 }
+

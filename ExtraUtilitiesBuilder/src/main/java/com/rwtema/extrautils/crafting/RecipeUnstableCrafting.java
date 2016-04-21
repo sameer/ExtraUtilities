@@ -128,3 +128,4 @@ public class RecipeUnstableCrafting extends ShapedOreRecipe implements IRecipe
         (nbt = new NBTTagCompound()).setBoolean("isNEI", true);
     }
 }
+

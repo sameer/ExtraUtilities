@@ -32,3 +32,4 @@ public class SlotFilingCabinet extends Slot
         SlotFilingCabinet.drawing = false;
     }
 }
+

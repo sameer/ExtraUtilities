@@ -23,3 +23,4 @@ public class ShapelessOreRecipeAlwaysLast extends ShapelessOreRecipe
         super(result, recipe);
     }
 }
+

@@ -33,3 +33,4 @@ public abstract class WidgetDescPacket extends WidgetBase
     @Override
     public abstract void handleDescriptionPacket(final NBTTagCompound p0);
 }
+

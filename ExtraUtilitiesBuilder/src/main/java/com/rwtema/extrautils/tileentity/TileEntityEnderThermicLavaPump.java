@@ -317,3 +317,4 @@ public class TileEntityEnderThermicLavaPump extends TileFluidHandler implements 
         return this.cofhEnergy.getMaxEnergyStored();
     }
 }
+

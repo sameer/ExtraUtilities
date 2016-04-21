@@ -194,3 +194,4 @@ public class SafeCore implements IClassTransformer
         SafeCore.classSideHashMap.put(Void.TYPE.getName(), null);
     }
 }
+

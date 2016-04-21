@@ -169,3 +169,4 @@ public class ActivationRitual
         ActivationRitual.time_window = 500;
     }
 }
+

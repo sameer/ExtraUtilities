@@ -17,3 +17,4 @@ public class SlotGhostItemContainer extends SlotItemContainer
         return false;
     }
 }
+

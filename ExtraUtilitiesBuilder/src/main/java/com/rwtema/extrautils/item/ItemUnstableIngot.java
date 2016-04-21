@@ -281,3 +281,4 @@ public class ItemUnstableIngot extends Item implements IItemMultiTransparency
         return 1.0f;
     }
 }
+

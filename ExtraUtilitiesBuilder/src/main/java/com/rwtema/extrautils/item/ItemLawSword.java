@@ -135,3 +135,4 @@ public class ItemLawSword extends ItemSword
         }
     }
 }
+

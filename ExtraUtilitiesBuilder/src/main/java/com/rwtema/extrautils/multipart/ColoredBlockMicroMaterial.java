@@ -45,3 +45,4 @@ public class ColoredBlockMicroMaterial extends BlockMicroMaterial
         MaterialRenderHelper.start(pos, pass, (UVTransformation)this.icont()).blockColour(c).lighting().render();
     }
 }
+

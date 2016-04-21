@@ -7,3 +7,4 @@ package com.rwtema.extrautils.sounds;
 public class ISoundManager
 {
 }
+

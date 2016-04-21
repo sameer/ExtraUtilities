@@ -80,3 +80,4 @@ public class TConTextureResourcePackBedrockium extends TConTextureResourcePackBa
         TConTextureResourcePackBedrockium.bedrockImage = null;
     }
 }
+

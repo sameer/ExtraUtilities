@@ -139,3 +139,4 @@ public class TileEntityGeneratorPotion extends TileEntityGeneratorFurnace
         TileEntityGeneratorPotion.powerMap = new HashMap<Integer, Integer>();
     }
 }
+

@@ -109,3 +109,4 @@ public class RecipeMagicalWood extends ShapedRecipes
         book = new ItemStack((Item)Items.enchanted_book);
     }
 }
+

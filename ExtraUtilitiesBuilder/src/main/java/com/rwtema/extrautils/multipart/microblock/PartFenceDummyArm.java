@@ -48,3 +48,4 @@ public class PartFenceDummyArm extends JCuboidPart implements JNormalOcclusion
         dummyArms = new PartFenceDummyArm[] { null, null, new PartFenceDummyArm(2), new PartFenceDummyArm(3), new PartFenceDummyArm(4), new PartFenceDummyArm(5) };
     }
 }
+

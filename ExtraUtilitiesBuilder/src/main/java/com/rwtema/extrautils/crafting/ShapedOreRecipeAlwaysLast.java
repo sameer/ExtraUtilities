@@ -23,3 +23,4 @@ public class ShapedOreRecipeAlwaysLast extends ShapedOreRecipe
         super(result, recipe);
     }
 }
+

@@ -85,3 +85,4 @@ public class PacketTempChat extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

@@ -67,3 +67,4 @@ public class MagnumTorchPart extends McMetaPart implements IRandomDisplayTick, I
         return 1024.0f;
     }
 }
+

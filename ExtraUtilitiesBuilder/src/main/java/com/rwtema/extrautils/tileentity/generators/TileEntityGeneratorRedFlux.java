@@ -110,3 +110,4 @@ public class TileEntityGeneratorRedFlux extends TileEntityGeneratorFurnace imple
         nbt.setInteger("curLevel", this.curLevel);
     }
 }
+

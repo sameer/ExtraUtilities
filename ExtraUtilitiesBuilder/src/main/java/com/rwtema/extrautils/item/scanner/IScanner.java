@@ -16,3 +16,4 @@ public interface IScanner
     
     int getPriority();
 }
+

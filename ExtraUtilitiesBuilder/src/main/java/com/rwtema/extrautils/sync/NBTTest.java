@@ -11,3 +11,4 @@ public class NBTTest
     @Sync
     public float hat;
 }
+

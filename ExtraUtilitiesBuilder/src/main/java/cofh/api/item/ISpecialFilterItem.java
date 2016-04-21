@@ -10,3 +10,4 @@ public interface ISpecialFilterItem
 {
     boolean matchesItem(final ItemStack p0, final ItemStack p1);
 }
+

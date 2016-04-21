@@ -60,3 +60,4 @@ public class TileEntityGeneratorTNT extends TileEntityGeneratorFurnace
         TileEntityGeneratorTNT.rand = XURandom.getInstance();
     }
 }
+

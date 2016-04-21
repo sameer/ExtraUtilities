@@ -114,3 +114,4 @@ public class PacketTempChatMultiline extends XUPacketBase
         };
     }
 }
+

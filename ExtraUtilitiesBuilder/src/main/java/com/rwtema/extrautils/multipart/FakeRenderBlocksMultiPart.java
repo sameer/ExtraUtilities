@@ -66,3 +66,4 @@ public class FakeRenderBlocksMultiPart extends FakeRenderBlocks
         return super.matchBlock(side2, x2, y2, z2);
     }
 }
+

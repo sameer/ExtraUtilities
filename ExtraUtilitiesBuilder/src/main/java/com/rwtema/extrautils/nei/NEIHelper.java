@@ -15,3 +15,4 @@ public class NEIHelper
         return gui.getClass() == GuiCrafting.class || (RecipeInfo.hasOverlayHandler(gui, "crafting") && RecipeInfo.getOverlayHandler(gui, "crafting").getClass() == DefaultOverlayHandler.class);
     }
 }
+

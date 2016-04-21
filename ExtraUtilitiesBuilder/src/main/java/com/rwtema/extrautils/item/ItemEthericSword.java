@@ -124,3 +124,4 @@ public class ItemEthericSword extends ItemSword implements IItemMultiTransparenc
         return multimap;
     }
 }
+

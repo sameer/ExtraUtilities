@@ -110,3 +110,4 @@ public class Texture
     private void log(final String s, final int id) {
     }
 }
+

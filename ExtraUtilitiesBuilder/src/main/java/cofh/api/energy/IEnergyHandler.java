@@ -16,3 +16,4 @@ public interface IEnergyHandler extends IEnergyProvider, IEnergyReceiver
     
     int getMaxEnergyStored(final ForgeDirection p0);
 }
+

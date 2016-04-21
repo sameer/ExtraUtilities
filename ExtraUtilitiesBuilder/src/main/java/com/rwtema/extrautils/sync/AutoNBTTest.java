@@ -19,3 +19,4 @@ public class AutoNBTTest extends AutoNBT
     public void readFromNBT(final NBTTagCompound tag, final Object instance) {
     }
 }
+

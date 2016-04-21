@@ -54,3 +54,4 @@ public enum Particles
         world.spawnParticle(this.id, x, y, z, (double)r, (double)g, (double)b);
     }
 }
+

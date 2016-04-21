@@ -159,3 +159,4 @@ public class CommandTPSTimer extends CommandBase
         CommandTPSTimer.displayString = "";
     }
 }
+

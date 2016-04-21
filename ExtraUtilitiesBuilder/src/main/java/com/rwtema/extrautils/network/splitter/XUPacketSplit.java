@@ -23,3 +23,4 @@ public class XUPacketSplit
         this.total = total;
     }
 }
+

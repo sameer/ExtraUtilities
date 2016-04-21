@@ -7,3 +7,4 @@ package com.rwtema.extrautils.multipart.microblock;
 public interface IFence
 {
 }
+

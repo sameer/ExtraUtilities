@@ -31,3 +31,4 @@ public class CommandUUID extends CommandBase
         var1.addChatMessage((IChatComponent)new ChatComponentText("Username: " + Minecraft.getMinecraft().getSession().func_148256_e().getName() + " UUID: " + Minecraft.getMinecraft().getSession().func_148256_e().getId()));
     }
 }
+

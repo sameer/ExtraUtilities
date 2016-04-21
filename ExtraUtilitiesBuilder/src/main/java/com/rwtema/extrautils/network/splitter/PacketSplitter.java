@@ -43,3 +43,4 @@ public class PacketSplitter
         PacketSplitter.curSendingIndex = XUHelper.rand.nextInt();
     }
 }
+

@@ -48,3 +48,4 @@ public class WidgetSlotGhost extends WidgetSlot
         }
     }
 }
+

@@ -42,3 +42,4 @@ public class CreativeTabMicroBlocks extends CreativeTabs
         CreativeTabMicroBlocks.rand = XURandom.getInstance();
     }
 }
+

@@ -67,3 +67,4 @@ public class BlockRetrievalNode extends BlockTransferNode
         return new TileEntityRetrievalNodeInventory();
     }
 }
+

@@ -7,3 +7,4 @@ package com.rwtema.extrautils.network;
 public class SidedPackets
 {
 }
+

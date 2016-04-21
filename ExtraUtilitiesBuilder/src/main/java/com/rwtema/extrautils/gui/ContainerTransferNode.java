@@ -91,7 +91,7 @@ public class ContainerTransferNode extends Container
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
         ItemStack itemstack = null;
-        final Slot slot = this.inventorySlots.get(par2);
+        final Slot slot = (Slot) this.inventorySlots.get(par2);
         int start = 0;
         int end = this.node.upgrades.getSizeInventory();
         if (this.node instanceof TileEntityTransferNodeInventory) {
@@ -243,3 +243,4 @@ public class ContainerTransferNode extends Container
         return InventoryTweaksHelper.getSlots(this, false);
     }
 }
+

@@ -26,3 +26,4 @@ public class ItemBlockTransferPipeMultiPart extends ItemBlockMultiPart
         return (TMultiPart)new PipePart(this.pipePage * 16 + this.getMetadata(item.getItemDamage()));
     }
 }
+

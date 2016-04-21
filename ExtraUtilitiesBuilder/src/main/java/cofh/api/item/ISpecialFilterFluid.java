@@ -11,3 +11,4 @@ public interface ISpecialFilterFluid
 {
     boolean matchesFluid(final ItemStack p0, final FluidStack p1);
 }
+

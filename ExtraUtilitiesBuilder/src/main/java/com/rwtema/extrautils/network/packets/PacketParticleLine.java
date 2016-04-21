@@ -70,3 +70,4 @@ public class PacketParticleLine extends XUPacketBase
         return properSenderSide.isServer();
     }
 }
+

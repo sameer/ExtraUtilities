@@ -85,3 +85,4 @@ public class PacketVillager extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

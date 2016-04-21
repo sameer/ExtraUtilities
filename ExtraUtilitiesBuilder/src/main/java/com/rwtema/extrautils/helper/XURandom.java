@@ -75,3 +75,4 @@ public class XURandom extends Random
         INSTANCE = new XURandom();
     }
 }
+

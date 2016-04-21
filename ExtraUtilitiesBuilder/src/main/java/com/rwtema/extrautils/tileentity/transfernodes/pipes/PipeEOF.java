@@ -32,3 +32,4 @@ public class PipeEOF extends PipeBase
         return BlockTransferPipe.pipes_oneway;
     }
 }
+

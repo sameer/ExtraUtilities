@@ -165,3 +165,4 @@ public class BlockMiniChest extends BlockMultiBlock
         return this.icon_side;
     }
 }
+

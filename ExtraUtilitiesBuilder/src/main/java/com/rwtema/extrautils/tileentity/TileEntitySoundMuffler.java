@@ -14,3 +14,4 @@ public class TileEntitySoundMuffler extends TileEntity
         return false;
     }
 }
+

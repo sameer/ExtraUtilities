@@ -124,3 +124,4 @@ public class LiquidColorRegistry implements IResourceManagerReloadListener
         LiquidColorRegistry.m = new HashMap<IIcon, Integer>();
     }
 }
+

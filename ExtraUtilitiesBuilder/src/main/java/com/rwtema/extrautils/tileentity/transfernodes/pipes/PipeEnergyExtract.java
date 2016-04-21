@@ -36,3 +36,4 @@ public class PipeEnergyExtract extends PipeEnergy
         return BlockTransferPipe.pipes_nozzle_energy_extract;
     }
 }
+

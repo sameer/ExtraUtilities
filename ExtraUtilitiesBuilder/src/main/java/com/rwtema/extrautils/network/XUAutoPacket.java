@@ -85,3 +85,4 @@ public abstract class XUAutoPacket extends XUPacketBase
     public void readData(final EntityPlayer player, final ByteBuf data) {
     }
 }
+

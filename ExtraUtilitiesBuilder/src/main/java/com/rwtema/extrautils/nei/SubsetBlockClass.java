@@ -20,3 +20,4 @@ public class SubsetBlockClass implements ItemFilter
         return this.base.equals(Block.getBlockFromItem(item.getItem()).getClass());
     }
 }
+

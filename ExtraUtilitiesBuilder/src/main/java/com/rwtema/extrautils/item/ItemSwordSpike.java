@@ -142,3 +142,4 @@ public class ItemSwordSpike extends ItemSword
         mat = ReflectionHelper.findField((Class)ItemSword.class, new String[] { "field_150933_b" });
     }
 }
+

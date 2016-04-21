@@ -15,3 +15,4 @@ public interface IEmpowerableItem
     
     void onStateChange(final EntityPlayer p0, final ItemStack p1);
 }
+

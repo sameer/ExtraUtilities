@@ -82,3 +82,4 @@ public class RecipeUnstableNuggetCrafting extends RecipeUnstableIngotCrafting
         return null;
     }
 }
+

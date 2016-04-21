@@ -209,3 +209,4 @@ public class RecipeEnchantCrafting extends ShapedOreRecipe implements IRecipe
         return this.input;
     }
 }
+

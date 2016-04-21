@@ -203,3 +203,4 @@ public class BlockPeacefulTable extends BlockMultiBlock
         return this.getWorldModel(null, 0, 0, 0);
     }
 }
+

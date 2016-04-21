@@ -25,3 +25,4 @@ public class Config
         Config.configs = new HashSet<Config>();
     }
 }
+

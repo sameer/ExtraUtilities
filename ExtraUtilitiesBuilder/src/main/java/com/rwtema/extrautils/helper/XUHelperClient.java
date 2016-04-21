@@ -39,3 +39,4 @@ public class XUHelperClient
         return String.format(Locale.ENGLISH, "%,d", n);
     }
 }
+

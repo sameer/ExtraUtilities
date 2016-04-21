@@ -114,3 +114,4 @@ public class WidgetEnergy implements IWidget
         return null;
     }
 }
+

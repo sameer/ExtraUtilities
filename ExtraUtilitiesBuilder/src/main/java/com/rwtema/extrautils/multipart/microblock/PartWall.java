@@ -140,3 +140,4 @@ public class PartWall extends PartConnecting implements IWall
         renderCuboids2 = new Cuboid6[] { null, null, new Cuboid6(0.3125, 0.0, 0.0, 0.6875, 0.8125, 0.5), new Cuboid6(0.3125, 0.0, 0.5, 0.6875, 0.8125, 1.0), new Cuboid6(0.0, 0.0, 0.3125, 0.5, 0.8125, 0.6875), new Cuboid6(0.5, 0.0, 0.3125, 1.0, 0.8125, 0.6875) };
     }
 }
+

@@ -38,3 +38,4 @@ public class BlockCardboardWalls extends BlockMultiBlock
         return box;
     }
 }
+

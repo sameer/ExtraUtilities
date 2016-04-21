@@ -58,3 +58,4 @@ public class RegisterPipeParts implements MultiPartRegistry.IPartFactory, MultiP
         return (TMultiPart)new FilterPipePart();
     }
 }
+

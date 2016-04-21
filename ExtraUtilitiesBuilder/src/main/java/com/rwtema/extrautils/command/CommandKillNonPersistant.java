@@ -24,3 +24,4 @@ public class CommandKillNonPersistant extends CommandKillEntities
         }
     }
 }
+

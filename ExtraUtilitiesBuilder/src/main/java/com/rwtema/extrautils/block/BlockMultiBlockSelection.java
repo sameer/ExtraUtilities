@@ -48,3 +48,4 @@ public abstract class BlockMultiBlockSelection extends BlockMultiBlock
         }
     }
 }
+

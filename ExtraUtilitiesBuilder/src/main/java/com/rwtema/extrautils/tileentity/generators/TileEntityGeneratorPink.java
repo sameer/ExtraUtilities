@@ -219,3 +219,4 @@ public class TileEntityGeneratorPink extends TileEntityGeneratorFurnace
         return 0.0;
     }
 }
+

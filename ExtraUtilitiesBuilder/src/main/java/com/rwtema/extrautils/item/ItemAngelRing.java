@@ -167,3 +167,4 @@ public class ItemAngelRing extends Item implements IBauble
         }
     }
 }
+

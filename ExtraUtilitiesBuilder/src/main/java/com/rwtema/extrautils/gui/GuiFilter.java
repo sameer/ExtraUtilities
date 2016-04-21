@@ -100,3 +100,4 @@ public class GuiFilter extends GuiContainer
         texture = new ResourceLocation("extrautils", "textures/guiFilter.png");
     }
 }
+

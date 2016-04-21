@@ -226,3 +226,4 @@ public class ItemBuildersWand extends Item implements IItemMultiTransparency
         return 1.0f;
     }
 }
+

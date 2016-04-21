@@ -20,3 +20,4 @@ public class BlockAngelBlock extends Block
         this.setStepSound(Block.soundTypeStone);
     }
 }
+

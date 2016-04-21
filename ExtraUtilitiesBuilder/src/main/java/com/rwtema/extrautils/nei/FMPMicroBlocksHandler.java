@@ -334,3 +334,4 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
         }
     }
 }
+

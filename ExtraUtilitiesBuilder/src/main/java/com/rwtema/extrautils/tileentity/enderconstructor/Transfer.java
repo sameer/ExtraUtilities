@@ -15,3 +15,4 @@ public enum Transfer
         this.simulate = simulate;
     }
 }
+

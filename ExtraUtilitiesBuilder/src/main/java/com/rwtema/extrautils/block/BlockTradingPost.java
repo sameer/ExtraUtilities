@@ -70,3 +70,4 @@ public class BlockTradingPost extends BlockContainer
         return new TileEntityTradingPost();
     }
 }
+

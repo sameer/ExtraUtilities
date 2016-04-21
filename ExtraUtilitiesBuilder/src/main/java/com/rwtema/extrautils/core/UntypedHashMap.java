@@ -9,3 +9,4 @@ import java.util.HashMap;
 public class UntypedHashMap extends HashMap<Object, Object>
 {
 }
+

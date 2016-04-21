@@ -10,3 +10,4 @@ public interface IWidgetInput
     
     void keyTyped(final char p0, final int p1);
 }
+

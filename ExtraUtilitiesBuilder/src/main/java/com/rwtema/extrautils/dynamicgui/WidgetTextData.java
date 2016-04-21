@@ -156,3 +156,4 @@ public abstract class WidgetTextData extends WidgetText implements IWidget
         GL11.glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
     }
 }
+

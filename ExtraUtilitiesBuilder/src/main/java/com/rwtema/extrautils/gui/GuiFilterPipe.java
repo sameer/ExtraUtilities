@@ -32,3 +32,4 @@ public class GuiFilterPipe extends GuiContainer
         texture = new ResourceLocation("extrautils", "textures/guiSortingPipe.png");
     }
 }
+

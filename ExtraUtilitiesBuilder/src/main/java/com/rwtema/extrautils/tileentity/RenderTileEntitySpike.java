@@ -119,3 +119,4 @@ public class RenderTileEntitySpike extends TileEntitySpecialRenderer
         RenderTileEntitySpike.base4Coords = new double[][] { { 1.0, 0.0, 0.0 }, { 1.0, 1.0, 0.0 }, { 1.0, 0.0, 0.0 }, { 1.0, 0.0, 1.0 }, { 0.0, 1.0, 0.0 }, { 1.0, 1.0, 0.0 } };
     }
 }
+

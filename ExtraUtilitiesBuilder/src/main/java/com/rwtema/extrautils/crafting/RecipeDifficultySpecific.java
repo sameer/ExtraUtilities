@@ -117,3 +117,4 @@ public class RecipeDifficultySpecific extends ShapedRecipes
         RecipeDifficultySpecific.isRemote = false;
     }
 }
+

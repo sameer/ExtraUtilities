@@ -54,3 +54,4 @@ public class PacketCodec extends FMLIndexedMessageToMessageCodec<XUPacketBase>
         PacketCodec.classes = new HashMap<String, Class<? extends XUPacketBase>>();
     }
 }
+

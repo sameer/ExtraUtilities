@@ -72,3 +72,4 @@ public class IconMultiIcon implements IIcon
         return this.icon.getIconName();
     }
 }
+

@@ -528,3 +528,4 @@ public class WorldGenCastle extends WorldGenerator
         }
     }
 }
+

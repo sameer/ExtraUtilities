@@ -176,3 +176,4 @@ public class LawSwordCraftHandler
         return new Random(hash).nextBoolean();
     }
 }
+

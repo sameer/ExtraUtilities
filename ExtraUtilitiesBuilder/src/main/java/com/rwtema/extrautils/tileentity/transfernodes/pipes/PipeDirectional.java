@@ -41,3 +41,4 @@ public class PipeDirectional extends PipeBase
         return (dir == this.outDir) ? BlockTransferPipe.pipes : BlockTransferPipe.pipes_oneway;
     }
 }
+

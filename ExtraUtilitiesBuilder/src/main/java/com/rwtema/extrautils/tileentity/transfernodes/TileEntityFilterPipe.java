@@ -109,3 +109,4 @@ public class TileEntityFilterPipe extends TileEntity implements IFilterPipe, IPi
         return ((IPipeCosmetic)StdPipes.getPipeType(9)).baseSize();
     }
 }
+

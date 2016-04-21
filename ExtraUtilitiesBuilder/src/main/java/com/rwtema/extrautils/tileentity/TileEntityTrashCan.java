@@ -147,3 +147,4 @@ public class TileEntityTrashCan extends TileEntity implements IInventory
         TileEntityTrashCan.instantAdd = false;
     }
 }
+

@@ -41,3 +41,4 @@ public class ItemBaubleAngelRing extends ItemAngelRing implements IBauble
         return false;
     }
 }
+

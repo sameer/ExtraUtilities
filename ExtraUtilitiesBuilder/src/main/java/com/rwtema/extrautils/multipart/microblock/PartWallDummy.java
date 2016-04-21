@@ -23,3 +23,4 @@ public class PartWallDummy extends PartFenceDummyArm
         dummyArms = new PartWallDummy[] { null, null, new PartWallDummy(2), new PartWallDummy(3), new PartWallDummy(4), new PartWallDummy(5) };
     }
 }
+

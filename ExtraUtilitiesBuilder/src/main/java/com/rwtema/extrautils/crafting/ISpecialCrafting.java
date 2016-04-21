@@ -12,3 +12,4 @@ public interface ISpecialCrafting
     
     Object[] getEE3Inputs();
 }
+

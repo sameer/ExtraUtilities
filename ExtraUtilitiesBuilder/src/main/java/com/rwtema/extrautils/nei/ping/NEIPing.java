@@ -68,3 +68,4 @@ public class NEIPing implements IContainerInputHandler
     public void onMouseDragged(final GuiContainer guiContainer, final int i, final int i1, final int i2, final long l) {
     }
 }
+

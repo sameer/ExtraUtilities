@@ -94,3 +94,4 @@ public class WidgetText implements IWidget
         return null;
     }
 }
+

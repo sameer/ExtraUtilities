@@ -10,3 +10,4 @@ public final class NonInstance
         throw new IllegalStateException("NonInstance must never be initiated");
     }
 }
+

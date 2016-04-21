@@ -440,3 +440,4 @@ public class EventHandlerServer
         EventHandlerServer.magnumTorchRegistry = new ArrayList<int[]>();
     }
 }
+

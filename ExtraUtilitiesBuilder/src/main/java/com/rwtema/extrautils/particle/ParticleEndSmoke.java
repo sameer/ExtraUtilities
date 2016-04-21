@@ -47,3 +47,4 @@ public class ParticleEndSmoke extends EntityReddustFX
         return f1 * (1.0f - f2) + f2;
     }
 }
+

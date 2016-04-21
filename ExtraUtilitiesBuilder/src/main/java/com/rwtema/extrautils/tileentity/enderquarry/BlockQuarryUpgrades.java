@@ -104,3 +104,4 @@ public class BlockQuarryUpgrades extends BlockMultiBlockSelection implements IBl
         par3List.add(Translate.get("power.drain", format));
     }
 }
+

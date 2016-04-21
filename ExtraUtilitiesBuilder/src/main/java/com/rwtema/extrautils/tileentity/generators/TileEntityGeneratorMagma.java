@@ -95,3 +95,4 @@ public class TileEntityGeneratorMagma extends TileEntityGenerator implements IFl
         return super.getTankInfo(from);
     }
 }
+

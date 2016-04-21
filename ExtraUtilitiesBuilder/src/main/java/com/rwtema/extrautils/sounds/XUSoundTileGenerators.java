@@ -221,3 +221,4 @@ public class XUSoundTileGenerators implements ITickableSound
         XUSoundTileGenerators.instance = null;
     }
 }
+

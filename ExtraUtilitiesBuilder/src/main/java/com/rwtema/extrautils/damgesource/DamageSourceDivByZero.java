@@ -19,3 +19,4 @@ public class DamageSourceDivByZero extends DamageSource
         DamageSourceDivByZero.divbyzero = new DamageSourceDivByZero();
     }
 }
+

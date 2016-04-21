@@ -105,3 +105,4 @@ public class PacketVillagerReturn extends XUPacketBase
         return properSenderSide == Side.CLIENT;
     }
 }
+

@@ -44,3 +44,4 @@ public class RecipeSoul implements IRecipe
         return new ItemStack((Item)ExtraUtils.soul);
     }
 }
+

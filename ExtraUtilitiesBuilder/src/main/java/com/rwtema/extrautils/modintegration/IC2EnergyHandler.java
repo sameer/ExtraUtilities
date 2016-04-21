@@ -50,3 +50,4 @@ public class IC2EnergyHandler
         this.ic2EnergySink.invalidate();
     }
 }
+

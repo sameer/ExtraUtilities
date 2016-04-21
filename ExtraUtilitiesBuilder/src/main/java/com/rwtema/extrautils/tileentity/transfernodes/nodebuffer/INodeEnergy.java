@@ -10,3 +10,4 @@ public interface INodeEnergy
 {
     TileEntityTransferNodeEnergy getNode();
 }
+

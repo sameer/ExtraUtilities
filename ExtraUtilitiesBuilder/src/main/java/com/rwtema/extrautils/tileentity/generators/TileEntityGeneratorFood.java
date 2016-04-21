@@ -87,3 +87,4 @@ public class TileEntityGeneratorFood extends TileEntityGeneratorFurnace
         nbt.setDouble("curLevel", this.curLevel);
     }
 }
+

@@ -52,3 +52,4 @@ public class InvCrafting extends InventoryCrafting
         }
     }
 }
+

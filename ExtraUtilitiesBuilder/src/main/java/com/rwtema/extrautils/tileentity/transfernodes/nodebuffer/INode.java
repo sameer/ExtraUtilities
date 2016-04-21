@@ -45,3 +45,4 @@ public interface INode extends IPipe
     
     boolean recalcRedstone();
 }
+

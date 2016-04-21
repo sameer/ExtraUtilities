@@ -43,3 +43,4 @@ public class RegisterMicroBlocks implements MultiPartRegistry.IPartFactory
         register(new PartSphere());
     }
 }
+

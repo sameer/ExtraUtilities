@@ -70,3 +70,4 @@ public class ItemDestructionPickaxe extends ItemPickaxe implements IItemMultiTra
         return 1.0f;
     }
 }
+

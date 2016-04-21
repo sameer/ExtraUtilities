@@ -13,3 +13,4 @@ public interface IAugmentItem
     
     Set<String> getAugmentTypes(final ItemStack p0);
 }
+

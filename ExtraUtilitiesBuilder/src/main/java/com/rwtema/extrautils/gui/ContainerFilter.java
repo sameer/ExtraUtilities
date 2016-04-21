@@ -111,7 +111,7 @@ public class ContainerFilter extends Container
     }
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
-        final Slot slot = this.inventorySlots.get(par2);
+        final Slot slot = (Slot) this.inventorySlots.get(par2);
         if (slot != null && slot.getHasStack()) {
             if (slot instanceof SlotGhostItemContainer) {
                 this.slotClick(slot.slotNumber, 0, 0, par1EntityPlayer);
@@ -140,3 +140,4 @@ public class ContainerFilter extends Container
         return InventoryTweaksHelper.getSlots(this, true);
     }
 }
+

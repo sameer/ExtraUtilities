@@ -149,3 +149,4 @@ public class BlockTrashCan extends BlockMultiBlock implements ITileEntityProvide
         return this.getUnlocalizedName() + "." + par1ItemStack.getItemDamage();
     }
 }
+

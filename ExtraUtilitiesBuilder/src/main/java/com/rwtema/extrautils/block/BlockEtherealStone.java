@@ -150,3 +150,4 @@ public class BlockEtherealStone extends Block
         return !this.polarity[par1IBlockAccess.getBlockMetadata(par2, par3, par4) % 6];
     }
 }
+

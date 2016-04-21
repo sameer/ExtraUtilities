@@ -21,3 +21,4 @@ public class WidgetTextTranslate extends WidgetText
         return StatCollector.translateToLocal(this.msg);
     }
 }
+

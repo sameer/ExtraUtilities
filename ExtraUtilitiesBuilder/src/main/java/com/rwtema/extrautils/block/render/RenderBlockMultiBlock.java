@@ -200,3 +200,4 @@ public class RenderBlockMultiBlock implements ISimpleBlockRenderingHandler
         RenderBlockMultiBlock.rendering = true;
     }
 }
+

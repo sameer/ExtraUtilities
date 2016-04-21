@@ -23,3 +23,4 @@ public class ItemBlockGenerator extends ItemBlockMetadata
         return super.getUnlocalizedName(par1ItemStack);
     }
 }
+

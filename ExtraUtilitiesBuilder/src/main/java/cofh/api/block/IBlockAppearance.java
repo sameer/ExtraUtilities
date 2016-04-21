@@ -16,3 +16,4 @@ public interface IBlockAppearance
     
     boolean supportsVisualConnections();
 }
+

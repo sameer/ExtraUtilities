@@ -219,3 +219,4 @@ public class FMPMicroBlockRecipeCreator extends InventoryCrafting
         FMPMicroBlockRecipeCreator.craft = new FMPMicroBlockRecipeCreator();
     }
 }
+

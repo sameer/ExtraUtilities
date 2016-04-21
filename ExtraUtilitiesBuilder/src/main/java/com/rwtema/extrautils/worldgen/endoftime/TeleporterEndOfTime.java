@@ -173,3 +173,4 @@ public class TeleporterEndOfTime extends TeleporterBase
         lastVillagerTrades = new LinkedList<MerchantRecipe>();
     }
 }
+

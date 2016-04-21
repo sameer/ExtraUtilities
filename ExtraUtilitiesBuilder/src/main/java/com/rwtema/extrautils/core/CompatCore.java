@@ -13,3 +13,4 @@ public class CompatCore
     private static void init_do() {
     }
 }
+

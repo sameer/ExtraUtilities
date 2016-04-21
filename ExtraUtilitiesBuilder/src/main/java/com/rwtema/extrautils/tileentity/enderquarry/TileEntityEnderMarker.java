@@ -129,3 +129,4 @@ public class TileEntityEnderMarker extends TileEntity implements IChunkLoad
         TileEntityEnderMarker.markers = new ArrayList<int[]>();
     }
 }
+

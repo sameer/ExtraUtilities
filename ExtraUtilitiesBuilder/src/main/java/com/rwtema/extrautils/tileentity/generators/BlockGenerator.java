@@ -386,3 +386,4 @@ public class BlockGenerator extends BlockMultiBlock implements IMultiBoxBlock, I
         BlockGenerator.random = XURandom.getInstance();
     }
 }
+

@@ -154,3 +154,4 @@ public class TileEntityGeneratorFurnace extends TileEntityGenerator implements I
         return true;
     }
 }
+

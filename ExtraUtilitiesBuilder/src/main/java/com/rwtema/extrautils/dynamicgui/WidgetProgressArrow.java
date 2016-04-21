@@ -65,3 +65,4 @@ public abstract class WidgetProgressArrow extends WidgetBase implements IWidget
         return null;
     }
 }
+

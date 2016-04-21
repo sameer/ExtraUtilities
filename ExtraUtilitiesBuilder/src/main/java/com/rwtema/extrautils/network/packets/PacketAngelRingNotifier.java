@@ -57,3 +57,4 @@ public class PacketAngelRingNotifier extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

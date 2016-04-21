@@ -7,3 +7,4 @@ package com.rwtema.extrautils;
 public class CraftingHandler
 {
 }
+

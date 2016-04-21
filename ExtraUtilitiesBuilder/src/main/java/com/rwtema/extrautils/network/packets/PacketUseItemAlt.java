@@ -108,3 +108,4 @@ public class PacketUseItemAlt extends XUPacketBase
         altPlace = new ThreadLocal<Boolean>();
     }
 }
+

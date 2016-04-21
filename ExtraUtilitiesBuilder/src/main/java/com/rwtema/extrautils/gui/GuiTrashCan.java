@@ -37,3 +37,4 @@ public class GuiTrashCan extends GuiContainer
         texture = new ResourceLocation("extrautils", "textures/guiTrashCan.png");
     }
 }
+

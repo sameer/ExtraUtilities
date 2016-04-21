@@ -26,3 +26,4 @@ public class HashMapInit<K, V> extends HashMap<K, V>
         return v;
     }
 }
+

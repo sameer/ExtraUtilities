@@ -313,3 +313,4 @@ public class RenderBlockDrum implements ISimpleBlockRenderingHandler
         RenderBlockDrum.base_w = 0.425f;
     }
 }
+

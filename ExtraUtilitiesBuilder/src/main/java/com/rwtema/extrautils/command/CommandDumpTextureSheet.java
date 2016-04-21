@@ -70,3 +70,4 @@ public class CommandDumpTextureSheet extends CommandBase
         }
     }
 }
+

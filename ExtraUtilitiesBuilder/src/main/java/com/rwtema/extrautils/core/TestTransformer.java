@@ -22,3 +22,4 @@ public class TestTransformer
         FMLCommonHandler.instance().exitJava(0, true);
     }
 }
+

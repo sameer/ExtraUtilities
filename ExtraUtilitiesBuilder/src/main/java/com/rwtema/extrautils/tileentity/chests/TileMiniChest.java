@@ -96,3 +96,4 @@ public class TileMiniChest extends TileEntity implements IInventory, IDynamicCon
         XUHelper.readInventoryBasicFromNBT(tag, this.inv);
     }
 }
+

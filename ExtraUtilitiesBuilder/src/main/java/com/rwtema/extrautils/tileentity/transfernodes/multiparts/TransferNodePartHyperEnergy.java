@@ -23,3 +23,4 @@ public class TransferNodePartHyperEnergy extends TransferNodePartEnergy
         return "extrautils:transfer_node_energy_hyper";
     }
 }
+

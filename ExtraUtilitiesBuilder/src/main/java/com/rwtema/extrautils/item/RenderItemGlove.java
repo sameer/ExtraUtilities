@@ -143,3 +143,4 @@ public class RenderItemGlove implements IItemRenderer
         glove2 = new ResourceLocation("extrautils", "textures/glove1.png");
     }
 }
+

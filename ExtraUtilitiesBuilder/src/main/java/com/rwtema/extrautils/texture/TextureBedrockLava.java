@@ -49,3 +49,4 @@ public class TextureBedrockLava extends TextureDerived
         return MathHelper.clamp_int((int)v, 0, 255);
     }
 }
+

@@ -65,3 +65,4 @@ public class TileEntityTransferNodeUpgradeInventory extends InventoryBasic
         super.markDirty();
     }
 }
+

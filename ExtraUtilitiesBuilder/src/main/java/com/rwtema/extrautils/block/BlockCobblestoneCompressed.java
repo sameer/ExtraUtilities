@@ -172,3 +172,4 @@ public class BlockCobblestoneCompressed extends Block implements IBlockTooltip, 
         return (int)(getBlock(metadata).getBlockHardness(world, x, y, z) * Math.pow(2.5, 1 + getCompr(metadata)));
     }
 }
+

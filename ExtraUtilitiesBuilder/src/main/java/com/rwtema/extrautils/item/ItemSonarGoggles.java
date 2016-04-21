@@ -69,3 +69,4 @@ public class ItemSonarGoggles extends ItemArmor
         texture = new ResourceLocation("extrautils", "textures/goggle_overlay.png");
     }
 }
+

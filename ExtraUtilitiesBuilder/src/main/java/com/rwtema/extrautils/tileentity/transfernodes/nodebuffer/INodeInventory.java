@@ -10,3 +10,4 @@ public interface INodeInventory
 {
     TileEntityTransferNodeInventory getNode();
 }
+

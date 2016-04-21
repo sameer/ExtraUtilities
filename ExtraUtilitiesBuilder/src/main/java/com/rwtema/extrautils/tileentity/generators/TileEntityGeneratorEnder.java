@@ -56,3 +56,4 @@ public class TileEntityGeneratorEnder extends TileEntityGeneratorFurnace
         return 0.0;
     }
 }
+

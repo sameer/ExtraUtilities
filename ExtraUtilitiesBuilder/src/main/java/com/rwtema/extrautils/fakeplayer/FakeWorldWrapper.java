@@ -876,3 +876,4 @@ public class FakeWorldWrapper extends FakeWorld
         return this.world.countEntities(type, forSpawnCount);
     }
 }
+

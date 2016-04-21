@@ -26,3 +26,4 @@ public class TileEntityTrashCanEnergy extends TileEntity implements IEnergyRecei
         return true;
     }
 }
+

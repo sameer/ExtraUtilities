@@ -101,3 +101,4 @@ public class TileEntityTradingPost extends TileEntity
         TileEntityTradingPost.maxRange = 32;
     }
 }
+

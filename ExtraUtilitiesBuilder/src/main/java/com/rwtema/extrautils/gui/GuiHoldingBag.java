@@ -48,3 +48,4 @@ public class GuiHoldingBag extends GuiContainer
         texture = new ResourceLocation("textures/gui/container/generic_54.png");
     }
 }
+

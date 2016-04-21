@@ -123,3 +123,4 @@ public class RenderBlockColor implements ISimpleBlockRenderingHandler
         return ExtraUtilsProxy.colorBlockID;
     }
 }
+

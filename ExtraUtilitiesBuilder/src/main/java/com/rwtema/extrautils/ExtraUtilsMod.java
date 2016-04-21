@@ -58,3 +58,4 @@ public class ExtraUtilsMod
         ExtraUtilsMod.extraUtils.loadComplete(event);
     }
 }
+

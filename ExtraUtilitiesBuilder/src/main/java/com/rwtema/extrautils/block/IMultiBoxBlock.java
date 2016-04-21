@@ -14,3 +14,4 @@ public interface IMultiBoxBlock
     
     BoxModel getInventoryModel(final int p0);
 }
+

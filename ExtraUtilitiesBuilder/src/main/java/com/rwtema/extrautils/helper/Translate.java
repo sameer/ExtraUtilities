@@ -18,3 +18,4 @@ public class Translate
         return chatComponentTranslation.getUnformattedTextForChat();
     }
 }
+

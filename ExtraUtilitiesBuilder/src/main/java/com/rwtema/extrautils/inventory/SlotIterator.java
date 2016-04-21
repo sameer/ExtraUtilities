@@ -46,3 +46,4 @@ public class SlotIterator implements Iterator<Integer>, Iterable<Integer>
         return this;
     }
 }
+

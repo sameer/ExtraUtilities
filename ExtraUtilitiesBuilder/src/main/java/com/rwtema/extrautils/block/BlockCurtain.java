@@ -76,3 +76,4 @@ public class BlockCurtain extends BlockMultiBlock
         return this.getSelectedBoundingBoxFromPool(par1World, par2, par3, par4);
     }
 }
+

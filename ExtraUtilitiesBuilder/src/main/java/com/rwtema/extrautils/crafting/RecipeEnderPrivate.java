@@ -7,3 +7,4 @@ package com.rwtema.extrautils.crafting;
 public class RecipeEnderPrivate
 {
 }
+

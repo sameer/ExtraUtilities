@@ -107,3 +107,4 @@ public class TeleporterUnderdark extends Teleporter
     public void removeStalePortalLocations(final long par1) {
     }
 }
+

@@ -51,3 +51,4 @@ public class ItemBlockMetadata extends ItemBlockTooltip
         return super.getUnlocalizedName() + "." + par1ItemStack.getItemDamage();
     }
 }
+

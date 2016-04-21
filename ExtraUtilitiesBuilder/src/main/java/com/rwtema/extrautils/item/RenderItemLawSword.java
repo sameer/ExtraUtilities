@@ -145,3 +145,4 @@ public class RenderItemLawSword implements IItemRenderer
         temaBlade = new ResourceLocation("extrautils", "textures/rwtemaBlade.png");
     }
 }
+

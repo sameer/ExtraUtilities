@@ -43,3 +43,4 @@ public class ItemBlockQED extends ItemBlockMetadata
         ItemBlockQED.curRand = -1;
     }
 }
+

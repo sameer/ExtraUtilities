@@ -12,3 +12,4 @@ public interface IBlockTooltip
 {
     void addInformation(final ItemStack p0, final EntityPlayer p1, final List p2, final boolean p3);
 }
+

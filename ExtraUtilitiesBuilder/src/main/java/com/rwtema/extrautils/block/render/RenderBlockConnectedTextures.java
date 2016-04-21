@@ -109,3 +109,4 @@ public class RenderBlockConnectedTextures implements ISimpleBlockRenderingHandle
         RenderBlockConnectedTextures.fakeRender = new FakeRenderBlocks();
     }
 }
+

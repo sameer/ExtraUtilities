@@ -73,3 +73,4 @@ public class ContainerTrashCan extends Container
         return InventoryTweaksHelper.getSlots(this, true);
     }
 }
+

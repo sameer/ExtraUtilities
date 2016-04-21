@@ -58,3 +58,4 @@ public class PacketRain extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

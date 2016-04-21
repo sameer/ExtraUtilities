@@ -494,3 +494,4 @@ public class EventHandlerSiege
         EventHandlerSiege.rand = XURandom.getInstance();
     }
 }
+

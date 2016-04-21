@@ -102,3 +102,4 @@ public class ContainerHoldingBag extends Container
         return filter != null && filter.getItem() == ExtraUtils.goldenBag;
     }
 }
+

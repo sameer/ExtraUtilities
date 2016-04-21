@@ -39,3 +39,4 @@ public class RecipeGlove extends ShapedOreRecipe
         return craftingResult;
     }
 }
+

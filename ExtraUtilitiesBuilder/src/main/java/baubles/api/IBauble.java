@@ -21,3 +21,4 @@ public interface IBauble
     
     boolean canUnequip(final ItemStack p0, final EntityLivingBase p1);
 }
+

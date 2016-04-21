@@ -23,3 +23,4 @@ public class SlotDisabled extends Slot
         return false;
     }
 }
+

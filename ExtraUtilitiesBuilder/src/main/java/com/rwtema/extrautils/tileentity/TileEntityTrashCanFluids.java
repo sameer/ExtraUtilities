@@ -41,3 +41,4 @@ public class TileEntityTrashCanFluids extends TileEntity implements IFluidHandle
         return false;
     }
 }
+

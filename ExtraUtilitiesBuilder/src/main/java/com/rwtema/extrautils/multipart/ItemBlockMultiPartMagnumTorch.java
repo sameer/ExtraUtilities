@@ -22,3 +22,4 @@ public class ItemBlockMultiPartMagnumTorch extends ItemBlockMultiPart
         return (TMultiPart)new MagnumTorchPart();
     }
 }
+

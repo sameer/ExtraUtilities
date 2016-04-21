@@ -171,3 +171,4 @@ public class BlockPortal extends Block implements IBlockLocalization
         ParticleHelperClient.addParticle(new ParticlePortal(world, x + dx, y + 1, z + dz, 1.0f, 1.0f, 1.0f));
     }
 }
+

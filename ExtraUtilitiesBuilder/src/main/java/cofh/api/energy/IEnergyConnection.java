@@ -10,3 +10,4 @@ public interface IEnergyConnection
 {
     boolean canConnectEnergy(final ForgeDirection p0);
 }
+

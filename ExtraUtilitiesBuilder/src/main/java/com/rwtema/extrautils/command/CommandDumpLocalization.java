@@ -74,3 +74,4 @@ public class CommandDumpLocalization extends CommandBase
         }
     }
 }
+

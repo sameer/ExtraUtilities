@@ -52,3 +52,4 @@ public class ParticleLine extends EntityFX
         return 1;
     }
 }
+

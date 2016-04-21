@@ -18,3 +18,4 @@ public class SlotChecksValidity extends Slot
         return this.inventory.isItemValidForSlot(this.slotNumber, itemstack);
     }
 }
+

@@ -42,3 +42,4 @@ public class TileEntityEnchantedSpike extends TileEntity
         return tagCompound;
     }
 }
+

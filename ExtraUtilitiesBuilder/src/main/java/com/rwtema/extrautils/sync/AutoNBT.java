@@ -12,3 +12,4 @@ public abstract class AutoNBT<T>
     
     public abstract void readFromNBT(final NBTTagCompound p0, final T p1);
 }
+

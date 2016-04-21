@@ -77,7 +77,7 @@ public class ContainerFilingCabinet extends Container
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
         ItemStack itemstack = null;
-        final Slot slot = this.inventorySlots.get(par2);
+        final Slot slot = (Slot) this.inventorySlots.get(par2);
         if (slot != null && slot.getHasStack()) {
             final ItemStack itemstack2 = slot.getStack();
             itemstack = itemstack2.copy();
@@ -115,3 +115,4 @@ public class ContainerFilingCabinet extends Container
         ContainerFilingCabinet.updated = false;
     }
 }
+

@@ -50,3 +50,4 @@ public class DarknessTickHandler
         DarknessTickHandler.maxLevel = 20 + DarknessTickHandler.random.nextInt(120);
     }
 }
+

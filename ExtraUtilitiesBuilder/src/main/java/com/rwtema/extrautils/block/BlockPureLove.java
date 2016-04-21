@@ -62,3 +62,4 @@ public class BlockPureLove extends Block
         return MapColor.pinkColor;
     }
 }
+

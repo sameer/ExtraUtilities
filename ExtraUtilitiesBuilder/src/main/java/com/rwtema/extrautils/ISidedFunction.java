@@ -15,3 +15,4 @@ public interface ISidedFunction<F, T>
     @SideOnly(Side.CLIENT)
     T applyClient(final F p0);
 }
+

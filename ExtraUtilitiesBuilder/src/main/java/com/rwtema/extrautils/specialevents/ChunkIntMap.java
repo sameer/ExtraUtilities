@@ -20,3 +20,4 @@ public class ChunkIntMap extends TLongIntHashMap
         return this.get(getKey(a, b));
     }
 }
+

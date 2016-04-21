@@ -65,3 +65,4 @@ public class ItemErosionShovel extends ItemSpade implements IItemMultiTransparen
         return 1.0f;
     }
 }
+

@@ -23,3 +23,4 @@ public abstract class HashMapCalc<K, V> extends HashMap<K, V>
         return this.get(key);
     }
 }
+

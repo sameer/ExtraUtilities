@@ -26,3 +26,4 @@ public class AdvFakePlayer extends FakePlayer
         AdvFakePlayer.playerDefault = null;
     }
 }
+

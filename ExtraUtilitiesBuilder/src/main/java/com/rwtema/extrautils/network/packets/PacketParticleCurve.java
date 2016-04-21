@@ -86,3 +86,4 @@ public class PacketParticleCurve extends XUPacketBase
         return properSenderSide.isServer();
     }
 }
+

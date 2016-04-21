@@ -274,3 +274,4 @@ public class ExtraUtilsClient extends ExtraUtilsProxy
         renderBlockSpike = new RenderBlockSpike();
     }
 }
+

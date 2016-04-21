@@ -108,3 +108,4 @@ public class BlockSoundMuffler extends Block
         return false;
     }
 }
+

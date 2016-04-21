@@ -100,3 +100,4 @@ public class BlockEnderQuarry extends Block
         return this.side[par2];
     }
 }
+

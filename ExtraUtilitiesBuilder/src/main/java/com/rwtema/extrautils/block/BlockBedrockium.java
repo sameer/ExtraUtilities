@@ -59,3 +59,4 @@ public class BlockBedrockium extends BlockCompressed
         }
     }
 }
+

@@ -109,3 +109,4 @@ public class TileEnderPillar extends TileEntity
         TileEnderPillar.rand = XURandom.getInstance();
     }
 }
+

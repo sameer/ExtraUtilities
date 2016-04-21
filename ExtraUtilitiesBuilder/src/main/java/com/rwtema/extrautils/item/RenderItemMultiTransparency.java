@@ -91,3 +91,4 @@ public class RenderItemMultiTransparency implements IItemRenderer
         }
     }
 }
+

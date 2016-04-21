@@ -68,3 +68,4 @@ public class TextureUnstableLava extends TextureDerived
         return image;
     }
 }
+

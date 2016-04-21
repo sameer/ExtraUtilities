@@ -34,3 +34,4 @@ public class MFRIntegration
         MFRIntegration.instance = null;
     }
 }
+

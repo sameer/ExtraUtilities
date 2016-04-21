@@ -46,3 +46,4 @@ public class RenderItemSpikeSword implements IItemRenderer
         GL11.glPopMatrix();
     }
 }
+

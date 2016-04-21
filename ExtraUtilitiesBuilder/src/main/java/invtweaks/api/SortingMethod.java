@@ -12,3 +12,4 @@ public enum SortingMethod
     INVENTORY, 
     EVEN_STACKS;
 }
+

@@ -7,3 +7,4 @@ package com.rwtema.extrautils.tileentity.playerchest;
 public class BlockPlayerChest
 {
 }
+

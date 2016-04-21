@@ -77,3 +77,4 @@ public class RecipeSmasher implements IRecipe
         return new ItemStack(Items.iron_ingot);
     }
 }
+

@@ -356,3 +356,4 @@ public class TileEnderCollector extends TileEntity
         sides = new Vec3[] { Vec3.createVectorHelper(0.0, -1.0, 0.0), Vec3.createVectorHelper(0.0, 1.0, 0.0), Vec3.createVectorHelper(0.0, 0.0, -1.0), Vec3.createVectorHelper(0.0, 0.0, 1.0), Vec3.createVectorHelper(-1.0, 0.0, 0.0), Vec3.createVectorHelper(1.0, 0.0, 0.0) };
     }
 }
+

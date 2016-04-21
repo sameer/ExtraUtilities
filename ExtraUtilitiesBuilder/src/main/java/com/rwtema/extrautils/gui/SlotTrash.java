@@ -34,3 +34,4 @@ public class SlotTrash extends Slot
         this.onSlotChanged();
     }
 }
+

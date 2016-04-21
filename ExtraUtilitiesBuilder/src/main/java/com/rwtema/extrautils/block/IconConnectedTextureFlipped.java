@@ -24,3 +24,4 @@ public class IconConnectedTextureFlipped extends IconConnectedTexture
         return super.getMinV();
     }
 }
+

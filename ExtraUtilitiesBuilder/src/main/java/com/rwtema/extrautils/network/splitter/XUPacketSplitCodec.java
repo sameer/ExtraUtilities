@@ -33,3 +33,4 @@ public class XUPacketSplitCodec extends FMLIndexedMessageToMessageCodec<XUPacket
         msg.data = buffer;
     }
 }
+

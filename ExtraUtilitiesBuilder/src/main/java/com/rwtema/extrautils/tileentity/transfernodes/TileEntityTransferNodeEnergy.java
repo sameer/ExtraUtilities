@@ -377,3 +377,4 @@ public class TileEntityTransferNodeEnergy extends TileEntityTransferNode impleme
         }
     }
 }
+

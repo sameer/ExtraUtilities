@@ -111,3 +111,4 @@ public class ParticleTransferNodes extends EntityFX
         dirs = new int[][] { { -1, -1, -1 }, { -1, -1, 1 }, { 1, -1, -1 }, { 1, -1, 1 }, { -1, 1, -1 }, { -1, 1, 1 }, { 1, 1, -1 }, { 1, 1, 1 } };
     }
 }
+

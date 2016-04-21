@@ -253,3 +253,4 @@ public class TileEntityFilingCabinet extends TileEntity implements IInventory
     public void closeInventory() {
     }
 }
+

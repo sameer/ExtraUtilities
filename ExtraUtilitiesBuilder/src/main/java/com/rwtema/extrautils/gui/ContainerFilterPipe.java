@@ -48,3 +48,4 @@ public class ContainerFilterPipe extends Container
         return InventoryTweaksHelper.getSlots(this, true);
     }
 }
+

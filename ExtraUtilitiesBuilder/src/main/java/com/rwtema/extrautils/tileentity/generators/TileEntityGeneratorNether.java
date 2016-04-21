@@ -79,3 +79,4 @@ public class TileEntityGeneratorNether extends TileEntityGeneratorFurnace
         return 0.0;
     }
 }
+

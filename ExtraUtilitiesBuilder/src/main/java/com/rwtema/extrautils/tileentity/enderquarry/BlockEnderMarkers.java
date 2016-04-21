@@ -97,3 +97,4 @@ public class BlockEnderMarkers extends BlockMultiBlock
         BlockEnderMarkers.dz = new int[] { 1, -1, 0, 0 };
     }
 }
+

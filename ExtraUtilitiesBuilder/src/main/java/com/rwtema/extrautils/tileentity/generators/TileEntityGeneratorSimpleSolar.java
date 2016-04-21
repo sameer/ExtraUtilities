@@ -66,3 +66,4 @@ public class TileEntityGeneratorSimpleSolar extends TileEntityGenerator
         return this.genLevel() > 0.0;
     }
 }
+

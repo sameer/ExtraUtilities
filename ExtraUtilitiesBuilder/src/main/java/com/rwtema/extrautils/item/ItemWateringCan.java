@@ -324,3 +324,4 @@ public class ItemWateringCan extends Item
         ItemWateringCan.rand = XURandom.getInstance();
     }
 }
+

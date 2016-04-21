@@ -198,3 +198,4 @@ public abstract class PartMicroBlock extends JCuboidPart implements JIconHitEffe
         return this.getMaterial().getStrength(player);
     }
 }
+

@@ -41,3 +41,4 @@ public class PipeNonInserting extends PipeBase
         return BlockTransferPipe.pipes_noninserting;
     }
 }
+

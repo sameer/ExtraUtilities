@@ -66,3 +66,4 @@ public class TransferNodePartInventory extends TransferNodePart implements INode
         return "extrautils:transfer_node_inv";
     }
 }
+

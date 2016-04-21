@@ -75,3 +75,4 @@ public class PacketNEIPong extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

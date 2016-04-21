@@ -172,3 +172,4 @@ public abstract class TConTextureResourcePackBase implements IResourcePack, IRes
         TConTextureResourcePackBase.rgb = new DirectColorModel(32, 16711680, 65280, 255, -16777216);
     }
 }
+

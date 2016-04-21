@@ -55,3 +55,4 @@ public class CommandKillEntities extends CommandBase
         }
     }
 }
+

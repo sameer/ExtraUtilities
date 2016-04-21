@@ -111,3 +111,4 @@ public class CIELabColorSpace extends ColorSpace
         }
     }
 }
+

@@ -90,3 +90,4 @@ public class FilterPipePart extends PipePart implements IFilterPipe
         return (IInventory)this.items;
     }
 }
+

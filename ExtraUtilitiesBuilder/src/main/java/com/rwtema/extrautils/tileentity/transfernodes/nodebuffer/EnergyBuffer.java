@@ -92,3 +92,4 @@ public class EnergyBuffer implements INodeBuffer
         this.node.bufferChanged();
     }
 }
+

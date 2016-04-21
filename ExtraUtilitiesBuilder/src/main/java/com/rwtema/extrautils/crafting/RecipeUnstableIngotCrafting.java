@@ -146,3 +146,4 @@ public class RecipeUnstableIngotCrafting extends ShapedRecipes
         return 3;
     }
 }
+

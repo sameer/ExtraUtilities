@@ -83,3 +83,4 @@ public class RenderItemBlockDrum implements IItemRenderer
         GL11.glTranslatef(0.5f, 0.0f, 0.5f);
     }
 }
+

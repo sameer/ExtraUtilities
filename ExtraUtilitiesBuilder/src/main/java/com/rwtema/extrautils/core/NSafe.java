@@ -58,3 +58,4 @@ public class NSafe
         NSafe.cache = new HashMap<Tuple<Class<?>, String>, Field>();
     }
 }
+

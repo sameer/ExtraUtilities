@@ -38,3 +38,4 @@ public class CastIterator<T> implements Iterable<T>, Iterator<T>
         this.iterator.remove();
     }
 }
+

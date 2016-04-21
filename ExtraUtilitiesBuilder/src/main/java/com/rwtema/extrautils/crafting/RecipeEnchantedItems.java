@@ -90,3 +90,4 @@ public class RecipeEnchantedItems extends ShapedRecipes
         return super.matches(inv, par2World);
     }
 }
+

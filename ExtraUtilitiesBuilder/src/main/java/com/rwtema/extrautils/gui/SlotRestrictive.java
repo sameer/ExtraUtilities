@@ -22,3 +22,4 @@ public class SlotRestrictive extends Slot
         return this.item != null && par1ItemStack != null && par1ItemStack.getItem() == this.item.getItem() && (par1ItemStack.getItemDamage() == this.item.getItemDamage() || this.item.getItemDamage() == 32767);
     }
 }
+

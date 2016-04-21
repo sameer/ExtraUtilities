@@ -304,3 +304,4 @@ public class ItemPrecisionShears extends ItemShears implements IItemMultiTranspa
         COOLDOWN = new int[] { 20, 16, 12, 8, 4, 0 };
     }
 }
+

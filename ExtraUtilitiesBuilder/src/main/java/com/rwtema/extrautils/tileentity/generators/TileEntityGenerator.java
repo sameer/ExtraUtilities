@@ -412,3 +412,4 @@ public class TileEntityGenerator extends TileEntity implements IEnergyHandler, I
         TileEntityGenerator.hum = new ResourceLocation("extrautils", "ambient.hum");
     }
 }
+

@@ -95,3 +95,4 @@ public class RecipeFilterInvert extends ShapelessRecipes implements IRecipe
         return makeResult(this.key, this.keyName, this.filter);
     }
 }
+

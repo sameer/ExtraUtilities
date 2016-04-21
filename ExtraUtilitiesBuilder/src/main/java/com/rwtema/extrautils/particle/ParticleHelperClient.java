@@ -30,3 +30,4 @@ public class ParticleHelperClient implements IResourceManagerReloadListener
     private static void registerTextures(final IResourceManager manager) {
     }
 }
+

@@ -69,3 +69,4 @@ public class WidgetSlotDisablable extends WidgetSlot
         return null;
     }
 }
+

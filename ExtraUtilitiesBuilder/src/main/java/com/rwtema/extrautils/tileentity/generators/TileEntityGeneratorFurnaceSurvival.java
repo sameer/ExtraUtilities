@@ -23,3 +23,4 @@ public class TileEntityGeneratorFurnaceSurvival extends TileEntityGeneratorFurna
         return 10 * TileEntityGenerator.getFurnaceBurnTime(item);
     }
 }
+

@@ -21,3 +21,4 @@ public interface IMultiModeItem
     
     void onModeChange(final EntityPlayer p0, final ItemStack p1);
 }
+

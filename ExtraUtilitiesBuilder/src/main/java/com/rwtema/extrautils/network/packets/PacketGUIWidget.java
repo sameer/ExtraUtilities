@@ -66,3 +66,4 @@ public class PacketGUIWidget extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

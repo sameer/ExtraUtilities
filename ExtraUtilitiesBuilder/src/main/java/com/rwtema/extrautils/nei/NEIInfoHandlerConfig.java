@@ -93,3 +93,4 @@ public class NEIInfoHandlerConfig implements IConfigureNEI
         return "1";
     }
 }
+

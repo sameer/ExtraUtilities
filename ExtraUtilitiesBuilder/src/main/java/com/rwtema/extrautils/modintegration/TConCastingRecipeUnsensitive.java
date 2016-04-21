@@ -23,3 +23,4 @@ public class TConCastingRecipeUnsensitive extends CastingRecipe
         return this.castingMetal != null && this.castingMetal.isFluidEqual(metal) && inputCast != null && this.cast != null && inputCast.getItem() == this.cast.getItem() && (this.cast.getItemDamage() == 32767 || this.cast.getItemDamage() == inputCast.getItemDamage());
     }
 }
+

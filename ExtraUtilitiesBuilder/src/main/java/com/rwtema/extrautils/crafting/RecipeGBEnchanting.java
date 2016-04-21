@@ -89,3 +89,4 @@ public class RecipeGBEnchanting extends ShapedRecipes
         return 3;
     }
 }
+

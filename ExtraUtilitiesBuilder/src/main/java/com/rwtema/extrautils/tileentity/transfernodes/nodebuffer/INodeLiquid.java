@@ -11,3 +11,4 @@ public interface INodeLiquid extends IFluidHandler
 {
     TileEntityTransferNodeLiquid getNode();
 }
+

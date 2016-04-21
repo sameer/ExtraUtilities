@@ -944,3 +944,4 @@ public class TileEntityEnderQuarry extends TileEntity implements IEnergyHandler
         }
     }
 }
+

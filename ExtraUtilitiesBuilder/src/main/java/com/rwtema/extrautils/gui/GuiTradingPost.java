@@ -395,3 +395,4 @@ public class GuiTradingPost extends GuiScreen
         }
     }
 }
+

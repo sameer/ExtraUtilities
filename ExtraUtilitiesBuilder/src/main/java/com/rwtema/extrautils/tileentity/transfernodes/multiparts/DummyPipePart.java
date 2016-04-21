@@ -65,3 +65,4 @@ public class DummyPipePart extends JCuboidPart implements JNormalOcclusion, ISid
         return 2;
     }
 }
+

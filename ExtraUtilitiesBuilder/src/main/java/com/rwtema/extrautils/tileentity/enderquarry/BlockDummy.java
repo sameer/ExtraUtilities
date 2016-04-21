@@ -44,3 +44,4 @@ public class BlockDummy extends Block
         throw new RuntimeException("This block's methods must never be called");
     }
 }
+

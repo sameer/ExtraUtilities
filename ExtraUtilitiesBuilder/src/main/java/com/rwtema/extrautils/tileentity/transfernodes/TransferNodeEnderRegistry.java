@@ -100,3 +100,4 @@ public class TransferNodeEnderRegistry
         receptors = new HashMap<Frequency, List<WeakReference<INodeBuffer>>>();
     }
 }
+

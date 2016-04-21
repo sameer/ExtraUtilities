@@ -248,3 +248,4 @@ public class BlockColor extends Block
         }
     }
 }
+

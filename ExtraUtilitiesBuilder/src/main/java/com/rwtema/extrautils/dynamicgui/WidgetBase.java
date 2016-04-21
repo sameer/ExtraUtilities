@@ -53,3 +53,4 @@ public abstract class WidgetBase implements IWidget
     public void addToContainer(final DynamicContainer container) {
     }
 }
+

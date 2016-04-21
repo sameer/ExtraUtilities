@@ -210,3 +210,4 @@ public abstract class PartConnecting extends PartMicroBlock implements JIconHitE
         return this.getMaterial().getStrength(player);
     }
 }
+

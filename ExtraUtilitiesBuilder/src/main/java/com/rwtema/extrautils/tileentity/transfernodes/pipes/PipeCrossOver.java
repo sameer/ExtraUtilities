@@ -76,3 +76,4 @@ public class PipeCrossOver extends PipeBase
         return TNHelper.canOutput(world, x + dir.getOpposite().offsetX, y + dir.getOpposite().offsetY, z + dir.getOpposite().offsetZ, dir) && TNHelper.isValidTileEntity(world, x, y, z, dir);
     }
 }
+

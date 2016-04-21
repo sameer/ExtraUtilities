@@ -56,3 +56,4 @@ public class TileEntityRainMuffler extends TileEntity
         TileEntityRainMuffler.curZ = -1;
     }
 }
+

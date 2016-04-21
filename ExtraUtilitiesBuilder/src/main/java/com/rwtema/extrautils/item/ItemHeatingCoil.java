@@ -78,3 +78,4 @@ public class ItemHeatingCoil extends ItemEnergyContainer implements IFuelHandler
         return this.extractEnergy(fuel, 15000, true) / 50;
     }
 }
+

@@ -30,3 +30,4 @@ public class TransferNodePartInventoryRemote extends TransferNodePartInventory
         return ExtraUtils.transferNodeRemote;
     }
 }
+

@@ -14,3 +14,4 @@ import java.lang.annotation.Annotation;
 @Target({ ElementType.TYPE })
 public @interface IgnoreContainer {
 }
+

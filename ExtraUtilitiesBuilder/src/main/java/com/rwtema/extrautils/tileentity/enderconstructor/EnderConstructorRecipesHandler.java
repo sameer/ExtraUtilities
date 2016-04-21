@@ -178,3 +178,4 @@ public class EnderConstructorRecipesHandler
         EnderConstructorRecipesHandler.recipes = new ArrayList<IRecipe>();
     }
 }
+

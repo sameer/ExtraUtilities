@@ -90,3 +90,4 @@ public class TileFullChest extends TileEntity implements IInventory
         XUHelper.readInventoryBasicFromNBT(tag, this.inv);
     }
 }
+

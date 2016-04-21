@@ -113,3 +113,4 @@ public class NBTCreator
         NBTCreator.handlers.put(Type.getType((Class)ItemStack.class), NBTHandlers.NBTHandlerItemStack.class);
     }
 }
+

@@ -46,3 +46,4 @@ public class TileEnergyHandler extends TileEntity implements IEnergyHandler
         return this.storage.getMaxEnergyStored();
     }
 }
+

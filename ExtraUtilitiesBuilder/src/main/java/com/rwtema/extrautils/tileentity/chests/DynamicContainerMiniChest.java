@@ -47,3 +47,4 @@ public class DynamicContainerMiniChest extends DynamicContainer
         return this.inv.isUseableByPlayer(player);
     }
 }
+

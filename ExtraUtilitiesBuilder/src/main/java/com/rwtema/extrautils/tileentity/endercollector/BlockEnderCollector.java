@@ -103,3 +103,4 @@ public class BlockEnderCollector extends BlockMultiBlock
         super.breakBlock(world, x, y, z, p_149749_5_, p_149749_6_);
     }
 }
+

@@ -20,3 +20,4 @@ public class SubsetItemsNBT implements ItemFilter
         return item.hasTagCompound() && this.item.equals(item.getItem());
     }
 }
+

@@ -122,3 +122,4 @@ public class SlotItemContainer extends Slot
         SlotItemContainer.fakeInv = (IInventory)new InventoryBasic("fakeInventory", true, 54);
     }
 }
+

@@ -70,3 +70,4 @@ public class PacketPlaySound extends XUPacketBase
         return properSenderSide == Side.SERVER;
     }
 }
+

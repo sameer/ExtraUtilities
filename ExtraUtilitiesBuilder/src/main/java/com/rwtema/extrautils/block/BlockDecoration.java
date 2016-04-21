@@ -218,3 +218,4 @@ public class BlockDecoration extends Block implements IBlockAppearance
         BlockDecoration.gettingConnectedTextures = false;
     }
 }
+

@@ -52,3 +52,4 @@ public class ItemBlockSpike extends ItemBlock
         itemHashSet = new HashSet<Item>();
     }
 }
+

@@ -47,3 +47,4 @@ public class InventoryGeneric extends InventoryBasic
         }
     }
 }
+

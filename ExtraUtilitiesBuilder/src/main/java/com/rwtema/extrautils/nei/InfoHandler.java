@@ -243,3 +243,4 @@ public class InfoHandler implements IUsageHandler, ICraftingHandler
         InfoHandler.color = -12566464;
     }
 }
+

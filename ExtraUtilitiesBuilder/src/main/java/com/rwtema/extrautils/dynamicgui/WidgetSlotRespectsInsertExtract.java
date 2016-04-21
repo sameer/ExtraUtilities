@@ -25,3 +25,4 @@ public class WidgetSlotRespectsInsertExtract extends WidgetSlot
         return !this.getHasStack() && super.isItemValid(par1ItemStack) && ((ISidedInventory)this.inventory).canInsertItem(this.slotNumber, par1ItemStack, 0);
     }
 }
+

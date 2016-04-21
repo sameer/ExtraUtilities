@@ -14,3 +14,4 @@ public interface IEnergyProvider extends IEnergyConnection
     
     int getMaxEnergyStored(final ForgeDirection p0);
 }
+

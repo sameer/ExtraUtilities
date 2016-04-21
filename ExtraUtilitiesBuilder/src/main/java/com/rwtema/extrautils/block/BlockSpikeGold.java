@@ -63,3 +63,4 @@ public class BlockSpikeGold extends BlockSpike
         }
     }
 }
+

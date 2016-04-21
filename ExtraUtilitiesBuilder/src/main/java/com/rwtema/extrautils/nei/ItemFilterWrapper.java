@@ -26,3 +26,4 @@ public class ItemFilterWrapper implements ItemFilter
         return this.base.matchItem(itemStack) != this.invert;
     }
 }
+
