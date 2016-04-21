@@ -79,7 +79,7 @@ public class Box
         int s = 0;
         for (final Object aTex : tex) {
             if (aTex instanceof Integer) {
-                s = (int)aTex;
+                s = (Integer)aTex;
             }
             else if (aTex instanceof IIcon && s < 6 && s >= 0) {
                 this.textureSide[s] = (IIcon)aTex;
@@ -105,7 +105,7 @@ public class Box
         int s = 0;
         for (final Object aTex : tex) {
             if (aTex instanceof Integer) {
-                s = (int)aTex;
+                s = (Integer)aTex;
                 this.invisibleSide[s] = true;
             }
             else if (aTex instanceof Boolean) {
@@ -289,4 +289,5 @@ public class Box
         return this;
     }
 }
+
 
