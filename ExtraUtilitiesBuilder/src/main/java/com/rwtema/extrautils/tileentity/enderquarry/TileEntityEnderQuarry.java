@@ -691,6 +691,8 @@ public class TileEntityEnderQuarry extends TileEntity implements IEnergyHandler
         this.max_x = this.xCoord;
         this.min_z = this.zCoord;
         this.max_z = this.zCoord;
+
+
         this.searching = true;
     }
     
@@ -753,6 +755,10 @@ public class TileEntityEnderQuarry extends TileEntity implements IEnergyHandler
                 final int amax_z = Math.max(Math.max(test[3], test_forward[3]), test_side[3]);
                 if (amax_x - amin_x <= 2 || amax_z - amin_z <= 2) {
                     this.stopFencing("Region created by ender markers is too small", false);
+                    return false;
+                }
+                else if (amax_x - amin_x >= 64 || amax_z - amin_z >= 64) {
+                    this.stopFencing("Region created by ender markers is too large (64x64 max)", false);
                     return false;
                 }
                 this.owner.addChatComponentMessage((IChatComponent)new ChatComponentText("Sucessfully established boundary"));
