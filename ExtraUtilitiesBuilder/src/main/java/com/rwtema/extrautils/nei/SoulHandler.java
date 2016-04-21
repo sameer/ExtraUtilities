@@ -64,7 +64,8 @@ public class SoulHandler extends TemplateRecipeHandler
     public class SoulRecipe extends TemplateRecipeHandler.CachedRecipe
     {
         public SoulRecipe() {
-            super((TemplateRecipeHandler)SoulHandler.this);
+	    super();
+            //super((TemplateRecipeHandler)SoulHandler.this);
         }
         
         public PositionedStack getResult() {

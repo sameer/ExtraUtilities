@@ -28,7 +28,7 @@ public class TilePartMetaAccess extends PartMetaAccess
         if (i == this.part.getPos().x && j == this.part.getPos().y && k == this.part.getPos().z) {
             return this.tile;
         }
-        return super.getTileEntity(i, j, k);
+        return tile.getWorldObj().getTileEntity(i, j, k);
     }
 }
 

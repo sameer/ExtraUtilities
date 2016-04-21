@@ -77,7 +77,6 @@ public class RenderHandlersEndOfTime
                         catch (IllegalAccessException e) {
                             throw new RuntimeException(e);
                         }
-                        break Label_0064;
                     }
                     final Vec3 vec3 = theWorld.getSkyColor((Entity)mc.renderViewEntity, p_72714_1_);
                     float f1 = (float)vec3.xCoord;

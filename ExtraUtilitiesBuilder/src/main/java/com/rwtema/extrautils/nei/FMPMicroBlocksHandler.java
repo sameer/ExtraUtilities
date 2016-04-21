@@ -72,7 +72,7 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
             synchronized (ItemList.class) {
                 for (final Item item : ItemList.itemMap.keySet()) {
                     if (item instanceof Saw) {
-                        for (final ItemStack stack : ItemList.itemMap.get((Object)item)) {
+                        for (final ItemStack stack : ItemList.itemMap.get(item)) {
                             FMPMicroBlocksHandler.sawList.add(stack);
                         }
                     }

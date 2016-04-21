@@ -70,7 +70,6 @@ public class MiscHelper
             catch (UnsupportedOperationException ignore) {
                 throw new RuntimeException(iterable.toString() + "_" + iterator.toString(), ignore);
             }
-            break;
         }
         return k;
     }

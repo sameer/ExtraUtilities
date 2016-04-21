@@ -220,7 +220,7 @@ public class BlockCursedEarth extends Block implements IBlockLocalization
             final double d2 = logic.getSpawnerX() + (logic.getSpawnerWorld().rand.nextDouble() - logic.getSpawnerWorld().rand.nextDouble()) * spawnRange;
             final double d3 = logic.getSpawnerY() + logic.getSpawnerWorld().rand.nextInt(3) - 1;
             final double d4 = logic.getSpawnerZ() + (logic.getSpawnerWorld().rand.nextDouble() - logic.getSpawnerWorld().rand.nextDouble()) * spawnRange;
-            final EntityLiving entityliving = (entity instanceof EntityLiving) ? entity : null;
+            final EntityLiving entityliving = (EntityLiving)((entity instanceof EntityLiving) ? entity : null);
             entity.setLocationAndAngles(d2, d3, d4, logic.getSpawnerWorld().rand.nextFloat() * 360.0f, 0.0f);
             if (entityliving != null && this.SpawnMob(entityliving)) {
                 logic.func_98265_a((Entity)entityliving);
@@ -262,7 +262,7 @@ public class BlockCursedEarth extends Block implements IBlockLocalization
                     if (var13 != null && !EntityFlying.class.isAssignableFrom(var13.entityClass)) {
                         EntityLiving t;
                         try {
-                            t = var13.entityClass.getConstructor(World.class).newInstance(world);
+                            t = (EntityLiving)var13.entityClass.getConstructor(World.class).newInstance(world);
                         }
                         catch (Exception var14) {
                             var14.printStackTrace();

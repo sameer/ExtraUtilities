@@ -96,7 +96,7 @@ public class BlockPeacefulTable extends BlockMultiBlock
                 }
                 EntityLiving t;
                 try {
-                    t = var7.entityClass.getConstructor(World.class).newInstance(world);
+                    t = (EntityLiving) var7.entityClass.getConstructor(World.class).newInstance(world);
                 }
                 catch (Exception var8) {
                     var8.printStackTrace();
