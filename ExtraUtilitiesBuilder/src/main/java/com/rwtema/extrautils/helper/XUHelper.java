@@ -489,6 +489,10 @@ public class XUHelper
             if (!b.isStackable() || b.stackSize >= b.getMaxStackSize()) {
                 return false;
             }
+            if (b.stackSize + a.stackSize >= b.getMaxStackSize() || b.stackSize + a.stackSize >= a.getMaxStackSize()) {
+                return false;
+            }
+
         }
         return ignoreNBT || ItemStack.areItemStackTagsEqual(a, b);
     }
