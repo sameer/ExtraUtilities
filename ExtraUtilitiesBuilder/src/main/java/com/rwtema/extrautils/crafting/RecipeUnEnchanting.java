@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.crafting;
@@ -60,13 +60,13 @@ public class RecipeUnEnchanting implements IRecipe
         if (n.getItem() == Items.iron_ingot && d.getItem() == Items.diamond) {
             return null;
         }
-        final Map ne = EnchantmentHelper.getEnchantments(n);
-        final Map de = EnchantmentHelper.getEnchantments(d);
+        final Map<Integer,Integer> ne = (Map<Integer,Integer>)EnchantmentHelper.getEnchantments(n);
+        final Map<Integer,Integer> de = (Map<Integer,Integer>)EnchantmentHelper.getEnchantments(d);
         if (de == null || de.isEmpty()) {
             if (d.getItem() == Items.book && n.getItem() != Items.book && ne != null && !ne.isEmpty()) {
                 final LinkedHashMap re = new LinkedHashMap();
                 for (final Object o : ne.keySet()) {
-                    final int id = (int)o;
+                    final int id = (Integer)o;
                     final int level = ne.get(id);
                     if (level > 1) {
                         re.put(id, level - 1);
@@ -86,7 +86,7 @@ public class RecipeUnEnchanting implements IRecipe
         final LinkedHashMap re = new LinkedHashMap();
         boolean overlap = false;
         for (final Object o2 : ne.keySet()) {
-            final int id2 = (int)o2;
+            final int id2 = (Integer)o2;
             int level2 = ne.get(id2);
             if (de != null && de.containsKey(id2)) {
                 overlap = true;
@@ -119,3 +119,5 @@ public class RecipeUnEnchanting implements IRecipe
         return null;
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -132,14 +132,15 @@ public class MicroBlocksHandler extends ShapedRecipeHandler
         public MicroblockPositionedStack result;
         
         public MicroblockCachedRecipe(final int width, final int height, final Object[] items, final ItemStack out) {
-            super((TemplateRecipeHandler)MicroBlocksHandler.this);
+            //super((TemplateRecipeHandler)MicroBlocksHandler.this);
+	    super();
             this.result = new MicroblockPositionedStack(out, 119, 24);
             this.ingredients = new ArrayList<PositionedStack>();
             this.setIngredients(width, height, items);
         }
         
-        public MicroblockCachedRecipe(final MicroBlocksHandler microBlocksHandler, final RecipeMicroBlocks irecipe) {
-            this(microBlocksHandler, irecipe.recipeWidth, irecipe.recipeHeight, irecipe.getRecipeItems(), irecipe.getRecipeOutput());
+        public MicroblockCachedRecipe(final RecipeMicroBlocks irecipe) {
+            this(irecipe.recipeWidth, irecipe.recipeHeight, irecipe.getRecipeItems(), irecipe.getRecipeOutput());
         }
         
         public void setIngredients(final int width, final int height, final Object[] items) {
@@ -250,3 +251,5 @@ public class MicroBlocksHandler extends ShapedRecipeHandler
         }
     }
 }
+
+

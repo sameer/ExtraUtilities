@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.crafting;
@@ -71,7 +71,7 @@ public class RecipeDifficultySpecific extends ShapedRecipes
         for (int i2 = 0; i2 < j * k; ++i2) {
             final char c0 = s.charAt(i2);
             if (hashmap.containsKey(c0)) {
-                aitemstack[i2] = hashmap.get(c0).copy();
+                aitemstack[i2] = ((ItemStack)hashmap.get(c0)).copy();
             }
             else {
                 aitemstack[i2] = null;
@@ -117,3 +117,7 @@ public class RecipeDifficultySpecific extends ShapedRecipes
         RecipeDifficultySpecific.isRemote = false;
     }
 }
+
+
+
+

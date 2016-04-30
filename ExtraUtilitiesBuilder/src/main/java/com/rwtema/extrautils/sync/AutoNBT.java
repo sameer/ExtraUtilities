@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.sync;
@@ -12,3 +12,5 @@ public abstract class AutoNBT<T>
     
     public abstract void readFromNBT(final NBTTagCompound p0, final T p1);
 }
+
+

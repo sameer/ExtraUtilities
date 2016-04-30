@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -91,7 +91,7 @@ public class ContainerTransferNode extends Container
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
         ItemStack itemstack = null;
-        final Slot slot = this.inventorySlots.get(par2);
+        final Slot slot = (Slot) this.inventorySlots.get(par2);
         int start = 0;
         int end = this.node.upgrades.getSizeInventory();
         if (this.node instanceof TileEntityTransferNodeInventory) {
@@ -243,3 +243,5 @@ public class ContainerTransferNode extends Container
         return InventoryTweaksHelper.getSlots(this, false);
     }
 }
+
+

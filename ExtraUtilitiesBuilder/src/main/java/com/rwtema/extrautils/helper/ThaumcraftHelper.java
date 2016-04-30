@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.helper;
@@ -148,7 +148,7 @@ public class ThaumcraftHelper
                 al.add(new AspectList(result));
             }
             else if (i == 0 && o instanceof Integer) {
-                int newmeta = (int)o;
+                int newmeta = (Integer)o;
                 if (newmeta == -1) {
                     newmeta = 32767;
                 }
@@ -164,7 +164,7 @@ public class ThaumcraftHelper
                 final Aspect a = (Aspect)o;
                 int a_num = 1;
                 if (i + 1 < ingredients.length && ingredients[i + 1] instanceof Integer) {
-                    a_num = (int)ingredients[i + 1];
+                    a_num = (Integer)ingredients[i + 1];
                     ++i;
                 }
                 al.add(a, a_num);
@@ -201,3 +201,5 @@ public class ThaumcraftHelper
         pi = new int[] { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6, 2, 6, 4, 3, 3, 8, 3, 2, 7, 9, 5 };
     }
 }
+
+

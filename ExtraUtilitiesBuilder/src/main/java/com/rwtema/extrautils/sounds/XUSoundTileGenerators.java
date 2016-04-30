@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.sounds;
@@ -221,3 +221,5 @@ public class XUSoundTileGenerators implements ITickableSound
         XUSoundTileGenerators.instance = null;
     }
 }
+
+

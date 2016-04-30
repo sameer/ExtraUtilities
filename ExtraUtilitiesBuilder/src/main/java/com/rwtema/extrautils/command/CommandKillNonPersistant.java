@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.command;
@@ -17,10 +17,15 @@ public class CommandKillNonPersistant extends CommandKillEntities
     @Override
     public void killEntities(final World world) {
         for (int i = 0; i < world.loadedEntityList.size(); ++i) {
-            if (!(  ( (Entity)world.loadedEntityList.get(i) ).isNoDespawnRequired())  ) {
+	    Entity e = (Entity)world.loadedEntityList.get(i);
+	    if(!(e instanceof EntityLiving))continue;
+	    EntityLiving el = (EntityLiving)e;
+            if (!el.isNoDespawnRequired()) {
                 ++this.numKills;
-                ((Entity)world.loadedEntityList.get(i)).setDead();
+                (el).setDead();
             }
         }
     }
 }
+
+

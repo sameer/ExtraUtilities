@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -141,3 +141,5 @@ public class PartFence extends PartConnecting implements IFence
         renderCuboids2 = new Cuboid6[] { null, null, new Cuboid6(0.4375, 0.375, 0.0, 0.5625, 0.5625, 0.375), new Cuboid6(0.4375, 0.375, 0.625, 0.5625, 0.5625, 1.0), new Cuboid6(0.0, 0.375, 0.4375, 0.375, 0.5625, 0.5625), new Cuboid6(0.625, 0.375, 0.4375, 1.0, 0.5625, 0.5625) };
     }
 }
+
+

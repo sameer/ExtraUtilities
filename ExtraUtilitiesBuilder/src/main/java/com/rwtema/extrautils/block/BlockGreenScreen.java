@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -83,3 +83,5 @@ public class BlockGreenScreen extends Block
         cols = new float[][] { { 1.0f, 1.0f, 1.0f }, { 1.0f, 0.5f, 0.0f }, { 1.0f, 0.0f, 1.0f }, { 0.0f, 0.5f, 0.85f }, { 1.0f, 1.0f, 0.0f }, { 0.0f, 1.0f, 0.0f }, { 1.0f, 0.6f, 0.65f }, { 0.5f, 0.5f, 0.5f }, { 0.8f, 0.8f, 0.8f }, { 0.0f, 1.0f, 1.0f }, { 0.7f, 0.2f, 1.0f }, { 0.0f, 0.0f, 1.0f }, { 0.5f, 0.2f, 0.0f }, { 0.0f, 0.6f, 0.0f }, { 1.0f, 0.0f, 0.0f }, { 0.0f, 0.0f, 0.0f } };
     }
 }
+
+

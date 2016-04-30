@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.worldgen.endoftime;
@@ -77,7 +77,6 @@ public class RenderHandlersEndOfTime
                         catch (IllegalAccessException e) {
                             throw new RuntimeException(e);
                         }
-                        break Label_0064;
                     }
                     final Vec3 vec3 = theWorld.getSkyColor((Entity)mc.renderViewEntity, p_72714_1_);
                     float f1 = (float)vec3.xCoord;
@@ -248,3 +247,5 @@ public class RenderHandlersEndOfTime
         }
     }
 }
+
+

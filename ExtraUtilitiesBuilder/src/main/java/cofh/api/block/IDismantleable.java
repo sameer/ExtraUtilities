@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package cofh.api.block;
@@ -15,3 +15,5 @@ public interface IDismantleable
     
     boolean canDismantle(final EntityPlayer p0, final World p1, final int p2, final int p3, final int p4);
 }
+
+

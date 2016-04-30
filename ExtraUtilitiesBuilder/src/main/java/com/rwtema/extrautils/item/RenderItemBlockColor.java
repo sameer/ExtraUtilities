@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -166,3 +166,5 @@ public class RenderItemBlockColor implements IItemRenderer
         GL11.glTranslatef(0.5f, 0.0f, 0.5f);
     }
 }
+
+

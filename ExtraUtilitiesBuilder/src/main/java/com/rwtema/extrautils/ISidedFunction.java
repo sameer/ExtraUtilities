@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils;
@@ -15,3 +15,5 @@ public interface ISidedFunction<F, T>
     @SideOnly(Side.CLIENT)
     T applyClient(final F p0);
 }
+
+

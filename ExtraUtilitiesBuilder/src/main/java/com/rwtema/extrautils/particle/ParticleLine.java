@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.particle;
@@ -52,3 +52,5 @@ public class ParticleLine extends EntityFX
         return 1;
     }
 }
+
+

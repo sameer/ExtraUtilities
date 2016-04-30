@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -10,3 +10,5 @@ public interface IWidgetInput
     
     void keyTyped(final char p0, final int p1);
 }
+
+

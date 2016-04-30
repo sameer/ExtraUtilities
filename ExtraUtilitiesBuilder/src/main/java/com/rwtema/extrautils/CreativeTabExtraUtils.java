@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils;
@@ -44,7 +44,7 @@ public class CreativeTabExtraUtils extends CreativeTabs
         super.displayAllReleventItems(newList);
         Collections.sort((List<Object>)newList, this.alphabeticalSorter);
         par1List.addAll(newList);
-        for (final ItemStack item : (ArrayList)newList) {
+        for (final ItemStack item : (ArrayList<ItemStack>)newList) {
             if (item.getDisplayName().endsWith(".name")) {
                 LogHelper.debug("Missing localization data for " + item.getDisplayName(), new Object[0]);
             }
@@ -87,3 +87,6 @@ public class CreativeTabExtraUtils extends CreativeTabs
         }
     }
 }
+
+
+

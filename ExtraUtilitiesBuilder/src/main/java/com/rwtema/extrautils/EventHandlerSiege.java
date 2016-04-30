@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils;
@@ -72,7 +72,7 @@ public class EventHandlerSiege
             return;
         }
         for (int i = 0; i < world.loadedEntityList.size(); ++i) {
-            if (world.loadedEntityList.get(i) instanceof EntityMob && world.loadedEntityList.get(i).getEntityData().hasKey("Siege")) {
+            if (world.loadedEntityList.get(i) instanceof EntityMob && ((Entity)world.loadedEntityList.get(i)).getEntityData().hasKey("Siege")) {
                 world.removeEntity((Entity)world.loadedEntityList.get(i));
             }
         }
@@ -104,7 +104,7 @@ public class EventHandlerSiege
                 world.removeEntity((Entity)world.loadedEntityList.get(i));
             }
             else if (world.loadedEntityList.get(i) instanceof EntityPlayer) {
-                final EntityPlayer player = world.loadedEntityList.get(i);
+                final EntityPlayer player = (EntityPlayer)world.loadedEntityList.get(i);
                 EventHandlerSiege.SiegeParticipants.add(player.getGameProfile().getName());
                 player.getEntityData().setInteger("SiegeKills", 0);
             }
@@ -494,3 +494,5 @@ public class EventHandlerSiege
         EventHandlerSiege.rand = XURandom.getInstance();
     }
 }
+
+

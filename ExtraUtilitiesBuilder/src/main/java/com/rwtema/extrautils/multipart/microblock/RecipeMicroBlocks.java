@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -55,7 +55,7 @@ public class RecipeMicroBlocks implements IRecipe
             return (ItemStack)this.recipeItems[a];
         }
         if (this.recipeItems[a] instanceof Integer) {
-            final int damage = (int)this.recipeItems[a];
+            final int damage = (Integer)this.recipeItems[a];
             if (this.getMicroID() != null) {
                 return new ItemStack(this.getMicroID(), 1, damage);
             }
@@ -98,7 +98,7 @@ public class RecipeMicroBlocks implements IRecipe
                     }
                 }
                 else if (this.recipeItems[m] instanceof Integer) {
-                    final int damage = (int)this.recipeItems[m];
+                    final int damage = (Integer)this.recipeItems[m];
                     if (itemstack2 == null) {
                         return false;
                     }
@@ -181,3 +181,6 @@ public class RecipeMicroBlocks implements IRecipe
         RecipeMicroBlocks.microID = null;
     }
 }
+
+
+

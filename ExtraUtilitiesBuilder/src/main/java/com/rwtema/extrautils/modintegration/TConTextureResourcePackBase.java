@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.modintegration;
@@ -172,3 +172,5 @@ public abstract class TConTextureResourcePackBase implements IResourcePack, IRes
         TConTextureResourcePackBase.rgb = new DirectColorModel(32, 16711680, 65280, 255, -16777216);
     }
 }
+
+

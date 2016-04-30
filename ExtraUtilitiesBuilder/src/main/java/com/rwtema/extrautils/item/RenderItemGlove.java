@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -143,3 +143,5 @@ public class RenderItemGlove implements IItemRenderer
         glove2 = new ResourceLocation("extrautils", "textures/glove1.png");
     }
 }
+
+

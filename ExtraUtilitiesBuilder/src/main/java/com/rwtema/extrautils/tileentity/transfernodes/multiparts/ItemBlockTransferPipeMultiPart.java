@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.transfernodes.multiparts;
@@ -26,3 +26,5 @@ public class ItemBlockTransferPipeMultiPart extends ItemBlockMultiPart
         return (TMultiPart)new PipePart(this.pipePage * 16 + this.getMetadata(item.getItemDamage()));
     }
 }
+
+

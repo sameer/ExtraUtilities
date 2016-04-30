@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei.ping;
@@ -53,3 +53,5 @@ public class ParticlePing extends EntityReddustFX
         RANDOM = XURandom.getInstance();
     }
 }
+
+

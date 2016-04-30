@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -22,3 +22,5 @@ public class SlotRestrictive extends Slot
         return this.item != null && par1ItemStack != null && par1ItemStack.getItem() == this.item.getItem() && (par1ItemStack.getItemDamage() == this.item.getItemDamage() || this.item.getItemDamage() == 32767);
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -81,3 +81,5 @@ public class ItemIngredient extends Item
         return this.getUnlocalizedName() + "." + this.getMetaData(par1ItemStack);
     }
 }
+
+

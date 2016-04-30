@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -20,3 +20,5 @@ public class SubsetBlockClass implements ItemFilter
         return this.base.equals(Block.getBlockFromItem(item.getItem()).getClass());
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity;
@@ -136,3 +136,5 @@ public class TileEntityBUD extends TileEntity
         return this.worldObj.isRemote ? this.powered : (this.countDown >= 6);
     }
 }
+
+

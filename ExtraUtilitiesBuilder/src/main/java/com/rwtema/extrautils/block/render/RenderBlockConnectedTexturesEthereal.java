@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block.render;
@@ -45,3 +45,5 @@ public class RenderBlockConnectedTexturesEthereal extends RenderBlockConnectedTe
         RenderBlockConnectedTexturesEthereal.fakeRenderEtherealBlocks = new FakeRenderEtherealBlocks();
     }
 }
+
+

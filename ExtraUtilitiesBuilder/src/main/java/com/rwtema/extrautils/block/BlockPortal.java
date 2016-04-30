@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -171,3 +171,5 @@ public class BlockPortal extends Block implements IBlockLocalization
         ParticleHelperClient.addParticle(new ParticlePortal(world, x + dx, y + 1, z + dz, 1.0f, 1.0f, 1.0f));
     }
 }
+
+

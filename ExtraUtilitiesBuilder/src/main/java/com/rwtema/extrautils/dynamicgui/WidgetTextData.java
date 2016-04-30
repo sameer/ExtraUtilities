@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -156,3 +156,5 @@ public abstract class WidgetTextData extends WidgetText implements IWidget
         GL11.glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
     }
 }
+
+

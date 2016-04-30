@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -198,3 +198,5 @@ public abstract class PartMicroBlock extends JCuboidPart implements JIconHitEffe
         return this.getMaterial().getStrength(player);
     }
 }
+
+

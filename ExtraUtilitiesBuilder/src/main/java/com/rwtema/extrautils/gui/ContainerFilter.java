@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -111,18 +111,18 @@ public class ContainerFilter extends Container
     }
     
     public ItemStack transferStackInSlot(final EntityPlayer par1EntityPlayer, final int par2) {
-        final Slot slot = this.inventorySlots.get(par2);
+        final SlotItemContainer slot = (SlotItemContainer) this.inventorySlots.get(par2);
         if (slot != null && slot.getHasStack()) {
             if (slot instanceof SlotGhostItemContainer) {
                 this.slotClick(slot.slotNumber, 0, 0, par1EntityPlayer);
             }
             else {
                 for (int i = 0; i < 9; ++i) {
-                    if (!this.inventorySlots.get(i).getHasStack()) {
+                    if (!((SlotItemContainer)this.inventorySlots.get(i)).getHasStack()) {
                         this.clickItemStack(i, slot.getStack());
                         return null;
                     }
-                    if (XUHelper.canItemsStack(slot.getStack(), this.inventorySlots.get(i).getStack())) {
+                    if (XUHelper.canItemsStack(slot.getStack(), ((SlotItemContainer)this.inventorySlots.get(i)).getStack())) {
                         return null;
                     }
                 }
@@ -140,3 +140,6 @@ public class ContainerFilter extends Container
         return InventoryTweaksHelper.getSlots(this, true);
     }
 }
+
+
+

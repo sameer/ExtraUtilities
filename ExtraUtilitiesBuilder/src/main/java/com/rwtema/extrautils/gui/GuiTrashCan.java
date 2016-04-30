@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -37,3 +37,5 @@ public class GuiTrashCan extends GuiContainer
         texture = new ResourceLocation("extrautils", "textures/guiTrashCan.png");
     }
 }
+
+

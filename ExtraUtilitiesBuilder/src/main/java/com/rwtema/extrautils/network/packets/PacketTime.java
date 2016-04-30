@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.network.packets;
@@ -57,3 +57,5 @@ public class PacketTime extends XUPacketBase
         return true;
     }
 }
+
+

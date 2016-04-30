@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.worldgen.endoftime;
@@ -154,3 +154,5 @@ public class WorldProviderEndOfTime extends WorldProvider implements IClientCode
         return 4;
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.crafting;
@@ -21,3 +21,5 @@ public class RecipeFourByFourShapeless extends ShapelessRecipes implements IReci
         return par1InventoryCrafting.getSizeInventory() == 4 && super.matches(par1InventoryCrafting, par2World);
     }
 }
+
+

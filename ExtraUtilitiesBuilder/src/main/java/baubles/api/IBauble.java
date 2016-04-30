@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package baubles.api;
@@ -21,3 +21,5 @@ public interface IBauble
     
     boolean canUnequip(final ItemStack p0, final EntityLivingBase p1);
 }
+
+

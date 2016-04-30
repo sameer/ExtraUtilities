@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.particle;
@@ -54,3 +54,5 @@ public enum Particles
         world.spawnParticle(this.id, x, y, z, (double)r, (double)g, (double)b);
     }
 }
+
+

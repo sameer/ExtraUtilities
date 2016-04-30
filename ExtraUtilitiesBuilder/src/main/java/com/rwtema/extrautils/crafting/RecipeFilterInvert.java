@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.crafting;
@@ -95,3 +95,5 @@ public class RecipeFilterInvert extends ShapelessRecipes implements IRecipe
         return makeResult(this.key, this.keyName, this.filter);
     }
 }
+
+

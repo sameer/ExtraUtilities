@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -79,7 +79,7 @@ public class Box
         int s = 0;
         for (final Object aTex : tex) {
             if (aTex instanceof Integer) {
-                s = (int)aTex;
+                s = (Integer)aTex;
             }
             else if (aTex instanceof IIcon && s < 6 && s >= 0) {
                 this.textureSide[s] = (IIcon)aTex;
@@ -105,11 +105,11 @@ public class Box
         int s = 0;
         for (final Object aTex : tex) {
             if (aTex instanceof Integer) {
-                s = (int)aTex;
+                s = (Integer)aTex;
                 this.invisibleSide[s] = true;
             }
             else if (aTex instanceof Boolean) {
-                this.invisibleSide[s] = (boolean)aTex;
+                this.invisibleSide[s] = (Boolean)aTex;
                 ++s;
             }
         }
@@ -289,3 +289,6 @@ public class Box
         return this;
     }
 }
+
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -56,3 +56,5 @@ public class InventoryTweaksHelper
         map.put(c, list);
     }
 }
+
+

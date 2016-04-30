@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.modintegration;
@@ -23,3 +23,5 @@ public class TConCastingRecipeUnsensitive extends CastingRecipe
         return this.castingMetal != null && this.castingMetal.isFluidEqual(metal) && inputCast != null && this.cast != null && inputCast.getItem() == this.cast.getItem() && (this.cast.getItemDamage() == 32767 || this.cast.getItemDamage() == inputCast.getItemDamage());
     }
 }
+
+

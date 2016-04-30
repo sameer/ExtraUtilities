@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.endercollector;
@@ -103,3 +103,5 @@ public class BlockEnderCollector extends BlockMultiBlock
         super.breakBlock(world, x, y, z, p_149749_5_, p_149749_6_);
     }
 }
+
+

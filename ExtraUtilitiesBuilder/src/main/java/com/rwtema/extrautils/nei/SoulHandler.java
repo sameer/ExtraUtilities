@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -64,7 +64,8 @@ public class SoulHandler extends TemplateRecipeHandler
     public class SoulRecipe extends TemplateRecipeHandler.CachedRecipe
     {
         public SoulRecipe() {
-            super((TemplateRecipeHandler)SoulHandler.this);
+	    super();
+            //super((TemplateRecipeHandler)SoulHandler.this);
         }
         
         public PositionedStack getResult() {
@@ -76,3 +77,5 @@ public class SoulHandler extends TemplateRecipeHandler
         }
     }
 }
+
+

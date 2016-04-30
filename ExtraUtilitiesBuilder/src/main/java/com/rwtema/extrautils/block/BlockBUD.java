@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -181,3 +181,5 @@ public class BlockBUD extends Block
         par3List.add(new ItemStack(par1, 1, 3));
     }
 }
+
+

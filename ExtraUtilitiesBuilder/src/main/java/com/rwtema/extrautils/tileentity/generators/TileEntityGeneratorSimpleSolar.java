@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.generators;
@@ -66,3 +66,5 @@ public class TileEntityGeneratorSimpleSolar extends TileEntityGenerator
         return this.genLevel() > 0.0;
     }
 }
+
+

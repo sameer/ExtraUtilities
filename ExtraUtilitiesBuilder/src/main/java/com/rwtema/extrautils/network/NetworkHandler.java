@@ -1,9 +1,10 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.network;
 
+import java.util.Collection;
 import java.util.Iterator;
 import cpw.mods.fml.common.FMLCommonHandler;
 import net.minecraft.world.ChunkCoordIntPair;
@@ -42,7 +43,7 @@ public class NetworkHandler
     
     public static void sendToAllPlayers(final XUPacketBase packet) {
         checkPacket(packet, Side.SERVER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALL);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.ALL);
         NetworkHandler.channels.get(Side.SERVER).writeOutbound(new Object[] { packet });
     }
     
@@ -51,8 +52,8 @@ public class NetworkHandler
         if (XUHelper.isPlayerFake(player)) {
             return;
         }
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.PLAYER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set((Object)player);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.PLAYER);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set(player);
         NetworkHandler.channels.get(Side.SERVER).writeOutbound(new Object[] { packet });
     }
     
@@ -62,14 +63,14 @@ public class NetworkHandler
     
     public static void sendToAllAround(final XUPacketBase packet, final NetworkRegistry.TargetPoint point) {
         checkPacket(packet, Side.SERVER);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.ALLAROUNDPOINT);
-        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set((Object)point);
-        NetworkHandler.channels.get(Side.SERVER).writeAndFlush((Object)packet).addListener((GenericFutureListener)ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.ALLAROUNDPOINT);
+        NetworkHandler.channels.get(Side.SERVER).attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set(point);
+        NetworkHandler.channels.get(Side.SERVER).writeAndFlush(packet).addListener((GenericFutureListener)ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
     }
     
     public static void sendPacketToServer(final XUPacketBase packet) {
         checkPacket(packet, Side.CLIENT);
-        NetworkHandler.channels.get(Side.CLIENT).attr(FMLOutboundHandler.FML_MESSAGETARGET).set((Object)FMLOutboundHandler.OutboundTarget.TOSERVER);
+        NetworkHandler.channels.get(Side.CLIENT).attr(FMLOutboundHandler.FML_MESSAGETARGET).set(FMLOutboundHandler.OutboundTarget.TOSERVER);
         NetworkHandler.channels.get(Side.CLIENT).writeOutbound(new Object[] { packet });
     }
     
@@ -84,9 +85,9 @@ public class NetworkHandler
         }
         final boolean noScanners = true;
         for (int j = 0; j < world.playerEntities.size(); ++j) {
-            final EntityPlayerMP player = world.playerEntities.get(j);
+            final EntityPlayerMP player = (EntityPlayerMP) world.playerEntities.get(j);
             if ((!scannersOnly || (player.getCurrentEquippedItem() != null && player.getCurrentEquippedItem().getItem() == ExtraUtils.scanner)) && Math.abs(player.posX - x) <= maxDistance && Math.abs(player.posY - y) <= maxDistance && Math.abs(player.posZ - z) <= maxDistance) {
-                sendPacketToPlayer(packet, (EntityPlayer)player);
+                sendPacketToPlayer(packet, (EntityPlayerMP)player);
             }
         }
     }
@@ -111,10 +112,12 @@ public class NetworkHandler
     
     public static void sendToAllAround(final XUPacketBase packet, final int chunkX, final int chunkZ) {
         final ChunkCoordIntPair chunkCoordIntPair = new ChunkCoordIntPair(chunkX, chunkZ);
-        for (final EntityPlayerMP player : FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().playerEntityList) {
+        for (final EntityPlayerMP player : (Collection<EntityPlayerMP>)FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().playerEntityList) {
             if (player.loadedChunks.contains(chunkCoordIntPair)) {
                 sendPacketToPlayer(packet, (EntityPlayer)player);
             }
         }
     }
 }
+
+

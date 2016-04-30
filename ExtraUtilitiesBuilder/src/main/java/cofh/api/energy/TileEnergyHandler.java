@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package cofh.api.energy;
@@ -46,3 +46,5 @@ public class TileEnergyHandler extends TileEntity implements IEnergyHandler
         return this.storage.getMaxEnergyStored();
     }
 }
+
+

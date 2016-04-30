@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -65,3 +65,5 @@ public class ItemErosionShovel extends ItemSpade implements IItemMultiTransparen
         return 1.0f;
     }
 }
+
+

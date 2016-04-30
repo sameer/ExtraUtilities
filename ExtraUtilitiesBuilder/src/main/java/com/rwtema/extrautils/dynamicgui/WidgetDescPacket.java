@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -33,3 +33,5 @@ public abstract class WidgetDescPacket extends WidgetBase
     @Override
     public abstract void handleDescriptionPacket(final NBTTagCompound p0);
 }
+
+

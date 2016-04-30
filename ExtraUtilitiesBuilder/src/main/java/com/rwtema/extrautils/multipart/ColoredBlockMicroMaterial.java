@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart;
@@ -45,3 +45,5 @@ public class ColoredBlockMicroMaterial extends BlockMicroMaterial
         MaterialRenderHelper.start(pos, pass, (UVTransformation)this.icont()).blockColour(c).lighting().render();
     }
 }
+
+

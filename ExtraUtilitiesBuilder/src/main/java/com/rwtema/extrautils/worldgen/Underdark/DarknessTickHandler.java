@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.worldgen.Underdark;
@@ -50,3 +50,5 @@ public class DarknessTickHandler
         DarknessTickHandler.maxLevel = 20 + DarknessTickHandler.random.nextInt(120);
     }
 }
+
+

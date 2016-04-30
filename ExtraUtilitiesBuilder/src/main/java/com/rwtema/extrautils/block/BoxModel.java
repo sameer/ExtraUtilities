@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -49,7 +49,7 @@ public class BoxModel extends ArrayList<Box>
         return t;
     }
     
-    public static Box boundingBox(final List models) {
+    public static Box boundingBox(final List<Box> models) {
         if (models == null) {
             return null;
         }
@@ -139,3 +139,5 @@ public class BoxModel extends ArrayList<Box>
         return this;
     }
 }
+
+

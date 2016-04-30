@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -166,8 +166,8 @@ public class ItemPrecisionShears extends ItemShears implements IItemMultiTranspa
         return true;
     }
     
-    private void collectItems(final World world, final EntityPlayer player, final double x, final double y, final double z, final List before, final List after) {
-        final Iterator iter = after.iterator();
+    private void collectItems(final World world, final EntityPlayer player, final double x, final double y, final double z, final List<EntityItem> before, final List<EntityItem> after) {
+        final Iterator<EntityItem> iter = after.iterator();
         boolean added = false;
         while (iter.hasNext()) {
             final EntityItem j = iter.next();
@@ -304,3 +304,5 @@ public class ItemPrecisionShears extends ItemShears implements IItemMultiTranspa
         COOLDOWN = new int[] { 20, 16, 12, 8, 4, 0 };
     }
 }
+
+

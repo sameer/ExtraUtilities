@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -49,13 +49,13 @@ public class GuiFilingCabinet extends GuiContainer
         items.clear();
         this.numItems = 0;
         for (int i = 0; i < this.cabinet.getMaxSlots(); ++i) {
-            if (this.inventorySlots.inventorySlots.get(i).getHasStack()) {
+            if (((Slot)this.inventorySlots.inventorySlots.get(i)).getHasStack()) {
                 ++this.numItems;
             }
             else if (i > this.prevn) {
                 break;
             }
-            items.add(this.inventorySlots.inventorySlots.get(i));
+            items.add((Slot)this.inventorySlots.inventorySlots.get(i));
         }
         this.prevn = this.numItems + 1;
         Collections.sort(items, this.sorter);
@@ -239,3 +239,5 @@ public class GuiFilingCabinet extends GuiContainer
         }
     }
 }
+
+

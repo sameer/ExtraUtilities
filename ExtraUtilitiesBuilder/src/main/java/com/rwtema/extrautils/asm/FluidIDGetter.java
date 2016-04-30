@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.asm;
@@ -68,3 +68,5 @@ public class FluidIDGetter
         int getID(final FluidStack p0);
     }
 }
+
+

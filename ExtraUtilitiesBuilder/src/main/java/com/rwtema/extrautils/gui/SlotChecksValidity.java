@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.gui;
@@ -18,3 +18,5 @@ public class SlotChecksValidity extends Slot
         return this.inventory.isItemValidForSlot(this.slotNumber, itemstack);
     }
 }
+
+

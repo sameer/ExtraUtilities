@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.item;
@@ -88,3 +88,5 @@ public class ItemBlockDrum extends ItemBlockMetadata implements IFluidContainerI
         return super.getItemStackDisplayName(item) + ":" + this.getItemStackDisplayName(item);
     }
 }
+
+

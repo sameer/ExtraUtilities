@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -72,7 +72,7 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
             synchronized (ItemList.class) {
                 for (final Item item : ItemList.itemMap.keySet()) {
                     if (item instanceof Saw) {
-                        for (final ItemStack stack : ItemList.itemMap.get((Object)item)) {
+                        for (final ItemStack stack : ItemList.itemMap.get(item)) {
                             FMPMicroBlocksHandler.sawList.add(stack);
                         }
                     }
@@ -203,14 +203,15 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
         public MicroblockPositionedStack result;
         
         public MicroblockCachedRecipe(final int width, final int height, final Object[] items, final ItemStack out) {
-            super((TemplateRecipeHandler)FMPMicroBlocksHandler.this);
+//            super((TemplateRecipeHandler)FMPMicroBlocksHandler.this);
+	    super();
             this.result = new MicroblockPositionedStack(out, 119, 24);
             this.ingredients = new ArrayList<PositionedStack>();
             this.setIngredients(width, height, items);
         }
         
-        public MicroblockCachedRecipe(final FMPMicroBlocksHandler fmpMicroBlocksHandler, final ShapedRecipes irecipe) {
-            this(fmpMicroBlocksHandler, irecipe.recipeWidth, irecipe.recipeHeight, irecipe.recipeItems, irecipe.getRecipeOutput());
+        public MicroblockCachedRecipe(final ShapedRecipes irecipe) {
+            this(irecipe.recipeWidth, irecipe.recipeHeight, irecipe.recipeItems, irecipe.getRecipeOutput());
         }
         
         public void setIngredients(final int width, final int height, final Object[] items) {
@@ -334,3 +335,5 @@ public class FMPMicroBlocksHandler extends ShapedRecipeHandler
         }
     }
 }
+
+

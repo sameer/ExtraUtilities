@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.core;
@@ -70,7 +70,6 @@ public class MiscHelper
             catch (UnsupportedOperationException ignore) {
                 throw new RuntimeException(iterable.toString() + "_" + iterator.toString(), ignore);
             }
-            break;
         }
         return k;
     }
@@ -105,3 +104,5 @@ public class MiscHelper
         return 4;
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.block;
@@ -96,7 +96,7 @@ public class BlockPeacefulTable extends BlockMultiBlock
                 }
                 EntityLiving t;
                 try {
-                    t = var7.entityClass.getConstructor(World.class).newInstance(world);
+                    t = (EntityLiving) var7.entityClass.getConstructor(World.class).newInstance(world);
                 }
                 catch (Exception var8) {
                     var8.printStackTrace();
@@ -203,3 +203,5 @@ public class BlockPeacefulTable extends BlockMultiBlock
         return this.getWorldModel(null, 0, 0, 0);
     }
 }
+
+

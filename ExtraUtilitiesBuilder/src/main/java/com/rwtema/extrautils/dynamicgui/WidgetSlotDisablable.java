@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.dynamicgui;
@@ -28,7 +28,7 @@ public class WidgetSlotDisablable extends WidgetSlot
     
     public boolean isEnabled() {
         try {
-            return (boolean)this.inventory.getClass().getMethod(this.methodName, (Class<?>[])new Class[0]).invoke(this.inventory);
+            return (Boolean)this.inventory.getClass().getMethod(this.methodName, (Class<?>[])new Class[0]).invoke(this.inventory);
         }
         catch (Exception e) {
             throw new RuntimeException(e);
@@ -69,3 +69,5 @@ public class WidgetSlotDisablable extends WidgetSlot
         return null;
     }
 }
+
+

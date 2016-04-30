@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.transfernodes;
@@ -274,3 +274,5 @@ public class BlockTransferPipe extends BlockMultiBlockSelection implements ICrea
         BlockTransferPipe.pipes_hyperrationing = null;
     }
 }
+
+

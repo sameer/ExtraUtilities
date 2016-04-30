@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -160,7 +160,7 @@ public class InfoHandler implements IUsageHandler, ICraftingHandler
     }
     
     public void drawForeground(final int recipe) {
-        final List text = InfoHandler.fontRenderer.listFormattedStringToWidth(this.info[recipe], this.getWidth() - 8);
+        final List<String> text = InfoHandler.fontRenderer.listFormattedStringToWidth(this.info[recipe], this.getWidth() - 8);
         for (int i = 0; i < text.size(); ++i) {
             final String t = text.get(i);
             GuiDraw.drawString(t, this.getWidth() / 2 - GuiDraw.getStringWidth(t) / 2, 18 + i * 8, InfoHandler.color, false);
@@ -243,3 +243,5 @@ public class InfoHandler implements IUsageHandler, ICraftingHandler
         InfoHandler.color = -12566464;
     }
 }
+
+

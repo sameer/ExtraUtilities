@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.transfernodes.multiparts;
@@ -28,6 +28,8 @@ public class TilePartMetaAccess extends PartMetaAccess
         if (i == this.part.getPos().x && j == this.part.getPos().y && k == this.part.getPos().z) {
             return this.tile;
         }
-        return super.getTileEntity(i, j, k);
+        return tile.getWorldObj().getTileEntity(i, j, k);
     }
 }
+
+

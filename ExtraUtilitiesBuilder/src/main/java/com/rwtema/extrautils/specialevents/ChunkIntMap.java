@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.specialevents;
@@ -20,3 +20,5 @@ public class ChunkIntMap extends TLongIntHashMap
         return this.get(getKey(a, b));
     }
 }
+
+

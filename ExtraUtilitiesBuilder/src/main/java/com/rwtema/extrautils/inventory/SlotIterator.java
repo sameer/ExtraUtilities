@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.inventory;
@@ -46,3 +46,5 @@ public class SlotIterator implements Iterator<Integer>, Iterable<Integer>
         return this;
     }
 }
+
+

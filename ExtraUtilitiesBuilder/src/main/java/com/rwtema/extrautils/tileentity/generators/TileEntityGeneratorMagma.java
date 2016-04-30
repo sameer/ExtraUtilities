@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.tileentity.generators;
@@ -95,3 +95,5 @@ public class TileEntityGeneratorMagma extends TileEntityGenerator implements IFl
         return super.getTankInfo(from);
     }
 }
+
+

@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.multipart.microblock;
@@ -48,3 +48,5 @@ public class PartFenceDummyArm extends JCuboidPart implements JNormalOcclusion
         dummyArms = new PartFenceDummyArm[] { null, null, new PartFenceDummyArm(2), new PartFenceDummyArm(3), new PartFenceDummyArm(4), new PartFenceDummyArm(5) };
     }
 }
+
+

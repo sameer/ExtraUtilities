@@ -1,5 +1,5 @@
 // 
-// Decompiled by Procyon v0.5.30
+// ExtraUtilities decompiled and fixed by Robotia https://github.com/Robotia
 // 
 
 package com.rwtema.extrautils.nei;
@@ -26,3 +26,5 @@ public class ItemFilterWrapper implements ItemFilter
         return this.base.matchItem(itemStack) != this.invert;
     }
 }
+
+
